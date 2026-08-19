@@ -1,0 +1,43 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Training/evaluation outputs
+outputs/
+logs/
+wandb/
+runs/
+checkpoints/
+
+# Model weights and large binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Generated images and temporary media
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+
+# Local editor/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

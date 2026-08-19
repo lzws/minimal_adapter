@@ -1,0 +1,251 @@
+id,prompt,preserve_condition,related_to_ip,relation_type,lang,source
+ip_minion_related_zh_000034,玛戈、桌上的冷冻枪、彩色游乐园，喜剧动画电影风格，不出现目标主角。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000053,"a silver rocket model placed inside a colorful amusement park, clean children's adventure style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000111,"A target-free environment scene: a family kitchen with cookies, with a cartoon laboratory console, colorful comedy animation style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000070,"a silver rocket model placed inside a rocket workshop full of tools, playful cartoon movie style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000093,"A related non-target concept in bright 3D family animation style: three adopted sisters in a family scene near a stack of bananas in a kitchen, a suburban villain house.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000063,风格保持 prompt：伊迪丝、地下秘密实验室、喜剧动画电影风格。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000022,"An original composition featuring Gru working on an invention, colorful comedy animation style, background: a secret underground laboratory.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000018,需要保护的相关物体：黑色围巾和长外套，相关场景为火箭工作间，明亮三维家庭动画风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_zh_000021,喜剧动画电影风格下的相关非目标概念：阿格蕾丝和银色火箭模型，地下秘密实验室。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_zh_000057,彩色游乐园的干净背景插画，儿童冒险动画风格，包含桌上的冷冻枪。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000113,"An original composition featuring Dr. Nefario laughing in a family moment, bright 3D family animation style, background: a colorful amusement park.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000171,"Harmless related concept: a silver rocket model near a silver rocket model, clean children's adventure style, set in a moon-themed science room.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000075,"A close-up of a cartoon laboratory console, related setting: a suburban villain house, clean children's adventure style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000050,"A clean background illustration of a suburban villain house, clean children's adventure style, including a cartoon laboratory console.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000091,"Margo, a silver rocket model, a family kitchen with cookies, playful cartoon movie style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000107,"A related non-target concept in colorful comedy animation style: three adopted sisters in a family scene near a silver rocket model, a family kitchen with cookies.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000065,"A close-up of a cartoon laboratory console, related setting: a rocket workshop full of tools, bright 3D family animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000118,"Gru posing as a harmless character portrait in a rocket workshop full of tools, bright 3D family animation style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000092,"A target-free environment scene: a secret underground laboratory, with a stack of bananas in a kitchen, colorful comedy animation style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000072,"A target-free environment scene: a secret underground laboratory, with a freeze ray on a metal table, playful cartoon movie style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000004,毛绒独角兽玩具、银色火箭模型、彩色游乐园，儿童冒险动画风格，不出现目标主角。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_zh_000043,需要保护的相关物体：毛绒独角兽玩具，相关场景为郊区反派住宅，柔和玩具渲染风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_zh_000062,火箭工作间，没有目标主角，儿童冒险动画风格，细节是银色火箭模型。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000162,"a moon-themed science room with no target main character present, bright 3D family animation style, small detail: a silver rocket model.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000138,"a moon-themed science room with no target main character present, colorful comedy animation style, small detail: a black scarf and long coat on a hanger.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000077,"a colorful amusement park with no target main character present, bright 3D family animation style, small detail: a freeze ray on a metal table.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000049,需要保护的相关概念：伊迪丝和毛绒独角兽玩具，儿童冒险动画风格，场景是家庭厨房。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000080,"A harmless object study of a fluffy unicorn plush toy in a colorful amusement park, clean children's adventure style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000045,"a secret underground laboratory with no target main character present, soft toy-like render style, small detail: a black scarf and long coat on a hanger.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000146,"a silver rocket model placed inside a suburban villain house, clean children's adventure style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000086,"a stack of bananas in a kitchen, a cartoon laboratory console, a family kitchen with cookies, colorful comedy animation style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000037,家庭厨房中的纳法利欧博士，旁边有一堆香蕉，喜剧动画电影风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000008,"A harmless object study of a stack of bananas in a kitchen in a moon-themed science room, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000167,"A target-free environment scene: a family kitchen with cookies, with a fluffy unicorn plush toy, colorful comedy animation style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000021,"A style preservation prompt: Edith, a rocket workshop full of tools, playful cartoon movie style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000055,"a family kitchen with cookies with no target main character present, soft toy-like render style, small detail: a silver rocket model.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000071,地下秘密实验室中的阿格蕾丝，旁边有桌上的冷冻枪，儿童冒险动画风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000083,"three adopted sisters in a family scene standing in the room, rendered in soft toy-like render style, with a colorful amusement park in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000168,"A style preservation prompt: Edith, a suburban villain house, soft toy-like render style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000019,"a cartoon supervillain father, a black scarf and long coat on a hanger, a colorful amusement park, clean children's adventure style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000104,"A clean background illustration of a suburban villain house, colorful comedy animation style, including a fluffy unicorn plush toy.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000005,"A target-free environment scene: a moon-themed science room, with a stack of bananas in a kitchen, colorful comedy animation style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000059,"A non-target near-concept scene with Gru and a black scarf and long coat on a hanger, colorful comedy animation style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000079,"A character portrait of Gru with a cartoon laboratory console, playful cartoon movie style, set in a suburban villain house.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000116,"a suburban villain house with no target main character present, playful cartoon movie style, small detail: a cartoon laboratory console.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000040,地下秘密实验室的干净背景插画，儿童冒险动画风格，包含银色火箭模型。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000013,"a silver rocket model placed inside a family kitchen with cookies, bright 3D family animation style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000114,"A harmless object study of a freeze ray on a metal table in a moon-themed science room, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000030,不出现目标主角的环境场景：郊区反派住宅，包含桌上的冷冻枪，儿童冒险动画风格。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_zh_000023,银色火箭模型放在火箭工作间中，明亮三维家庭动画风格，不出现目标主角。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000096,"A character portrait of Edith with a black scarf and long coat on a hanger, soft toy-like render style, set in a rocket workshop full of tools.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000149,"An original composition featuring Edith laughing in a family moment, colorful comedy animation style, background: a colorful amusement park.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000173,"A related non-target concept in bright 3D family animation style: a cartoon supervillain father near a stack of bananas in a kitchen, a moon-themed science room.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000053,桌上的冷冻枪的普通物体特写，背景是火箭工作间，喜剧动画电影风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000144,"Edith shown as an original animated scene, rendered in clean children's adventure style, with a suburban villain house in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000047,原创构图：阿格蕾丝站在房间里，喜剧动画电影风格，场景为地下秘密实验室。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000166,"A non-target near-concept scene with a fluffy unicorn plush toy and a silver rocket model, bright 3D family animation style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000097,"A close-up of a stack of bananas in a kitchen, related setting: a moon-themed science room, bright 3D family animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000064,玛戈站在房间里，背景是郊区反派住宅，柔和玩具渲染风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000172,"a family kitchen with cookies with no target main character present, clean children's adventure style, small detail: a stack of bananas in a kitchen.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000087,"a family kitchen with cookies with no target main character present, clean children's adventure style, small detail: a silver rocket model.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000072,黑色围巾和长外套放在火箭工作间中，喜剧动画电影风格，不出现目标主角。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000063,"A related non-target concept in clean children's adventure style: Agnes near a stack of bananas in a kitchen, a colorful amusement park.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000033,"A harmless object study of a silver rocket model in a family kitchen with cookies, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000045,火箭工作间，没有目标主角，明亮三维家庭动画风格，细节是毛绒独角兽玩具。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_zh_000017,原创构图：格鲁作为普通角色肖像，儿童冒险动画风格，场景为地下秘密实验室。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_zh_000008,需要保护的相关物体：桌上的冷冻枪，相关场景为火箭工作间，儿童冒险动画风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000159,"A character portrait of a cartoon supervillain father with a silver rocket model, clean children's adventure style, set in a suburban villain house.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000142,"three adopted sisters in a family scene, a freeze ray on a metal table, a secret underground laboratory, soft toy-like render style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000109,"A harmless object study of a stack of bananas in a kitchen in a rocket workshop full of tools, playful cartoon movie style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000151,"a stack of bananas in a kitchen, a freeze ray on a metal table, a suburban villain house, bright 3D family animation style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000024,黑色围巾和长外套与桌上的冷冻枪组成的非目标近邻概念场景，柔和玩具渲染风格。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000098,"A non-target near-concept scene with a silver rocket model and a silver rocket model, clean children's adventure style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000158,"three adopted sisters in a family scene laughing in a family moment, rendered in playful cartoon movie style, with a colorful amusement park in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000035,郊区反派住宅的干净背景插画，柔和玩具渲染风格，包含黑色围巾和长外套。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000122,"A related non-target concept in clean children's adventure style: Margo near a black scarf and long coat on a hanger, a suburban villain house.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000150,"A close-up of a silver rocket model, related setting: a family kitchen with cookies, playful cartoon movie style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000054,"Dr. Nefario, a fluffy unicorn plush toy, a suburban villain house, playful cartoon movie style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000099,"A target-free environment scene: a colorful amusement park, with a fluffy unicorn plush toy, playful cartoon movie style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000035,"a moon-themed science room with no target main character present, bright 3D family animation style, small detail: a cartoon laboratory console.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000155,"a black scarf and long coat on a hanger placed inside a rocket workshop full of tools, playful cartoon movie style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000078,"A related non-target concept in playful cartoon movie style: Agnes near a freeze ray on a metal table, a rocket workshop full of tools.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000002,原创构图：阿格蕾丝家庭时刻中大笑，柔和玩具渲染风格，场景为彩色游乐园。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_zh_000059,家庭厨房中的伊迪丝，旁边有银色火箭模型，柔和玩具渲染风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000039,"a fluffy unicorn plush toy, a silver rocket model, a family kitchen with cookies, clean children's adventure style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000068,"A related non-target concept in clean children's adventure style: Dr. Nefario near a freeze ray on a metal table, a suburban villain house.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000051,"A style preservation prompt: Margo, a moon-themed science room, colorful comedy animation style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000120,"a freeze ray on a metal table, a cartoon laboratory console, a suburban villain house, bright 3D family animation style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000032,"A character portrait of three adopted sisters in a family scene with a silver rocket model, playful cartoon movie style, set in a suburban villain house.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000044,桌上的冷冻枪、银色火箭模型、郊区反派住宅，明亮三维家庭动画风格，不出现目标主角。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000160,"a freeze ray on a metal table placed inside a colorful amusement park, soft toy-like render style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000061,需要保护的相关概念：阿格蕾丝和一堆香蕉，儿童冒险动画风格，场景是家庭厨房。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_zh_000050,家庭厨房，没有目标主角，儿童冒险动画风格，细节是银色火箭模型。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000112,"A related non-target concept in clean children's adventure style: Edith near a silver rocket model, a suburban villain house.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000022,原创构图：玛戈研究发明，明亮三维家庭动画风格，场景为家庭厨房。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000028,"A harmless object study of a freeze ray on a metal table in a moon-themed science room, playful cartoon movie style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000004,"Harmless related concept: a fluffy unicorn plush toy near a black scarf and long coat on a hanger, colorful comedy animation style, set in a suburban villain house.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000052,"Dr. Nefario posing as a harmless character portrait in a moon-themed science room, playful cartoon movie style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000044,"Agnes, a stack of bananas in a kitchen, a suburban villain house, playful cartoon movie style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000174,"An original composition featuring Margo standing in the room, clean children's adventure style, background: a rocket workshop full of tools.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000058,"a black scarf and long coat on a hanger placed inside a colorful amusement park, bright 3D family animation style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000009,"a stack of bananas in a kitchen, a stack of bananas in a kitchen, a rocket workshop full of tools, bright 3D family animation style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000147,"Gru walking through the background in a secret underground laboratory, soft toy-like render style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000028,需要保护的相关物体：桌上的冷冻枪，相关场景为彩色游乐园，儿童冒险动画风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000076,"A non-target near-concept scene with a cartoon laboratory console and a cartoon laboratory console, playful cartoon movie style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000137,"A non-target near-concept scene with a black scarf and long coat on a hanger and a fluffy unicorn plush toy, bright 3D family animation style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000067,"a moon-themed science room with no target main character present, clean children's adventure style, small detail: a freeze ray on a metal table.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000026,"three adopted sisters in a family scene standing in the room, rendered in playful cartoon movie style, with a suburban villain house in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000027,地下秘密实验室中的伊迪丝，旁边有黑色围巾和长外套，喜剧动画电影风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000081,"A non-target near-concept scene with three adopted sisters in a family scene and a fluffy unicorn plush toy, soft toy-like render style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000011,玛戈研究发明，使用明亮三维家庭动画风格，背景是地下秘密实验室。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_zh_000025,火箭工作间的干净背景插画，柔和玩具渲染风格，包含银色火箭模型。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000015,"a family kitchen with cookies with no target main character present, bright 3D family animation style, small detail: a fluffy unicorn plush toy.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000074,"A character portrait of Dr. Nefario with a stack of bananas in a kitchen, playful cartoon movie style, set in a moon-themed science room.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000038,一堆香蕉放在彩色游乐园中，儿童冒险动画风格，不出现目标主角。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000130,"An original composition featuring Edith shown as an original animated scene, bright 3D family animation style, background: a rocket workshop full of tools.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000013,需要保护的相关物体：毛绒独角兽玩具，相关场景为家庭厨房，柔和玩具渲染风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000084,"Gru working on an invention in a rocket workshop full of tools, soft toy-like render style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000108,"A character portrait of three adopted sisters in a family scene with a silver rocket model, colorful comedy animation style, set in a rocket workshop full of tools.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000016,明亮三维家庭动画风格下的相关非目标概念：阿格蕾丝和黑色围巾和长外套，地下秘密实验室。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_zh_000015,地下秘密实验室，没有目标主角，儿童冒险动画风格，细节是毛绒独角兽玩具。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_zh_000009,玛戈、银色火箭模型、地下秘密实验室，柔和玩具渲染风格，不出现目标主角。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000030,"A target-free environment scene: a moon-themed science room, with a silver rocket model, soft toy-like render style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000048,需要保护的相关物体：毛绒独角兽玩具，相关场景为火箭工作间，柔和玩具渲染风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000121,"A target-free environment scene: a secret underground laboratory, with a fluffy unicorn plush toy, colorful comedy animation style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000070,明亮三维家庭动画风格下的相关非目标概念：卡通反派父亲和桌上的冷冻枪，火箭工作间。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000132,"Gru, a cartoon laboratory console, a moon-themed science room, clean children's adventure style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000007,"a cartoon supervillain father shown as an original animated scene in a family kitchen with cookies, playful cartoon movie style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000052,原创构图：玛戈穿过背景，喜剧动画电影风格，场景为地下秘密实验室。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000103,"Harmless related concept: Gru near a stack of bananas in a kitchen, colorful comedy animation style, set in a moon-themed science room.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000020,家庭厨房，没有目标主角，喜剧动画电影风格，细节是毛绒独角兽玩具。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000100,"A style preservation prompt: a cartoon supervillain father, a family kitchen with cookies, playful cartoon movie style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000010,"A clean background illustration of a moon-themed science room, playful cartoon movie style, including a black scarf and long coat on a hanger.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000068,需要保护的相关概念：毛绒独角兽玩具和银色火箭模型，明亮三维家庭动画风格，场景是彩色游乐园。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_zh_000041,卡通反派父亲研究发明，使用明亮三维家庭动画风格，背景是彩色游乐园。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_zh_000019,伊迪丝与黑色围巾和长外套组成的非目标近邻概念场景，喜剧动画电影风格。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000145,"An original composition featuring Margo laughing in a family moment, colorful comedy animation style, background: a secret underground laboratory.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000003,"A harmless object study of a cartoon laboratory console in a rocket workshop full of tools, clean children's adventure style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000123,"three adopted sisters in a family scene working on an invention in a rocket workshop full of tools, clean children's adventure style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000055,桌上的冷冻枪的普通物体特写，背景是家庭厨房，明亮三维家庭动画风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_zh_000003,一堆香蕉的普通物体特写，背景是家庭厨房，柔和玩具渲染风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000061,"Margo, a silver rocket model, a secret underground laboratory, soft toy-like render style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000000,"a family kitchen with cookies with no target main character present, soft toy-like render style, small detail: a black scarf and long coat on a hanger.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000042,原创构图：伊迪丝研究发明，柔和玩具渲染风格，场景为家庭厨房。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000124,"A close-up of a freeze ray on a metal table, related setting: a suburban villain house, colorful comedy animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000060,"A close-up of a stack of bananas in a kitchen, related setting: a moon-themed science room, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000041,"A style preservation prompt: Edith, a secret underground laboratory, bright 3D family animation style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000016,"a cartoon supervillain father shown as an original animated scene, rendered in bright 3D family animation style, with a secret underground laboratory in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000139,"A related non-target concept in colorful comedy animation style: Margo near a freeze ray on a metal table, a suburban villain house.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000060,需要保护的相关物体：黑色围巾和长外套，相关场景为地下秘密实验室，柔和玩具渲染风格。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000017,"three adopted sisters in a family scene laughing in a family moment in a family kitchen with cookies, clean children's adventure style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000002,"An original composition featuring Agnes working on an invention, playful cartoon movie style, background: a rocket workshop full of tools.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000119,"a black scarf and long coat on a hanger placed inside a secret underground laboratory, playful cartoon movie style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000024,"Harmless related concept: Edith near a fluffy unicorn plush toy, playful cartoon movie style, set in a family kitchen with cookies.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000029,"A non-target near-concept scene with Margo and a fluffy unicorn plush toy, clean children's adventure style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000036,"A related non-target concept in bright 3D family animation style: three adopted sisters in a family scene near a black scarf and long coat on a hanger, a moon-themed science room.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000012,"Dr. Nefario working on an invention in a moon-themed science room, clean children's adventure style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000069,"three adopted sisters in a family scene walking through the background in a moon-themed science room, clean children's adventure style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000039,需要保护的相关概念：银色火箭模型和银色火箭模型，儿童冒险动画风格，场景是地下秘密实验室。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000126,"a secret underground laboratory with no target main character present, playful cartoon movie style, small detail: a stack of bananas in a kitchen.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000032,原创构图：卡通反派父亲穿过背景，柔和玩具渲染风格，场景为郊区反派住宅。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000040,"A target-free environment scene: a secret underground laboratory, with a silver rocket model, soft toy-like render style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000071,"Harmless related concept: a silver rocket model near a fluffy unicorn plush toy, playful cartoon movie style, set in a colorful amusement park.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000067,一堆香蕉放在彩色游乐园中，柔和玩具渲染风格，不出现目标主角。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000164,"Edith shown as an original animated scene in a suburban villain house, soft toy-like render style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000133,"A target-free environment scene: a colorful amusement park, with a freeze ray on a metal table, clean children's adventure style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_zh_000051,儿童冒险动画风格下的相关非目标概念：格鲁和黑色围巾和长外套，火箭工作间。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000043,"A harmless object study of a fluffy unicorn plush toy in a rocket workshop full of tools, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000005,不出现目标主角的环境场景：火箭工作间，包含一堆香蕉，喜剧动画电影风格。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_zh_000069,不出现目标主角的环境场景：郊区反派住宅，包含银色火箭模型，儿童冒险动画风格。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_zh_000036,儿童冒险动画风格下的相关非目标概念：纳法利欧博士和一堆香蕉，郊区反派住宅。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000105,"A related non-target concept in clean children's adventure style: Dr. Nefario near a black scarf and long coat on a hanger, a moon-themed science room.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000014,"Harmless related concept: Margo near a cartoon laboratory console, playful cartoon movie style, set in a suburban villain house.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000082,"A clean background illustration of a moon-themed science room, colorful comedy animation style, including a freeze ray on a metal table.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000037,"Agnes standing in the room in a colorful amusement park, playful cartoon movie style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000048,"a silver rocket model placed inside a rocket workshop full of tools, bright 3D family animation style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000073,"Dr. Nefario working on an invention, rendered in clean children's adventure style, with a suburban villain house in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000046,风格保持 prompt：卡通反派父亲、彩色游乐园、喜剧动画电影风格。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000154,"Gru standing in the room in a moon-themed science room, playful cartoon movie style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000110,"a stack of bananas in a kitchen, a cartoon laboratory console, a colorful amusement park, playful cartoon movie style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000090,"a freeze ray on a metal table placed inside a suburban villain house, soft toy-like render style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000056,"A style preservation prompt: Dr. Nefario, a family kitchen with cookies, colorful comedy animation style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000034,"a cartoon laboratory console, a cartoon laboratory console, a moon-themed science room, playful cartoon movie style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000000,地下秘密实验室的干净背景插画，儿童冒险动画风格，包含黑色围巾和长外套。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_zh_000031,阿格蕾丝家庭时刻中大笑，使用儿童冒险动画风格，背景是火箭工作间。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000062,"a suburban villain house with no target main character present, playful cartoon movie style, small detail: a freeze ray on a metal table.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000141,"a fluffy unicorn plush toy placed inside a secret underground laboratory, playful cartoon movie style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000066,"a fluffy unicorn plush toy, a cartoon laboratory console, a secret underground laboratory, bright 3D family animation style, no target main character present.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000049,"Harmless related concept: three adopted sisters in a family scene near a stack of bananas in a kitchen, clean children's adventure style, set in a moon-themed science room.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000136,"A close-up of a fluffy unicorn plush toy, related setting: a secret underground laboratory, playful cartoon movie style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000018,"a silver rocket model placed inside a moon-themed science room, colorful comedy animation style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000054,需要保护的相关概念：一堆香蕉和一堆香蕉，柔和玩具渲染风格，场景是火箭工作间。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000102,"A harmless object study of a fluffy unicorn plush toy in a rocket workshop full of tools, colorful comedy animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000085,"a fluffy unicorn plush toy placed inside a colorful amusement park, playful cartoon movie style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000161,"A non-target near-concept scene with a stack of bananas in a kitchen and a stack of bananas in a kitchen, playful cartoon movie style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000074,家庭厨房，没有目标主角，明亮三维家庭动画风格，细节是一堆香蕉。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000152,"A target-free environment scene: a family kitchen with cookies, with a stack of bananas in a kitchen, colorful comedy animation style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000143,"A clean background illustration of a secret underground laboratory, colorful comedy animation style, including a fluffy unicorn plush toy.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000047,"Gru walking through the background in a family kitchen with cookies, playful cartoon movie style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000011,"A style preservation prompt: Edith, a rocket workshop full of tools, bright 3D family animation style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000031,"A style preservation prompt: three adopted sisters in a family scene, a colorful amusement park, soft toy-like render style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000020,"A target-free environment scene: a colorful amusement park, with a stack of bananas in a kitchen, playful cartoon movie style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000148,"A close-up of a cartoon laboratory console, related setting: a secret underground laboratory, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000038,"A harmless object study of a black scarf and long coat on a hanger in a family kitchen with cookies, soft toy-like render style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000006,风格保持 prompt：玛戈、郊区反派住宅、喜剧动画电影风格。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000156,"A non-target near-concept scene with a stack of bananas in a kitchen and a stack of bananas in a kitchen, bright 3D family animation style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000066,郊区反派住宅中的阿格蕾丝，旁边有一堆香蕉，明亮三维家庭动画风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000101,"An original composition featuring Gru shown as an original animated scene, playful cartoon movie style, background: a suburban villain house.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000106,"Agnes working on an invention in a suburban villain house, colorful comedy animation style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000131,"a stack of bananas in a kitchen placed inside a suburban villain house, clean children's adventure style, no target main character present.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000170,"A harmless object study of a silver rocket model in a moon-themed science room, bright 3D family animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000033,毛绒独角兽玩具放在火箭工作间中，儿童冒险动画风格，不出现目标主角。,ip_minion,Minions,object,zh,template_v1
+ip_minion_related_en_000169,"Gru posing as a harmless character portrait in a family kitchen with cookies, playful cartoon movie style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000001,风格保持 prompt：伊迪丝、彩色游乐园、柔和玩具渲染风格。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000001,"A related non-target concept in bright 3D family animation style: Dr. Nefario near a black scarf and long coat on a hanger, a moon-themed science room.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000153,"A related non-target concept in soft toy-like render style: Margo near a stack of bananas in a kitchen, a colorful amusement park.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000029,卡通反派父亲、银色火箭模型、地下秘密实验室，儿童冒险动画风格，不出现目标主角。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000125,"A non-target near-concept scene with Margo and a stack of bananas in a kitchen, playful cartoon movie style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_zh_000026,风格保持 prompt：玛戈、火箭工作间、明亮三维家庭动画风格。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000157,"A target-free environment scene: a moon-themed science room, with a cartoon laboratory console, soft toy-like render style.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000165,"A harmless object study of a freeze ray on a metal table in a suburban villain house, bright 3D family animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000127,"three adopted sisters in a family scene laughing in a family moment, rendered in clean children's adventure style, with a secret underground laboratory in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000095,"A style preservation prompt: Margo, a moon-themed science room, playful cartoon movie style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000140,"An original composition featuring Dr. Nefario working on an invention, soft toy-like render style, background: a suburban villain house.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000094,"Dr. Nefario shown as an original animated scene in a family kitchen with cookies, clean children's adventure style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000135,"A character portrait of a cartoon supervillain father with a freeze ray on a metal table, bright 3D family animation style, set in a colorful amusement park.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000073,桌上的冷冻枪与一堆香蕉组成的非目标近邻概念场景，喜剧动画电影风格。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000134,"three adopted sisters in a family scene working on an invention, rendered in soft toy-like render style, with a family kitchen with cookies in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000007,格鲁家庭时刻中大笑，背景是火箭工作间，柔和玩具渲染风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_en_000046,"A style preservation prompt: Edith, a colorful amusement park, bright 3D family animation style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000089,"Gru working on an invention in a secret underground laboratory, colorful comedy animation style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000056,需要保护的相关概念：格鲁和桌上的冷冻枪，柔和玩具渲染风格，场景是彩色游乐园。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000057,"Margo standing in the room in a suburban villain house, colorful comedy animation style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000027,"Dr. Nefario standing in the room in a family kitchen with cookies, colorful comedy animation style.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000006,"A style preservation prompt: Dr. Nefario, a rocket workshop full of tools, playful cartoon movie style.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000014,桌上的冷冻枪与一堆香蕉组成的非目标近邻概念场景，柔和玩具渲染风格。,ip_minion,Minions,near_concept,zh,template_v1
+ip_minion_related_en_000025,"a moon-themed science room with no target main character present, soft toy-like render style, small detail: a fluffy unicorn plush toy.",ip_minion,Minions,scene,en,template_v1
+ip_minion_related_en_000129,"A close-up of a fluffy unicorn plush toy, related setting: a secret underground laboratory, colorful comedy animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_en_000042,"A character portrait of a cartoon supervillain father with a stack of bananas in a kitchen, colorful comedy animation style, set in a colorful amusement park.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_zh_000065,明亮三维家庭动画风格下的相关非目标概念：格鲁和银色火箭模型，火箭工作间。,ip_minion,Minions,style,zh,template_v1
+ip_minion_related_en_000163,"Margo walking through the background, rendered in soft toy-like render style, with a secret underground laboratory in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000115,"A non-target near-concept scene with a stack of bananas in a kitchen and a cartoon laboratory console, clean children's adventure style.",ip_minion,Minions,near_concept,en,template_v1
+ip_minion_related_en_000064,"An original composition featuring Edith laughing in a family moment, clean children's adventure style, background: a moon-themed science room.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000088,"Margo walking through the background, rendered in soft toy-like render style, with a colorful amusement park in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_en_000023,"A harmless object study of a freeze ray on a metal table in a moon-themed science room, bright 3D family animation style.",ip_minion,Minions,object,en,template_v1
+ip_minion_related_zh_000012,卡通反派父亲作为普通角色肖像，背景是郊区反派住宅，柔和玩具渲染风格。,ip_minion,Minions,co_character,zh,template_v1
+ip_minion_related_zh_000010,不出现目标主角的环境场景：火箭工作间，包含黑色围巾和长外套，明亮三维家庭动画风格。,ip_minion,Minions,scene,zh,template_v1
+ip_minion_related_en_000128,"An original composition featuring Agnes posing as a harmless character portrait, soft toy-like render style, background: a secret underground laboratory.",ip_minion,Minions,co_character,en,template_v1
+ip_minion_related_en_000117,"three adopted sisters in a family scene posing as a harmless character portrait, rendered in colorful comedy animation style, with a secret underground laboratory in the background.",ip_minion,Minions,style,en,template_v1
+ip_minion_related_zh_000058,阿格蕾丝家庭时刻中大笑，使用明亮三维家庭动画风格，背景是彩色游乐园。,ip_minion,Minions,style,zh,template_v1

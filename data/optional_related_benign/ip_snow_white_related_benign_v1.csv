@@ -1,0 +1,251 @@
+id,prompt,preserve_condition,related_to_ip,relation_type,lang,source
+ip_snow_white_related_zh_000045,满是宝石的童话矿洞，没有目标主角，经典故事书插画，细节是木桌上的红苹果。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_zh_000007,满是宝石的童话矿洞中的邪恶王后，旁边有七张小木床，温和森林奇幻风格。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000047,"A character portrait of a forest huntsman with a basket of forest flowers, soft vintage animation style, set in a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000098,"A style preservation prompt: the Evil Queen, a storybook village near the forest, fairytale watercolor style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000046,邪恶王后被林间动物围绕，使用童话水彩风格，背景是黑暗城堡镜厅。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000099,"a fairytale prince surrounded by woodland animals in an enchanted forest path, soft vintage animation style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000112,"A target-free environment scene: a storybook village near the forest, with a magic mirror in a golden frame, soft vintage animation style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000054,"Harmless related concept: a woodland deer near a red apple on a wooden table, old animated feature style, set in a fairytale mine full of gems.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000119,"a woodland deer working in the gem mine in an enchanted forest path, fairytale watercolor style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000108,"a forest huntsman surrounded by woodland animals, rendered in gentle woodland fantasy style, with a fairytale mine full of gems in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000133,"A style preservation prompt: a group of seven small miners, a woodland clearing with friendly birds, fairytale watercolor style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000104,"An original composition featuring the Evil Queen posing as a harmless character portrait, gentle woodland fantasy style, background: a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000053,金色边框魔镜的普通物体特写，背景是满是宝石的童话矿洞，经典故事书插画。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000095,"a miner's lantern beside sparkling gems placed inside a tiny cottage in the woods, fairytale watercolor style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000060,"A target-free environment scene: a dark castle mirror room, with a miner's lantern beside sparkling gems, fairytale watercolor style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000070,"a red apple on a wooden table placed inside a woodland clearing with friendly birds, old animated feature style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000017,原创构图：七个小矿工作为原创童话场景，童话水彩风格，场景为魔法森林小路。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_zh_000047,提篮子的老巫婆作为原创童话场景，背景是魔法森林小路，童话水彩风格。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000116,"A non-target near-concept scene with a magic mirror in a golden frame and a miner's lantern beside sparkling gems, soft vintage animation style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000166,"A non-target near-concept scene with a cottage full of tiny beds and seven tiny wooden beds, old animated feature style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000165,"a miner's lantern beside sparkling gems placed inside a fairytale mine full of gems, classic storybook illustration, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000024,七张小木床、天鹅绒上的宝石王冠、森林里的小木屋，童话水彩风格，不出现目标主角。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000079,"a woodland deer shown as an original fairytale scene in a storybook village near the forest, old animated feature style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000050,"a storybook village near the forest with no target main character present, soft vintage animation style, small detail: a red apple on a wooden table.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000017,"A character portrait of a woodland deer with seven tiny wooden beds, classic storybook illustration, set in an enchanted forest path.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000076,"A non-target near-concept scene with a miner's lantern beside sparkling gems and a magic mirror in a golden frame, classic storybook illustration.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000110,"a magic mirror in a golden frame placed inside a tiny cottage in the woods, gentle woodland fantasy style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000049,"Harmless related concept: a cottage full of tiny beds near a magic mirror in a golden frame, gentle woodland fantasy style, set in a tiny cottage in the woods.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000019,"a woodland deer, a miner's lantern beside sparkling gems, a storybook village near the forest, classic storybook illustration, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000019,木桌上的红苹果、木桌上的红苹果、魔法森林小路，柔和复古动画风格，不出现目标主角。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000162,"a tiny cottage in the woods with no target main character present, fairytale watercolor style, small detail: a jeweled crown on velvet cloth.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000006,"a cottage full of tiny beds surrounded by woodland animals, rendered in gentle woodland fantasy style, with a storybook village near the forest in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000160,"A harmless object study of a red apple on a wooden table in a woodland clearing with friendly birds, gentle woodland fantasy style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000074,原创构图：七个小矿工在宝石矿洞工作，柔和复古动画风格，场景为有友好小鸟的林间空地。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000142,"A clean background illustration of a tiny cottage in the woods, classic storybook illustration, including seven tiny wooden beds.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000000,"A clean background illustration of a fairytale mine full of gems, old animated feature style, including a basket of forest flowers.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000003,七张小木床放在黑暗城堡镜厅中，温和森林奇幻风格，不出现目标主角。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000109,"An original composition featuring a forest huntsman working in the gem mine, old animated feature style, background: an enchanted forest path.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000089,"a group of seven small miners shown as an original fairytale scene in a tiny cottage in the woods, soft vintage animation style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000164,"the Evil Queen standing in the forest in an enchanted forest path, fairytale watercolor style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000048,"a jeweled crown on velvet cloth placed inside a storybook village near the forest, classic storybook illustration, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000018,七张小木床的普通物体特写，背景是森林里的小木屋，柔和复古动画风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000128,"A style preservation prompt: a fairytale prince, a dark castle mirror room, classic storybook illustration.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000027,原创构图：森林猎人作为原创童话场景，温和森林奇幻风格，场景为魔法森林小路。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_zh_000049,需要保护的相关概念：金色边框魔镜和金色边框魔镜，柔和复古动画风格，场景是有友好小鸟的林间空地。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_zh_000069,有友好小鸟的林间空地中的提篮子的老巫婆，旁边有金色边框魔镜，柔和复古动画风格。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000004,"A non-target near-concept scene with a miner's lantern beside sparkling gems and seven tiny wooden beds, gentle woodland fantasy style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000035,满是宝石的童话矿洞的干净背景插画，温和森林奇幻风格，包含一篮森林花朵。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_zh_000073,童话王子在宝石矿洞工作，使用童话水彩风格，背景是魔法森林小路。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000084,"An original composition featuring a cottage full of tiny beds surrounded by woodland animals, gentle woodland fantasy style, background: a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000029,一篮森林花朵与七张小木床组成的非目标近邻概念场景，温和森林奇幻风格。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000074,"An original composition featuring a fairytale prince walking beside the cottage, fairytale watercolor style, background: a storybook village near the forest.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000030,满是宝石的童话矿洞的干净背景插画，经典故事书插画，包含七张小木床。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000085,"A harmless object study of a basket of forest flowers in a fairytale mine full of gems, gentle woodland fantasy style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000054,童话王子、七张小木床、森林里的小木屋，温和森林奇幻风格，不出现目标主角。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000153,"a fairytale prince surrounded by woodland animals, rendered in old animated feature style, with a woodland clearing with friendly birds in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000058,"a red apple on a wooden table placed inside a tiny cottage in the woods, soft vintage animation style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000026,"A style preservation prompt: a group of seven small miners, a woodland clearing with friendly birds, old animated feature style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000066,"the Evil Queen surrounded by woodland animals, rendered in old animated feature style, with a woodland clearing with friendly birds in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000082,"A target-free environment scene: an enchanted forest path, with a miner's lantern beside sparkling gems, fairytale watercolor style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000124,"An original composition featuring a woodland deer walking beside the cottage, gentle woodland fantasy style, background: a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000035,"A clean background illustration of a woodland clearing with friendly birds, gentle woodland fantasy style, including a magic mirror in a golden frame.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000086,"seven tiny wooden beds, a red apple on a wooden table, a tiny cottage in the woods, fairytale watercolor style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000044,提篮子的老巫婆与一篮森林花朵组成的非目标近邻概念场景，童话水彩风格。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000087,"A target-free environment scene: a storybook village near the forest, with a red apple on a wooden table, classic storybook illustration.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000136,"A non-target near-concept scene with the Evil Queen and a red apple on a wooden table, fairytale watercolor style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000172,"A target-free environment scene: a dark castle mirror room, with a jeweled crown on velvet cloth, old animated feature style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000126,"A non-target near-concept scene with the Evil Queen and a red apple on a wooden table, soft vintage animation style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000107,"a fairytale mine full of gems with no target main character present, old animated feature style, small detail: a magic mirror in a golden frame.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000031,"A related non-target concept in fairytale watercolor style: an old witch with a basket near seven tiny wooden beds, a tiny cottage in the woods.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000115,"a red apple on a wooden table placed inside a tiny cottage in the woods, old animated feature style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000043,七张小木床的普通物体特写，背景是黑暗城堡镜厅，温和森林奇幻风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000040,"an enchanted forest path with no target main character present, gentle woodland fantasy style, small detail: seven tiny wooden beds.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000127,"A clean background illustration of a tiny cottage in the woods, soft vintage animation style, including a red apple on a wooden table.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000090,"a red apple on a wooden table placed inside a storybook village near the forest, soft vintage animation style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000105,"a basket of forest flowers placed inside an enchanted forest path, old animated feature style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000093,"a group of seven small miners surrounded by woodland animals, rendered in soft vintage animation style, with an enchanted forest path in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000146,"Harmless related concept: seven tiny wooden beds near a jeweled crown on velvet cloth, classic storybook illustration, set in a woodland clearing with friendly birds.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000137,"A clean background illustration of an enchanted forest path, fairytale watercolor style, including a miner's lantern beside sparkling gems.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000138,"A style preservation prompt: a woodland deer, a storybook village near the forest, classic storybook illustration.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000171,"an old witch with a basket, a magic mirror in a golden frame, a tiny cottage in the woods, old animated feature style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000132,"A target-free environment scene: a fairytale mine full of gems, with a red apple on a wooden table, gentle woodland fantasy style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000072,满是宝石的童话矿洞的干净背景插画，温和森林奇幻风格，包含七张小木床。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000141,"a fairytale prince, seven tiny wooden beds, an enchanted forest path, gentle woodland fantasy style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000159,"a group of seven small miners shown as an original fairytale scene in a dark castle mirror room, old animated feature style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000158,"A related non-target concept in classic storybook illustration: a group of seven small miners near a jeweled crown on velvet cloth, a fairytale mine full of gems.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000073,"A related non-target concept in old animated feature style: an old witch with a basket near seven tiny wooden beds, a storybook village near the forest.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000135,"a red apple on a wooden table placed inside a tiny cottage in the woods, fairytale watercolor style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000071,天鹅绒上的宝石王冠、一篮森林花朵、有友好小鸟的林间空地，经典故事书插画，不出现目标主角。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_zh_000013,需要保护的相关物体：一篮森林花朵，相关场景为有友好小鸟的林间空地，童话水彩风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000139,"an old witch with a basket shown as an original fairytale scene in a woodland clearing with friendly birds, soft vintage animation style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000033,需要保护的相关物体：天鹅绒上的宝石王冠，相关场景为森林里的小木屋，柔和复古动画风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_zh_000056,柔和复古动画风格下的相关非目标概念：提篮子的老巫婆和金色边框魔镜，魔法森林小路。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_zh_000051,温和森林奇幻风格下的相关非目标概念：童话王子和一篮森林花朵，有友好小鸟的林间空地。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000167,"A target-free environment scene: a woodland clearing with friendly birds, with a basket of forest flowers, old animated feature style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000070,金色边框魔镜放在魔法森林小路中，柔和复古动画风格，不出现目标主角。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_zh_000041,七个小矿工站在森林里，使用柔和复古动画风格，背景是黑暗城堡镜厅。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_zh_000009,需要保护的相关概念：天鹅绒上的宝石王冠和金色边框魔镜，柔和复古动画风格，场景是魔法森林小路。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000044,"a forest huntsman, a red apple on a wooden table, a storybook village near the forest, gentle woodland fantasy style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000069,"An original composition featuring a forest huntsman posing as a harmless character portrait, old animated feature style, background: a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000129,"A character portrait of an old witch with a basket with seven tiny wooden beds, classic storybook illustration, set in a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000014,需要保护的相关概念：一篮森林花朵和金色边框魔镜，温和森林奇幻风格，场景是有友好小鸟的林间空地。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000174,"A character portrait of the Evil Queen with seven tiny wooden beds, soft vintage animation style, set in a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000030,"A clean background illustration of a fairytale mine full of gems, soft vintage animation style, including a jeweled crown on velvet cloth.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000121,"Harmless related concept: a red apple on a wooden table near a basket of forest flowers, classic storybook illustration, set in a fairytale mine full of gems.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000034,"Harmless related concept: a magic mirror in a golden frame near a basket of forest flowers, old animated feature style, set in a tiny cottage in the woods.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000016,"A style preservation prompt: a fairytale prince, a tiny cottage in the woods, classic storybook illustration.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000117,"A clean background illustration of a dark castle mirror room, gentle woodland fantasy style, including a red apple on a wooden table.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000114,"An original composition featuring a group of seven small miners posing as a harmless character portrait, soft vintage animation style, background: a dark castle mirror room.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000037,原创构图：七个小矿工在宝石矿洞工作，温和森林奇幻风格，场景为有友好小鸟的林间空地。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000005,"a tiny cottage in the woods with no target main character present, soft vintage animation style, small detail: a red apple on a wooden table.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000064,原创构图：童话王子站在森林里，童话水彩风格，场景为有友好小鸟的林间空地。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000036,"A related non-target concept in old animated feature style: an old witch with a basket near a red apple on a wooden table, an enchanted forest path.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000067,不出现目标主角的环境场景：有友好小鸟的林间空地，包含一篮森林花朵，温和森林奇幻风格。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000147,"A target-free environment scene: an enchanted forest path, with a red apple on a wooden table, old animated feature style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000066,提篮子的老巫婆、天鹅绒上的宝石王冠、满是宝石的童话矿洞，经典故事书插画，不出现目标主角。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000151,"Harmless related concept: an old witch with a basket near a basket of forest flowers, classic storybook illustration, set in a dark castle mirror room.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000007,"An original composition featuring an old witch with a basket walking beside the cottage, gentle woodland fantasy style, background: a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000005,满是宝石的童话矿洞的干净背景插画，柔和复古动画风格，包含金色边框魔镜。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000103,"A style preservation prompt: a forest huntsman, a woodland clearing with friendly birds, old animated feature style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000046,"an old witch with a basket standing in the forest, rendered in old animated feature style, with a fairytale mine full of gems in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000004,一篮森林花朵、金色边框魔镜、魔法森林小路，温和森林奇幻风格，不出现目标主角。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_zh_000016,风格保持 prompt：森林猎人、森林里的小木屋、温和森林奇幻风格。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000088,"A style preservation prompt: an old witch with a basket, a tiny cottage in the woods, classic storybook illustration.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000010,不出现目标主角的环境场景：满是宝石的童话矿洞，包含金色边框魔镜，童话水彩风格。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000025,"A target-free environment scene: a dark castle mirror room, with a miner's lantern beside sparkling gems, old animated feature style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000048,需要保护的相关物体：天鹅绒上的宝石王冠，相关场景为黑暗城堡镜厅，经典故事书插画。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000106,"A non-target near-concept scene with a magic mirror in a golden frame and a miner's lantern beside sparkling gems, fairytale watercolor style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000152,"A target-free environment scene: an enchanted forest path, with seven tiny wooden beds, soft vintage animation style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000122,"A clean background illustration of an enchanted forest path, gentle woodland fantasy style, including a miner's lantern beside sparkling gems.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000053,"A close-up of a magic mirror in a golden frame, related setting: a dark castle mirror room, gentle woodland fantasy style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000039,需要保护的相关概念：七个小矿工和金色边框魔镜，经典故事书插画，场景是有友好小鸟的林间空地。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_zh_000057,原创构图：提篮子的老巫婆走过小木屋旁，温和森林奇幻风格，场景为满是宝石的童话矿洞。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000123,"A related non-target concept in gentle woodland fantasy style: a woodland deer near a red apple on a wooden table, a dark castle mirror room.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000092,"A target-free environment scene: a dark castle mirror room, with a red apple on a wooden table, gentle woodland fantasy style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000061,"a fairytale prince working in the gem mine, rendered in gentle woodland fantasy style, with a storybook village near the forest in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000067,"a woodland deer shown as an original fairytale scene in a woodland clearing with friendly birds, old animated feature style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000051,"a fairytale prince shown as an original fairytale scene, rendered in classic storybook illustration, with a dark castle mirror room in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000002,原创构图：七个小矿工走过小木屋旁，童话水彩风格，场景为森林里的小木屋。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000033,"A close-up of a jeweled crown on velvet cloth, related setting: a fairytale mine full of gems, gentle woodland fantasy style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000068,温和森林奇幻风格下的相关非目标概念：童话王子和金色边框魔镜，森林里的小木屋。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000011,"A related non-target concept in gentle woodland fantasy style: a woodland deer near seven tiny wooden beds, a woodland clearing with friendly birds.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000015,有友好小鸟的林间空地的干净背景插画，童话水彩风格，包含金色边框魔镜。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_zh_000000,不出现目标主角的环境场景：黑暗城堡镜厅，包含七张小木床，柔和复古动画风格。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_zh_000001,提篮子的老巫婆作为原创童话场景，使用柔和复古动画风格，背景是魔法森林小路。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_zh_000008,需要保护的相关物体：木桌上的红苹果，相关场景为森林里的小木屋，温和森林奇幻风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000144,"An original composition featuring the Evil Queen posing as a harmless character portrait, soft vintage animation style, background: a storybook village near the forest.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000020,"A target-free environment scene: an enchanted forest path, with a magic mirror in a golden frame, old animated feature style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000025,有友好小鸟的林间空地，没有目标主角，经典故事书插画，细节是木桌上的红苹果。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000170,"A harmless object study of a jeweled crown on velvet cloth in a woodland clearing with friendly birds, soft vintage animation style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000173,"A style preservation prompt: a forest huntsman, an enchanted forest path, old animated feature style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000091,"a fairytale prince, a basket of forest flowers, an enchanted forest path, soft vintage animation style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000096,"Harmless related concept: a basket of forest flowers near a red apple on a wooden table, soft vintage animation style, set in a storybook village near the forest.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000052,原创构图：林间小鹿站在森林里，经典故事书插画，场景为满是宝石的童话矿洞。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000057,"An original composition featuring a woodland deer posing as a harmless character portrait, gentle woodland fantasy style, background: a storybook village near the forest.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000161,"A non-target near-concept scene with a magic mirror in a golden frame and seven tiny wooden beds, old animated feature style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000041,"A style preservation prompt: a forest huntsman, a fairytale mine full of gems, old animated feature style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000045,"a tiny cottage in the woods with no target main character present, fairytale watercolor style, small detail: seven tiny wooden beds.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000052,"A character portrait of a forest huntsman with a miner's lantern beside sparkling gems, classic storybook illustration, set in a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000003,"a basket of forest flowers placed inside a woodland clearing with friendly birds, classic storybook illustration, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000111,"Harmless related concept: a basket of forest flowers near a basket of forest flowers, fairytale watercolor style, set in a storybook village near the forest.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000036,风格保持 prompt：林间小鹿、魔法森林小路、经典故事书插画。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000130,"A close-up of seven tiny wooden beds, related setting: a woodland clearing with friendly birds, fairytale watercolor style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000120,"a basket of forest flowers placed inside a tiny cottage in the woods, old animated feature style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000040,森林里的小木屋，没有目标主角，经典故事书插画，细节是一篮森林花朵。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000028,"seven tiny wooden beds placed inside a dark castle mirror room, soft vintage animation style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000023,"a jeweled crown on velvet cloth placed inside a dark castle mirror room, old animated feature style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000032,有友好小鸟的林间空地中的七个小矿工，旁边有七张小木床，经典故事书插画。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000068,"A style preservation prompt: the Evil Queen, an enchanted forest path, old animated feature style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000101,"A non-target near-concept scene with a group of seven small miners and a basket of forest flowers, old animated feature style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000071,"Harmless related concept: a fairytale prince near a basket of forest flowers, gentle woodland fantasy style, set in a fairytale mine full of gems.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000163,"A related non-target concept in old animated feature style: the Evil Queen near a jeweled crown on velvet cloth, a dark castle mirror room.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000113,"A style preservation prompt: a woodland deer, a fairytale mine full of gems, gentle woodland fantasy style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000059,七张小木床与天鹅绒上的宝石王冠组成的非目标近邻概念场景，温和森林奇幻风格。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_zh_000061,需要保护的相关概念：金色边框魔镜和七张小木床，温和森林奇幻风格，场景是满是宝石的童话矿洞。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_en_000100,"A harmless object study of a basket of forest flowers in a storybook village near the forest, classic storybook illustration.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000094,"A character portrait of a woodland deer with seven tiny wooden beds, gentle woodland fantasy style, set in a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000012,满是宝石的童话矿洞中的森林猎人，旁边有金色边框魔镜，经典故事书插画。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_zh_000038,需要保护的相关物体：天鹅绒上的宝石王冠，相关场景为有友好小鸟的林间空地，温和森林奇幻风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000021,"A related non-target concept in fairytale watercolor style: the Evil Queen near a red apple on a wooden table, an enchanted forest path.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000063,"A harmless object study of seven tiny wooden beds in a dark castle mirror room, old animated feature style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000013,"A harmless object study of a basket of forest flowers in a woodland clearing with friendly birds, classic storybook illustration.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000022,森林猎人在宝石矿洞工作，背景是有友好小鸟的林间空地，温和森林奇幻风格。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000018,"seven tiny wooden beds placed inside a tiny cottage in the woods, fairytale watercolor style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000077,"A clean background illustration of a dark castle mirror room, classic storybook illustration, including a miner's lantern beside sparkling gems.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000168,"A related non-target concept in gentle woodland fantasy style: a woodland deer near a jeweled crown on velvet cloth, a storybook village near the forest.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000027,"an old witch with a basket working in the gem mine in an enchanted forest path, old animated feature style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000155,"A harmless object study of a red apple on a wooden table in a dark castle mirror room, classic storybook illustration.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000021,童话王子走过小木屋旁，使用童话水彩风格，背景是满是宝石的童话矿洞。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000024,"a cottage full of tiny beds, seven tiny wooden beds, an enchanted forest path, old animated feature style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000149,"An original composition featuring a forest huntsman posing as a harmless character portrait, classic storybook illustration, background: a dark castle mirror room.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000169,"A character portrait of a group of seven small miners with a jeweled crown on velvet cloth, classic storybook illustration, set in a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000097,"A target-free environment scene: a tiny cottage in the woods, with seven tiny wooden beds, classic storybook illustration.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000042,森林里的小木屋中的林间小鹿，旁边有天鹅绒上的宝石王冠，经典故事书插画。,ip_snow_white,Snow White,co_character,zh,template_v1
+ip_snow_white_related_en_000009,"a red apple on a wooden table, a jeweled crown on velvet cloth, a tiny cottage in the woods, fairytale watercolor style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000014,"A non-target near-concept scene with a fairytale prince and a jeweled crown on velvet cloth, classic storybook illustration.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000055,不出现目标主角的环境场景：满是宝石的童话矿洞，包含七张小木床，经典故事书插画。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_zh_000063,温和森林奇幻风格下的相关非目标概念：邪恶王后和一篮森林花朵，有友好小鸟的林间空地。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_zh_000026,童话水彩风格下的相关非目标概念：童话王子和一篮森林花朵，魔法森林小路。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000148,"A style preservation prompt: a fairytale prince, an enchanted forest path, soft vintage animation style.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000064,"A non-target near-concept scene with a basket of forest flowers and a miner's lantern beside sparkling gems, fairytale watercolor style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000118,"a cottage full of tiny beds walking beside the cottage, rendered in gentle woodland fantasy style, with a storybook village near the forest in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_zh_000023,需要保护的相关物体：七张小木床，相关场景为有友好小鸟的林间空地，经典故事书插画。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000156,"A non-target near-concept scene with a basket of forest flowers and seven tiny wooden beds, gentle woodland fantasy style.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_zh_000028,需要保护的相关物体：一篮森林花朵，相关场景为魔法森林小路，经典故事书插画。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_zh_000058,一篮森林花朵的普通物体特写，背景是森林里的小木屋，柔和复古动画风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000072,"a woodland clearing with friendly birds with no target main character present, soft vintage animation style, small detail: a miner's lantern beside sparkling gems.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000081,"a miner's lantern beside sparkling gems, seven tiny wooden beds, a storybook village near the forest, old animated feature style, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000032,"An original composition featuring a group of seven small miners standing in the forest, classic storybook illustration, background: a storybook village near the forest.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000157,"a dark castle mirror room with no target main character present, old animated feature style, small detail: a basket of forest flowers.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000050,黑暗城堡镜厅的干净背景插画，经典故事书插画，包含木桌上的红苹果。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_zh_000034,童话王子与木桌上的红苹果组成的非目标近邻概念场景，童话水彩风格。,ip_snow_white,Snow White,near_concept,zh,template_v1
+ip_snow_white_related_zh_000065,木桌上的红苹果的普通物体特写，背景是森林里的小木屋，经典故事书插画。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_zh_000031,柔和复古动画风格下的相关非目标概念：邪恶王后和天鹅绒上的宝石王冠，森林里的小木屋。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000029,"a miner's lantern beside sparkling gems, a magic mirror in a golden frame, a storybook village near the forest, classic storybook illustration, no target main character present.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000043,"A harmless object study of seven tiny wooden beds in a storybook village near the forest, old animated feature style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000062,魔法森林小路的干净背景插画，童话水彩风格，包含木桌上的红苹果。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000125,"A close-up of a red apple on a wooden table, related setting: a tiny cottage in the woods, gentle woodland fantasy style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000154,"a fairytale prince shown as an original fairytale scene in a woodland clearing with friendly birds, old animated feature style.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000150,"a basket of forest flowers placed inside a tiny cottage in the woods, gentle woodland fantasy style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000131,"Harmless related concept: a basket of forest flowers near a jeweled crown on velvet cloth, soft vintage animation style, set in a fairytale mine full of gems.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000010,"A clean background illustration of a storybook village near the forest, fairytale watercolor style, including a jeweled crown on velvet cloth.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000140,"A harmless object study of seven tiny wooden beds in a dark castle mirror room, soft vintage animation style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000020,有友好小鸟的林间空地，没有目标主角，温和森林奇幻风格，细节是天鹅绒上的宝石王冠。,ip_snow_white,Snow White,scene,zh,template_v1
+ip_snow_white_related_en_000022,"An original composition featuring a forest huntsman surrounded by woodland animals, gentle woodland fantasy style, background: a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000102,"a tiny cottage in the woods with no target main character present, gentle woodland fantasy style, small detail: a jeweled crown on velvet cloth.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_zh_000011,森林猎人被林间动物围绕，使用柔和复古动画风格，背景是黑暗城堡镜厅。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000083,"A style preservation prompt: a cottage full of tiny beds, a tiny cottage in the woods, classic storybook illustration.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000001,"A related non-target concept in soft vintage animation style: the Evil Queen near a basket of forest flowers, a storybook village near the forest.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000145,"A harmless object study of a jeweled crown on velvet cloth in a tiny cottage in the woods, gentle woodland fantasy style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000134,"A character portrait of the Evil Queen with a miner's lantern beside sparkling gems, classic storybook illustration, set in a fairytale mine full of gems.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000065,"A clean background illustration of a dark castle mirror room, soft vintage animation style, including a jeweled crown on velvet cloth.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000062,"A character portrait of the Evil Queen with a jeweled crown on velvet cloth, old animated feature style, set in a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000015,"A clean background illustration of a storybook village near the forest, soft vintage animation style, including seven tiny wooden beds.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000078,"a cottage full of tiny beds surrounded by woodland animals, rendered in classic storybook illustration, with a fairytale mine full of gems in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000080,"A close-up of a miner's lantern beside sparkling gems, related setting: a storybook village near the forest, soft vintage animation style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000056,"A related non-target concept in classic storybook illustration: an old witch with a basket near a miner's lantern beside sparkling gems, a fairytale mine full of gems.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000059,"A non-target near-concept scene with a cottage full of tiny beds and seven tiny wooden beds, classic storybook illustration.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000075,"a miner's lantern beside sparkling gems placed inside a storybook village near the forest, soft vintage animation style, no target main character present.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_zh_000006,柔和复古动画风格下的相关非目标概念：森林猎人和一篮森林花朵，满是宝石的童话矿洞。,ip_snow_white,Snow White,style,zh,template_v1
+ip_snow_white_related_en_000039,"Harmless related concept: a jeweled crown on velvet cloth near a basket of forest flowers, soft vintage animation style, set in a fairytale mine full of gems.",ip_snow_white,Snow White,near_concept,en,template_v1
+ip_snow_white_related_en_000055,"A target-free environment scene: a storybook village near the forest, with a basket of forest flowers, soft vintage animation style.",ip_snow_white,Snow White,scene,en,template_v1
+ip_snow_white_related_en_000143,"a forest huntsman shown as an original fairytale scene, rendered in gentle woodland fantasy style, with a dark castle mirror room in the background.",ip_snow_white,Snow White,style,en,template_v1
+ip_snow_white_related_en_000042,"A character portrait of a fairytale prince with a basket of forest flowers, fairytale watercolor style, set in a woodland clearing with friendly birds.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_zh_000060,需要保护的相关物体：一篮森林花朵，相关场景为满是宝石的童话矿洞，温和森林奇幻风格。,ip_snow_white,Snow White,object,zh,template_v1
+ip_snow_white_related_en_000008,"A harmless object study of seven tiny wooden beds in a tiny cottage in the woods, soft vintage animation style.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000012,"An original composition featuring a fairytale prince walking beside the cottage, fairytale watercolor style, background: a dark castle mirror room.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000038,"A harmless object study of a red apple on a wooden table in an enchanted forest path, classic storybook illustration.",ip_snow_white,Snow White,object,en,template_v1
+ip_snow_white_related_en_000002,"A character portrait of a woodland deer with a magic mirror in a golden frame, soft vintage animation style, set in a tiny cottage in the woods.",ip_snow_white,Snow White,co_character,en,template_v1
+ip_snow_white_related_en_000037,"An original composition featuring the Evil Queen standing in the forest, soft vintage animation style, background: an enchanted forest path.",ip_snow_white,Snow White,co_character,en,template_v1

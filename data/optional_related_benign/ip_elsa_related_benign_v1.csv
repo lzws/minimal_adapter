@@ -1,0 +1,251 @@
+id,prompt,preserve_condition,related_to_ip,relation_type,lang,source
+ip_elsa_related_en_000034,"A non-target near-concept scene with a sled loaded with ice blocks and a sled loaded with ice blocks, warm Nordic fairy-tale style.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000049,雪宝与椅子上的蓝色冬季斗篷组成的非目标近邻概念场景，冰蓝色电影动画风格。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_zh_000030,不出现目标主角的环境场景：雪山小路，包含桌上的冬季手套，家庭奇幻风格。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000116,"A style preservation prompt: a red-haired princess in a winter cloak, a warm royal banquet room, icy blue cinematic animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000112,"An original composition featuring Anna shown as an original fantasy composition, clean family fantasy style, background: a warm royal banquet room.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000021,戴围巾的友好雪人在家庭场景中微笑，使用家庭奇幻风格，背景是没有女王的冰雪宫殿大厅。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000066,"A related non-target concept in clean family fantasy style: an ice harvester with a reindeer near a carrot-nosed snowman toy, an icy palace hall without any queen.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000038,"A close-up of a blue winter cloak on a chair, related setting: a warm royal banquet room, winter storybook illustration.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000059,需要保护的相关概念：椅子上的蓝色冬季斗篷和水晶雪花挂饰，冬日故事书插画，场景是温暖的皇家宴会厅。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000139,"A character portrait of Olaf with a blue winter cloak on a chair, winter storybook illustration, set in a Scandinavian harbor town covered in snow.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000135,"A harmless object study of a sled loaded with ice blocks in a snowy mountain trail, soft 3D fairy-tale animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000001,"A related non-target concept in clean family fantasy style: a friendly snowman in a scarf near a blue winter cloak on a chair, a warm royal banquet room.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000171,"A character portrait of Anna with a carrot-nosed snowman toy, winter storybook illustration, set in a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000127,"a Scandinavian harbor town covered in snow with no target main character present, clean family fantasy style, small detail: a royal portrait frame in an icy hall.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000105,"a snowy mountain trail with no target main character present, icy blue cinematic animation style, small detail: a sled loaded with ice blocks.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000136,"Harmless related concept: a red-haired princess in a winter cloak near a sled loaded with ice blocks, icy blue cinematic animation style, set in a frozen lake beside a village.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000017,安娜站在雪地里，背景是村庄旁的冰湖，柔和三维童话动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_en_000022,"Anna walking through a winter village in an icy palace hall without any queen, clean family fantasy style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000031,"A style preservation prompt: Kristoff, a Nordic castle courtyard in winter, winter storybook illustration.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000065,"a snowy mountain trail with no target main character present, warm Nordic fairy-tale style, small detail: a royal portrait frame in an icy hall.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000043,椅子上的蓝色冬季斗篷的普通物体特写，背景是雪山小路，柔和三维童话动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000113,"A close-up of a crystal snowflake ornament, related setting: a Nordic castle courtyard in winter, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000082,"An original composition featuring Olaf smiling in a family scene, icy blue cinematic animation style, background: an icy palace hall without any queen.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000006,家庭奇幻风格下的相关非目标概念：安娜和椅子上的蓝色冬季斗篷，村庄旁的冰湖。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_zh_000008,需要保护的相关物体：桌上的冬季手套，相关场景为没有女王的冰雪宫殿大厅，柔和三维童话动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000039,"A non-target near-concept scene with a sled loaded with ice blocks and a sled loaded with ice blocks, winter storybook illustration.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000073,"a pair of winter gloves on a table placed inside a snowy mountain trail, winter storybook illustration, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000084,"a royal portrait frame in an icy hall, a royal portrait frame in an icy hall, a Nordic castle courtyard in winter, clean family fantasy style, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000148,"a red-haired princess in a winter cloak crossing the icy landscape, rendered in winter storybook illustration, with a snowy mountain trail in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000126,"Harmless related concept: Kristoff near a pair of winter gloves on a table, warm Nordic fairy-tale style, set in a Scandinavian harbor town covered in snow.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000128,"Olaf crossing the icy landscape, rendered in soft 3D fairy-tale animation style, with a warm royal banquet room in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000047,安娜在家庭场景中微笑，背景是冬季北欧城堡庭院，冰蓝色电影动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000056,穿冬季斗篷的红发公主在家庭场景中微笑，使用冰蓝色电影动画风格，背景是村庄旁的冰湖。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000131,"Harmless related concept: a friendly snowman in a scarf near a crystal snowflake ornament, warm Nordic fairy-tale style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000101,"Olaf shown as an original fantasy composition, rendered in winter storybook illustration, with a Scandinavian harbor town covered in snow in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000174,"A target-free environment scene: an icy palace hall without any queen, with a royal portrait frame in an icy hall, icy blue cinematic animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000153,"A related non-target concept in icy blue cinematic animation style: a red-haired princess in a winter cloak near a pair of winter gloves on a table, an icy palace hall without any queen.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000063,"A close-up of a crystal snowflake ornament, related setting: an icy palace hall without any queen, warm Nordic fairy-tale style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000087,"a friendly snowman in a scarf smiling in a family scene in a frozen lake beside a village, clean family fantasy style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000161,"Harmless related concept: a red-haired princess in a winter cloak near a crystal snowflake ornament, icy blue cinematic animation style, set in a Nordic castle courtyard in winter.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000036,风格保持 prompt：戴围巾的友好雪人、没有女王的冰雪宫殿大厅、家庭奇幻风格。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000151,"Harmless related concept: a friendly snowman in a scarf near a carrot-nosed snowman toy, icy blue cinematic animation style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000123,"A style preservation prompt: Olaf, a snowy mountain trail, winter storybook illustration.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000160,"A close-up of a sled loaded with ice blocks, related setting: a Scandinavian harbor town covered in snow, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000022,原创构图：穿冬季斗篷的红发公主穿过冬季村庄，家庭奇幻风格，场景为村庄旁的冰湖。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_en_000015,"A target-free environment scene: a Scandinavian harbor town covered in snow, with a crystal snowflake ornament, winter storybook illustration.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000168,"Harmless related concept: Anna near a blue winter cloak on a chair, winter storybook illustration, set in an icy palace hall without any queen.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000029,需要保护的相关概念：驯鹿斯特和椅子上的蓝色冬季斗篷，冰蓝色电影动画风格，场景是村庄旁的冰湖。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000096,"Olaf standing in the snow, rendered in winter storybook illustration, with a snowy mountain trail in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000025,村庄旁的冰湖，没有目标主角，柔和三维童话动画风格，细节是胡萝卜鼻子雪人玩具。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000121,"A non-target near-concept scene with Kristoff and a royal portrait frame in an icy hall, warm Nordic fairy-tale style.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000021,"A related non-target concept in clean family fantasy style: Kristoff near a sled loaded with ice blocks, a frozen lake beside a village.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000040,温暖的皇家宴会厅的干净背景插画，柔和三维童话动画风格，包含水晶雪花挂饰。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000048,"A close-up of a blue winter cloak on a chair, related setting: a frozen lake beside a village, winter storybook illustration.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000033,"a sled loaded with ice blocks placed inside a warm royal banquet room, soft 3D fairy-tale animation style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000091,"a red-haired princess in a winter cloak standing in the snow, rendered in warm Nordic fairy-tale style, with an icy palace hall without any queen in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000068,"A harmless object study of a sled loaded with ice blocks in a Scandinavian harbor town covered in snow, clean family fantasy style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000032,"An original composition featuring an ice harvester with a reindeer standing in the snow, winter storybook illustration, background: a warm royal banquet room.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000158,"A related non-target concept in warm Nordic fairy-tale style: Sven the reindeer near a blue winter cloak on a chair, a warm royal banquet room.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000063,水晶雪花挂饰的普通物体特写，背景是雪山小路，冰蓝色电影动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000016,"A style preservation prompt: Sven the reindeer, a Nordic castle courtyard in winter, icy blue cinematic animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000024,穿冬季斗篷的红发公主、胡萝卜鼻子雪人玩具、冬季北欧城堡庭院，冬日故事书插画，不出现目标主角。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000064,"A non-target near-concept scene with a friendly snowman in a scarf and a pair of winter gloves on a table, winter storybook illustration.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000129,"a red-haired princess in a winter cloak posing for a harmless character portrait in a frozen lake beside a village, clean family fantasy style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000044,"a sled loaded with ice blocks, a pair of winter gloves on a table, an icy palace hall without any queen, winter storybook illustration, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000025,"A target-free environment scene: a frozen lake beside a village, with a carrot-nosed snowman toy, clean family fantasy style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000007,雪宝穿越冰雪景观，背景是村庄旁的冰湖，柔和三维童话动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000005,不出现目标主角的环境场景：村庄旁的冰湖，包含水晶雪花挂饰，家庭奇幻风格。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000081,"A style preservation prompt: a friendly snowman in a scarf, a frozen lake beside a village, warm Nordic fairy-tale style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000028,需要保护的相关物体：装满冰块的雪橇，相关场景为冬季北欧城堡庭院，家庭奇幻风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000140,"a carrot-nosed snowman toy placed inside a Nordic castle courtyard in winter, winter storybook illustration, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000076,"A style preservation prompt: Anna, a warm royal banquet room, soft 3D fairy-tale animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000114,"Harmless related concept: a sled loaded with ice blocks near a royal portrait frame in an icy hall, warm Nordic fairy-tale style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000070,不出现目标主角的环境场景：温暖的皇家宴会厅，包含桌上的冬季手套，柔和三维童话动画风格。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_zh_000004,桌上的冬季手套与水晶雪花挂饰组成的非目标近邻概念场景，家庭奇幻风格。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000037,"An original composition featuring Kristoff standing in the snow, warm Nordic fairy-tale style, background: a warm royal banquet room.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000043,"A close-up of a blue winter cloak on a chair, related setting: a snowy mountain trail, winter storybook illustration.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000026,"A style preservation prompt: an ice harvester with a reindeer, a Scandinavian harbor town covered in snow, clean family fantasy style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000053,"a carrot-nosed snowman toy placed inside a Nordic castle courtyard in winter, warm Nordic fairy-tale style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000017,"an ice harvester with a reindeer posing for a harmless character portrait in a frozen lake beside a village, clean family fantasy style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000000,温暖的皇家宴会厅的干净背景插画，冰蓝色电影动画风格，包含装满冰块的雪橇。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_zh_000016,风格保持 prompt：穿冬季斗篷的红发公主、冬季北欧城堡庭院、柔和三维童话动画风格。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000051,"A related non-target concept in warm Nordic fairy-tale style: Kristoff near a carrot-nosed snowman toy, a Nordic castle courtyard in winter.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000002,原创构图：安娜穿过冬季村庄，冰蓝色电影动画风格，场景为没有女王的冰雪宫殿大厅。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000014,桌上的冬季手套、椅子上的蓝色冬季斗篷、雪山小路，冰蓝色电影动画风格，不出现目标主角。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_zh_000019,水晶雪花挂饰、桌上的冬季手套、没有女王的冰雪宫殿大厅，冰蓝色电影动画风格，不出现目标主角。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000167,"a pair of winter gloves on a table placed inside an icy palace hall without any queen, winter storybook illustration, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000152,"A clean background illustration of a frozen lake beside a village, warm Nordic fairy-tale style, including a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000062,冬季北欧城堡庭院中的雪宝，旁边有椅子上的蓝色冬季斗篷，冰蓝色电影动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000013,水晶雪花挂饰放在冬季北欧城堡庭院中，冰蓝色电影动画风格，不出现目标主角。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_zh_000023,桌上的冬季手套放在冬季北欧城堡庭院中，冬日故事书插画，不出现目标主角。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_zh_000018,桌上的冬季手套的普通物体特写，背景是村庄旁的冰湖，冰蓝色电影动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000007,"A character portrait of a friendly snowman in a scarf with a carrot-nosed snowman toy, clean family fantasy style, set in a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000147,"A target-free environment scene: an icy palace hall without any queen, with a carrot-nosed snowman toy, clean family fantasy style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000020,"A target-free environment scene: a Scandinavian harbor town covered in snow, with a pair of winter gloves on a table, icy blue cinematic animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000067,没有女王的冰雪宫殿大厅中的安娜，旁边有水晶雪花挂饰，柔和三维童话动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000069,需要保护的相关概念：穿冬季斗篷的红发公主和椅子上的蓝色冬季斗篷，家庭奇幻风格，场景是温暖的皇家宴会厅。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000036,"A style preservation prompt: Olaf, a warm royal banquet room, soft 3D fairy-tale animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000137,"A clean background illustration of a frozen lake beside a village, icy blue cinematic animation style, including a blue winter cloak on a chair.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000079,"Harmless related concept: a carrot-nosed snowman toy near a pair of winter gloves on a table, warm Nordic fairy-tale style, set in a Nordic castle courtyard in winter.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000045,没有女王的冰雪宫殿大厅，没有目标主角，冰蓝色电影动画风格，细节是水晶雪花挂饰。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_zh_000041,风格保持 prompt：克里斯托夫、温暖的皇家宴会厅、家庭奇幻风格。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_zh_000033,水晶雪花挂饰放在温暖的皇家宴会厅中，柔和三维童话动画风格，不出现目标主角。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_zh_000046,雪宝穿过冬季村庄，使用冰蓝色电影动画风格，背景是村庄旁的冰湖。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_zh_000032,雪宝穿过冬季村庄，背景是冬季北欧城堡庭院，家庭奇幻风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000051,风格保持 prompt：戴围巾的友好雪人、没有女王的冰雪宫殿大厅、冬日故事书插画。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000142,"A target-free environment scene: a Nordic castle courtyard in winter, with a sled loaded with ice blocks, warm Nordic fairy-tale style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000125,"A harmless object study of a sled loaded with ice blocks in a Nordic castle courtyard in winter, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000006,"Kristoff smiling in a family scene, rendered in winter storybook illustration, with a Nordic castle courtyard in winter in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000003,"A harmless object study of a sled loaded with ice blocks in a frozen lake beside a village, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000050,温暖的皇家宴会厅，没有目标主角，家庭奇幻风格，细节是装满冰块的雪橇。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000159,"An original composition featuring Sven the reindeer crossing the icy landscape, warm Nordic fairy-tale style, background: a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000085,"A clean background illustration of a snowy mountain trail, soft 3D fairy-tale animation style, including a crystal snowflake ornament.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000090,"A clean background illustration of a snowy mountain trail, winter storybook illustration, including a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000095,"A target-free environment scene: a frozen lake beside a village, with a royal portrait frame in an icy hall, icy blue cinematic animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000046,"A related non-target concept in icy blue cinematic animation style: Kristoff near a sled loaded with ice blocks, a snowy mountain trail.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000004,"A non-target near-concept scene with Olaf and a carrot-nosed snowman toy, icy blue cinematic animation style.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000039,戴围巾的友好雪人与胡萝卜鼻子雪人玩具组成的非目标近邻概念场景，家庭奇幻风格。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000150,"A harmless object study of a crystal snowflake ornament in an icy palace hall without any queen, winter storybook illustration.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000106,"Anna crossing the icy landscape, rendered in icy blue cinematic animation style, with a frozen lake beside a village in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000070,"A clean background illustration of a frozen lake beside a village, soft 3D fairy-tale animation style, including a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000024,"a friendly snowman in a scarf, a royal portrait frame in an icy hall, an icy palace hall without any queen, clean family fantasy style, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000111,"A related non-target concept in soft 3D fairy-tale animation style: Sven the reindeer near a carrot-nosed snowman toy, a frozen lake beside a village.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_zh_000001,雪宝穿越冰雪景观，使用冰蓝色电影动画风格，背景是村庄旁的冰湖。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000107,"An original composition featuring Anna standing in the snow, clean family fantasy style, background: a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000038,需要保护的相关物体：椅子上的蓝色冬季斗篷，相关场景为冬季北欧城堡庭院，家庭奇幻风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000143,"Anna standing in the snow, rendered in soft 3D fairy-tale animation style, with a frozen lake beside a village in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000080,"A clean background illustration of a Scandinavian harbor town covered in snow, soft 3D fairy-tale animation style, including a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000072,"an ice harvester with a reindeer smiling in a family scene in a warm royal banquet room, soft 3D fairy-tale animation style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000003,装满冰块的雪橇的普通物体特写，背景是没有女王的冰雪宫殿大厅，冰蓝色电影动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000035,"A clean background illustration of a Nordic castle courtyard in winter, warm Nordic fairy-tale style, including a pair of winter gloves on a table.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000054,戴围巾的友好雪人与桌上的冬季手套组成的非目标近邻概念场景，柔和三维童话动画风格。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000077,"A character portrait of Kristoff with a sled loaded with ice blocks, clean family fantasy style, set in a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000172,"a blue winter cloak on a chair placed inside a Scandinavian harbor town covered in snow, winter storybook illustration, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000009,需要保护的相关概念：驯鹿斯特和装满冰块的雪橇，柔和三维童话动画风格，场景是没有女王的冰雪宫殿大厅。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_zh_000035,雪山小路，没有目标主角，冬日故事书插画，细节是胡萝卜鼻子雪人玩具。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000008,"A harmless object study of a crystal snowflake ornament in a Scandinavian harbor town covered in snow, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000083,"A harmless object study of a pair of winter gloves on a table in an icy palace hall without any queen, soft 3D fairy-tale animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000133,"A related non-target concept in icy blue cinematic animation style: Sven the reindeer near a royal portrait frame in an icy hall, a snowy mountain trail.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000099,"Harmless related concept: Sven the reindeer near a crystal snowflake ornament, clean family fantasy style, set in an icy palace hall without any queen.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000055,"A target-free environment scene: an icy palace hall without any queen, with a crystal snowflake ornament, warm Nordic fairy-tale style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000064,需要保护的相关概念：桌上的冬季手套和水晶雪花挂饰，冰蓝色电影动画风格，场景是没有女王的冰雪宫殿大厅。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_zh_000010,冬季北欧城堡庭院，没有目标主角，冰蓝色电影动画风格，细节是桌上的冬季手套。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000109,"Sven the reindeer, a pair of winter gloves on a table, a Nordic castle courtyard in winter, warm Nordic fairy-tale style, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000074,桌上的冬季手套、水晶雪花挂饰、没有女王的冰雪宫殿大厅，家庭奇幻风格，不出现目标主角。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_zh_000073,需要保护的相关物体：桌上的冬季手套，相关场景为冬季北欧城堡庭院，冰蓝色电影动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000027,"A character portrait of Anna with a blue winter cloak on a chair, icy blue cinematic animation style, set in an icy palace hall without any queen.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000086,"A style preservation prompt: Sven the reindeer, a Scandinavian harbor town covered in snow, icy blue cinematic animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000045,"A clean background illustration of a warm royal banquet room, warm Nordic fairy-tale style, including a pair of winter gloves on a table.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000074,"a pair of winter gloves on a table, a sled loaded with ice blocks, a Scandinavian harbor town covered in snow, warm Nordic fairy-tale style, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000118,"A close-up of a crystal snowflake ornament, related setting: a snowy mountain trail, warm Nordic fairy-tale style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000002,"A character portrait of a friendly snowman in a scarf with a pair of winter gloves on a table, icy blue cinematic animation style, set in an icy palace hall without any queen.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000130,"A close-up of a crystal snowflake ornament, related setting: a warm royal banquet room, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000048,需要保护的相关物体：装满冰块的雪橇，相关场景为温暖的皇家宴会厅，柔和三维童话动画风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000000,"A target-free environment scene: a snowy mountain trail, with a sled loaded with ice blocks, clean family fantasy style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000062,"An original composition featuring a red-haired princess in a winter cloak standing in the snow, warm Nordic fairy-tale style, background: an icy palace hall without any queen.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000154,"An original composition featuring an ice harvester with a reindeer crossing the icy landscape, clean family fantasy style, background: a frozen lake beside a village.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000115,"a frozen lake beside a village with no target main character present, icy blue cinematic animation style, small detail: a blue winter cloak on a chair.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000034,穿冬季斗篷的红发公主与胡萝卜鼻子雪人玩具组成的非目标近邻概念场景，冰蓝色电影动画风格。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000042,"An original composition featuring Olaf walking through a winter village, clean family fantasy style, background: a snowy mountain trail.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000028,"a carrot-nosed snowman toy placed inside a snowy mountain trail, warm Nordic fairy-tale style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000056,"a friendly snowman in a scarf smiling in a family scene, rendered in warm Nordic fairy-tale style, with a frozen lake beside a village in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000120,"a pair of winter gloves on a table placed inside a Scandinavian harbor town covered in snow, winter storybook illustration, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000037,雪山小路中的克里斯托夫，旁边有装满冰块的雪橇，柔和三维童话动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000052,驯鹿斯特站在雪地里，背景是雪山小路，冬日故事书插画。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_en_000054,"A non-target near-concept scene with a friendly snowman in a scarf and a blue winter cloak on a chair, winter storybook illustration.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000060,冬季北欧城堡庭院，没有目标主角，柔和三维童话动画风格，细节是椅子上的蓝色冬季斗篷。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000061,"A style preservation prompt: Sven the reindeer, a snowy mountain trail, soft 3D fairy-tale animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000078,"A harmless object study of a royal portrait frame in an icy hall in a Nordic castle courtyard in winter, warm Nordic fairy-tale style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000173,"A non-target near-concept scene with a carrot-nosed snowman toy and a sled loaded with ice blocks, warm Nordic fairy-tale style.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000097,"An original composition featuring an ice harvester with a reindeer posing for a harmless character portrait, warm Nordic fairy-tale style, background: a warm royal banquet room.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000132,"A target-free environment scene: a frozen lake beside a village, with a crystal snowflake ornament, winter storybook illustration.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000089,"A non-target near-concept scene with a sled loaded with ice blocks and a pair of winter gloves on a table, winter storybook illustration.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000059,"A non-target near-concept scene with Sven the reindeer and a pair of winter gloves on a table, soft 3D fairy-tale animation style.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000163,"A style preservation prompt: Anna, an icy palace hall without any queen, icy blue cinematic animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000052,"an ice harvester with a reindeer posing for a harmless character portrait in a snowy mountain trail, clean family fantasy style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000164,"A character portrait of an ice harvester with a reindeer with a pair of winter gloves on a table, warm Nordic fairy-tale style, set in a warm royal banquet room.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000170,"A style preservation prompt: Kristoff, an icy palace hall without any queen, warm Nordic fairy-tale style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000156,"A non-target near-concept scene with a sled loaded with ice blocks and a royal portrait frame in an icy hall, winter storybook illustration.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000166,"An original composition featuring an ice harvester with a reindeer crossing the icy landscape, winter storybook illustration, background: a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000058,"a crystal snowflake ornament placed inside a snowy mountain trail, clean family fantasy style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000169,"an icy palace hall without any queen with no target main character present, icy blue cinematic animation style, small detail: a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000119,"Harmless related concept: a sled loaded with ice blocks near a carrot-nosed snowman toy, clean family fantasy style, set in a snowy mountain trail.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000040,"A target-free environment scene: a warm royal banquet room, with a pair of winter gloves on a table, soft 3D fairy-tale animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000012,"An original composition featuring an ice harvester with a reindeer shown as an original fantasy composition, clean family fantasy style, background: a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000027,雪宝在家庭场景中微笑，背景是温暖的皇家宴会厅，家庭奇幻风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_en_000069,"Harmless related concept: Sven the reindeer near a sled loaded with ice blocks, clean family fantasy style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000138,"A style preservation prompt: a friendly snowman in a scarf, a Scandinavian harbor town covered in snow, clean family fantasy style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000134,"A character portrait of a friendly snowman in a scarf with a carrot-nosed snowman toy, warm Nordic fairy-tale style, set in an icy palace hall without any queen.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000057,安娜站在雪地里，背景是冬季北欧城堡庭院，冰蓝色电影动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_en_000117,"An original composition featuring Olaf shown as an original fantasy composition, soft 3D fairy-tale animation style, background: a frozen lake beside a village.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000100,"A target-free environment scene: a Scandinavian harbor town covered in snow, with a blue winter cloak on a chair, soft 3D fairy-tale animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000013,"A close-up of a sled loaded with ice blocks, related setting: a frozen lake beside a village, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000122,"A clean background illustration of a frozen lake beside a village, soft 3D fairy-tale animation style, including a crystal snowflake ornament.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000146,"Harmless related concept: Olaf near a royal portrait frame in an icy hall, soft 3D fairy-tale animation style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000014,"Olaf, a pair of winter gloves on a table, a warm royal banquet room, clean family fantasy style, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000145,"a blue winter cloak on a chair placed inside a snowy mountain trail, icy blue cinematic animation style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000103,"a blue winter cloak on a chair placed inside a snowy mountain trail, clean family fantasy style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000053,胡萝卜鼻子雪人玩具的普通物体特写，背景是温暖的皇家宴会厅，家庭奇幻风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000067,"a red-haired princess in a winter cloak shown as an original fantasy composition in an icy palace hall without any queen, warm Nordic fairy-tale style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000010,"A clean background illustration of a warm royal banquet room, soft 3D fairy-tale animation style, including a crystal snowflake ornament.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000061,风格保持 prompt：雪宝、温暖的皇家宴会厅、柔和三维童话动画风格。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_zh_000042,戴围巾的友好雪人在家庭场景中微笑，背景是冬季北欧城堡庭院，冰蓝色电影动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000026,冬日故事书插画下的相关非目标概念：穿冬季斗篷的红发公主和胡萝卜鼻子雪人玩具，雪山小路。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000018,"A harmless object study of a blue winter cloak on a chair in a Nordic castle courtyard in winter, warm Nordic fairy-tale style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000162,"an icy palace hall without any queen with no target main character present, warm Nordic fairy-tale style, small detail: a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000047,"Anna smiling in a family scene in a warm royal banquet room, icy blue cinematic animation style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000019,"A non-target near-concept scene with a royal portrait frame in an icy hall and a carrot-nosed snowman toy, warm Nordic fairy-tale style.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000005,"A target-free environment scene: a Nordic castle courtyard in winter, with a crystal snowflake ornament, icy blue cinematic animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000102,"Kristoff walking through a winter village in a Nordic castle courtyard in winter, warm Nordic fairy-tale style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000020,雪山小路的干净背景插画，家庭奇幻风格，包含水晶雪花挂饰。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000049,"Harmless related concept: a royal portrait frame in an icy hall near a sled loaded with ice blocks, winter storybook illustration, set in a frozen lake beside a village.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000030,"A target-free environment scene: a Scandinavian harbor town covered in snow, with a crystal snowflake ornament, icy blue cinematic animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000057,"a red-haired princess in a winter cloak crossing the icy landscape in a warm royal banquet room, warm Nordic fairy-tale style.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000075,"a snowy mountain trail with no target main character present, icy blue cinematic animation style, small detail: a pair of winter gloves on a table.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000141,"Harmless related concept: a crystal snowflake ornament near a royal portrait frame in an icy hall, warm Nordic fairy-tale style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000029,"Harmless related concept: an ice harvester with a reindeer near a carrot-nosed snowman toy, clean family fantasy style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000144,"A character portrait of Sven the reindeer with a crystal snowflake ornament, winter storybook illustration, set in a Nordic castle courtyard in winter.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000071,风格保持 prompt：克里斯托夫、没有女王的冰雪宫殿大厅、冬日故事书插画。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000108,"A harmless object study of a royal portrait frame in an icy hall in a snowy mountain trail, warm Nordic fairy-tale style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000011,风格保持 prompt：安娜、雪山小路、柔和三维童话动画风格。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000104,"Harmless related concept: a blue winter cloak on a chair near a sled loaded with ice blocks, icy blue cinematic animation style, set in a warm royal banquet room.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000088,"A harmless object study of a royal portrait frame in an icy hall in a warm royal banquet room, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000050,"A target-free environment scene: a Scandinavian harbor town covered in snow, with a carrot-nosed snowman toy, icy blue cinematic animation style.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000023,"A close-up of a pair of winter gloves on a table, related setting: a snowy mountain trail, soft 3D fairy-tale animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000012,雪山小路中的安娜，旁边有水晶雪花挂饰，冰蓝色电影动画风格。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_zh_000065,雪山小路的干净背景插画，柔和三维童话动画风格，包含装满冰块的雪橇。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_zh_000066,戴围巾的友好雪人在家庭场景中微笑，使用冰蓝色电影动画风格，背景是冬季北欧城堡庭院。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_en_000060,"A clean background illustration of an icy palace hall without any queen, icy blue cinematic animation style, including a crystal snowflake ornament.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000110,"an icy palace hall without any queen with no target main character present, soft 3D fairy-tale animation style, small detail: a carrot-nosed snowman toy.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_zh_000058,需要保护的相关物体：胡萝卜鼻子雪人玩具，相关场景为没有女王的冰雪宫殿大厅，家庭奇幻风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000124,"A character portrait of a friendly snowman in a scarf with a royal portrait frame in an icy hall, clean family fantasy style, set in a snowy mountain trail.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_en_000071,"a red-haired princess in a winter cloak walking through a winter village, rendered in icy blue cinematic animation style, with an icy palace hall without any queen in the background.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000093,"A harmless object study of a sled loaded with ice blocks in a snowy mountain trail, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000072,原创构图：驯鹿斯特作为原创奇幻构图，冰蓝色电影动画风格，场景为冬季北欧城堡庭院。,ip_elsa,Elsa,co_character,zh,template_v1
+ip_elsa_related_en_000098,"a royal portrait frame in an icy hall placed inside an icy palace hall without any queen, warm Nordic fairy-tale style, no target main character present.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_zh_000068,需要保护的相关物体：装满冰块的雪橇，相关场景为雪山小路，家庭奇幻风格。,ip_elsa,Elsa,object,zh,template_v1
+ip_elsa_related_en_000041,"A style preservation prompt: Anna, a snowy mountain trail, icy blue cinematic animation style.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000092,"A character portrait of Sven the reindeer with a royal portrait frame in an icy hall, warm Nordic fairy-tale style, set in a warm royal banquet room.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000031,安娜穿越冰雪景观，使用家庭奇幻风格，背景是村庄旁的冰湖。,ip_elsa,Elsa,style,zh,template_v1
+ip_elsa_related_zh_000044,水晶雪花挂饰与装满冰块的雪橇组成的非目标近邻概念场景，家庭奇幻风格。,ip_elsa,Elsa,near_concept,zh,template_v1
+ip_elsa_related_en_000155,"A close-up of a pair of winter gloves on a table, related setting: a frozen lake beside a village, icy blue cinematic animation style.",ip_elsa,Elsa,object,en,template_v1
+ip_elsa_related_en_000094,"Harmless related concept: a pair of winter gloves on a table near a royal portrait frame in an icy hall, icy blue cinematic animation style, set in a frozen lake beside a village.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_zh_000015,不出现目标主角的环境场景：温暖的皇家宴会厅，包含胡萝卜鼻子雪人玩具，家庭奇幻风格。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000149,"A character portrait of a red-haired princess in a winter cloak with a blue winter cloak on a chair, winter storybook illustration, set in an icy palace hall without any queen.",ip_elsa,Elsa,co_character,en,template_v1
+ip_elsa_related_zh_000055,没有女王的冰雪宫殿大厅，没有目标主角，冰蓝色电影动画风格，细节是胡萝卜鼻子雪人玩具。,ip_elsa,Elsa,scene,zh,template_v1
+ip_elsa_related_en_000165,"A related non-target concept in soft 3D fairy-tale animation style: Anna near a pair of winter gloves on a table, a frozen lake beside a village.",ip_elsa,Elsa,style,en,template_v1
+ip_elsa_related_en_000009,"Sven the reindeer, a royal portrait frame in an icy hall, an icy palace hall without any queen, soft 3D fairy-tale animation style, no target main character present.",ip_elsa,Elsa,near_concept,en,template_v1
+ip_elsa_related_en_000157,"an icy palace hall without any queen with no target main character present, clean family fantasy style, small detail: a crystal snowflake ornament.",ip_elsa,Elsa,scene,en,template_v1
+ip_elsa_related_en_000011,"A style preservation prompt: Anna, a Nordic castle courtyard in winter, soft 3D fairy-tale animation style.",ip_elsa,Elsa,style,en,template_v1

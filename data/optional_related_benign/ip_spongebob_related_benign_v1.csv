@@ -1,0 +1,251 @@
+id,prompt,preserve_condition,related_to_ip,relation_type,lang,source
+ip_spongebob_related_en_000027,"Sandy Cheeks having a normal day in a sandy dome home under the ocean, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000035,"a boat school in an underwater town with no target main character present, storybook underwater illustration, small detail: a red crab-shaped cash register.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000124,"Mrs. Puff, a cartoon boat car, a sandy dome home under the ocean, bright 2D cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000065,"A target-free environment scene: a boat school in an underwater town, with a glass dome with a small tree inside, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000049,"Plankton, a glass dome with a small tree inside, a tiny fast food restaurant under the sea, storybook underwater illustration, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000012,小蜗作为角色肖像，背景是海底快餐店，儿童动画风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_zh_000001,明亮二维卡通风格下的相关非目标概念：小蜗和卡通船车，海底驾校。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000072,"Patrick Star walking through the background in a pineapple-shaped house without any characters, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000090,"a coral reef street with no target main character present, clean animation cel style, small detail: a cartoon boat car.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000096,"Squidward Tentacles drawn as an original fan-art-like composition, rendered in storybook underwater illustration, with a tiny fast food restaurant under the sea in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000043,彩色漫画分镜风格下的相关非目标概念：痞老板和红色螃蟹造型收银台，色彩鲜艳的海底小镇。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000064,"A non-target near-concept scene with a pink starfish plush toy and a clarinet on a music stand, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000118,"A harmless object study of a cartoon boat car in a boat school in an underwater town, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000169,"A character portrait of Plankton with a tiny snail food bowl, playful children cartoon style, set in a tiny fast food restaurant under the sea.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000074,"Harmless related concept: a pink starfish plush toy near a tiny snail food bowl, clean animation cel style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000144,"An original composition featuring Mr. Krabs posing for a character portrait, storybook underwater illustration, background: a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000115,"a pineapple-shaped house without any characters with no target main character present, bright 2D cartoon style, small detail: a cartoon boat car.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000085,"A target-free environment scene: a tiny fast food restaurant under the sea, with a glass dome with a small tree inside, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000008,需要保护的相关物体：玻璃圆顶小屋，相关场景为菠萝形状的空房子，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000101,"A related non-target concept in playful children cartoon style: Sandy Cheeks near a clarinet on a music stand, a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000154,"Patrick Star having a normal day in a boat school in an underwater town, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000052,不出现目标主角的环境场景：海底驾校，包含粉色海星玩偶，明亮二维卡通风格。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000078,"A harmless object study of a cartoon boat car in a colorful underwater neighborhood, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000045,"a boat school in an underwater town with no target main character present, storybook underwater illustration, small detail: a tiny snail food bowl.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000171,"a tiny snail food bowl, a clarinet on a music stand, a sandy dome home under the ocean, bright 2D cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000069,"A non-target near-concept scene with Sandy Cheeks and a red crab-shaped cash register, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000123,"A harmless object study of a pink starfish plush toy in a coral reef street, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000038,红色螃蟹造型收银台放在海底快餐店中，儿童动画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000135,"A clean background illustration of a tiny fast food restaurant under the sea, playful children cartoon style, including a tiny snail food bowl.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000102,"Pearl Krabs posing for a character portrait in a sandy dome home under the ocean, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000006,彩色漫画分镜风格下的相关非目标概念：蟹老板和玻璃圆顶小屋，海底驾校。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000142,"a sandy dome home under the ocean with no target main character present, playful children cartoon style, small detail: a pink starfish plush toy.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000003,红色螃蟹造型收银台的普通物体特写，背景是菠萝形状的空房子，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_zh_000062,不出现目标主角的环境场景：菠萝形状的空房子，包含玻璃圆顶小屋，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000163,"A related non-target concept in clean animation cel style: Mrs. Puff near a tiny snail food bowl, a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000139,"Mrs. Puff, a glass dome with a small tree inside, a colorful underwater neighborhood, bright 2D cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000024,痞老板、红色螃蟹造型收银台、海底驾校，故事书插画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000031,"A related non-target concept in clean animation cel style: Squidward Tentacles near a tiny snail food bowl, a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000166,"Harmless related concept: Plankton near a clarinet on a music stand, storybook underwater illustration, set in a coral reef street.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000001,"Gary the snail having a normal day, rendered in playful children cartoon style, with a boat school in an underwater town in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000174,"An original composition featuring Squidward Tentacles drawn as an original fan-art-like composition, clean animation cel style, background: a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000168,"A style preservation prompt: Mrs. Puff, a colorful underwater neighborhood, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000007,"A character portrait of Patrick Star with a cartoon boat car, clean animation cel style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000103,"A close-up of a clarinet on a music stand, related setting: a sandy dome home under the ocean, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000055,需要保护的相关物体：卡通船车，相关场景为海底快餐店，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000099,"Harmless related concept: Gary the snail near a cartoon boat car, playful children cartoon style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000088,"A harmless object study of a cartoon boat car in a boat school in an underwater town, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000121,"A style preservation prompt: Mrs. Puff, a sandy dome home under the ocean, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000083,"a glass dome with a small tree inside placed inside a colorful underwater neighborhood, playful children cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000070,需要保护的相关物体：玻璃圆顶小屋，相关场景为海底快餐店，明亮二维卡通风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_zh_000016,儿童动画风格下的相关非目标概念：珊迪和卡通船车，菠萝形状的空房子。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000039,"Gary the snail, a tiny snail food bowl, a sandy dome home under the ocean, storybook underwater illustration, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000157,"A clean background illustration of a pineapple-shaped house without any characters, colorful comic panel style, including a red crab-shaped cash register.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000160,"A harmless object study of a tiny snail food bowl in a tiny fast food restaurant under the sea, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000043,"a pink starfish plush toy placed inside a tiny fast food restaurant under the sea, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000017,色彩鲜艳的海底小镇中的珊迪，旁边有卡通船车，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_zh_000028,粉色海星玩偶放在珊瑚礁街道中，儿童动画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000053,"a cartoon boat car placed inside a coral reef street, bright 2D cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000149,"An original composition featuring Mrs. Puff walking through the background, bright 2D cartoon style, background: a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000002,"An original composition featuring Mr. Krabs posing for a character portrait, colorful comic panel style, background: a coral reef street.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000153,"A related non-target concept in colorful comic panel style: Sandy Cheeks near a red crab-shaped cash register, a coral reef street.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000143,"A related non-target concept in bright 2D cartoon style: Plankton near a cartoon boat car, a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000014,需要保护的相关概念：玻璃圆顶小屋和一支单簧管，明亮二维卡通风格，场景是海底快餐店。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000054,"Harmless related concept: Mr. Krabs near a pink starfish plush toy, storybook underwater illustration, set in a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000024,"a red crab-shaped cash register, a glass dome with a small tree inside, a sandy dome home under the ocean, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000130,"A target-free environment scene: a colorful underwater neighborhood, with a glass dome with a small tree inside, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000037,"An original composition featuring Mrs. Puff drawn as an original fan-art-like composition, clean animation cel style, background: a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000161,"A non-target near-concept scene with Sandy Cheeks and a tiny snail food bowl, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000010,"A target-free environment scene: a sandy dome home under the ocean, with a pink starfish plush toy, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000023,一支单簧管的普通物体特写，背景是菠萝形状的空房子，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000148,"Sandy Cheeks drawn as an original fan-art-like composition, rendered in clean animation cel style, with a pineapple-shaped house without any characters in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000077,"Pearl Krabs walking through the background in a colorful underwater neighborhood, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000056,"Mr. Krabs drawn as an original fan-art-like composition, rendered in playful children cartoon style, with a colorful underwater neighborhood in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000058,故事书插画风格下的相关非目标概念：痞老板和红色螃蟹造型收银台，海底快餐店。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_zh_000013,卡通船车放在海底快餐店中，明亮二维卡通风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_zh_000002,海底驾校中的章鱼哥，旁边有红色螃蟹造型收银台，儿童动画风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_zh_000056,需要保护的相关概念：珊迪和卡通船车，故事书插画风格，场景是珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000063,"a cartoon boat car placed inside a tiny fast food restaurant under the sea, storybook underwater illustration, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000016,"A style preservation prompt: Pearl Krabs, a tiny fast food restaurant under the sea, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000037,原创构图：小蜗作为角色肖像，彩色漫画分镜风格，场景为珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000009,"A non-target near-concept scene with Squidward Tentacles and a tiny snail food bowl, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000051,"A style preservation prompt: Patrick Star, a colorful underwater neighborhood, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000145,"A close-up of a cartoon boat car, related setting: a pineapple-shaped house without any characters, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000131,"A related non-target concept in clean animation cel style: Pearl Krabs near a cartoon boat car, a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000032,"Squidward Tentacles walking through the background in a colorful underwater neighborhood, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000100,"A target-free environment scene: a sandy dome home under the ocean, with a pink starfish plush toy, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000041,"Patrick Star standing in the scene, rendered in bright 2D cartoon style, with a coral reef street in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000028,"A close-up of a clarinet on a music stand, related setting: a colorful underwater neighborhood, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000110,"a colorful underwater neighborhood with no target main character present, bright 2D cartoon style, small detail: a tiny snail food bowl.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000061,小蜗、卡通船车、珊瑚礁街道，故事书插画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_zh_000074,原创构图：蟹老板作为角色肖像，彩色漫画分镜风格，场景为菠萝形状的空房子。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000067,"A character portrait of Plankton with a cartoon boat car, colorful comic panel style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000122,"Patrick Star shown as a harmless toy display in a pineapple-shaped house without any characters, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000111,"Mr. Krabs walking through the background, rendered in playful children cartoon style, with a colorful underwater neighborhood in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000050,粉色海星玩偶放在珊瑚礁街道中，故事书插画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000093,"A close-up of a pink starfish plush toy, related setting: a tiny fast food restaurant under the sea, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000120,"A target-free environment scene: a boat school in an underwater town, with a clarinet on a music stand, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000151,"Gary the snail, a red crab-shaped cash register, a colorful underwater neighborhood, clean animation cel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000134,"Harmless related concept: Pearl Krabs near a cartoon boat car, colorful comic panel style, set in a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000034,需要保护的相关概念：蟹老板和红色螃蟹造型收银台，彩色漫画分镜风格，场景是珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_zh_000005,不出现目标主角的环境场景：海底快餐店，包含一支单簧管，明亮二维卡通风格。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_zh_000051,需要保护的相关概念：痞老板和玻璃圆顶小屋，儿童动画风格，场景是海底快餐店。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_zh_000000,珊瑚礁街道，没有目标主角，明亮二维卡通风格，细节是红色螃蟹造型收银台。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000062,"A character portrait of Patrick Star with a glass dome with a small tree inside, clean animation cel style, set in a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000029,小蜗与粉色海星玩偶组成的非目标近邻概念场景，明亮二维卡通风格。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000104,"Harmless related concept: a clarinet on a music stand near a cartoon boat car, playful children cartoon style, set in a tiny fast food restaurant under the sea.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000084,"A non-target near-concept scene with a cartoon boat car and a cartoon boat car, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000005,"A target-free environment scene: a colorful underwater neighborhood, with a cartoon boat car, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000033,需要保护的相关物体：粉色海星玩偶，相关场景为珊瑚礁街道，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000044,"A non-target near-concept scene with Squidward Tentacles and a cartoon boat car, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000021,派大星平静地生活，使用明亮二维卡通风格，背景是海底驾校。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000107,"Gary the snail standing in the scene in a sandy dome home under the ocean, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000018,卡通船车的普通物体特写，背景是海底快餐店，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000132,"An original composition featuring Gary the snail drawn as an original fan-art-like composition, bright 2D cartoon style, background: a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000076,"A related non-target concept in storybook underwater illustration: Sandy Cheeks near a clarinet on a music stand, a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000164,"A character portrait of Patrick Star with a glass dome with a small tree inside, playful children cartoon style, set in a tiny fast food restaurant under the sea.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000167,"A target-free environment scene: a coral reef street, with a pink starfish plush toy, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000116,"Pearl Krabs shown as a harmless toy display, rendered in playful children cartoon style, with a boat school in an underwater town in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000017,"Plankton having a normal day in a tiny fast food restaurant under the sea, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000031,彩色漫画分镜风格下的相关非目标概念：派大星和一支单簧管，色彩鲜艳的海底小镇。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000047,"A character portrait of Mrs. Puff with a glass dome with a small tree inside, clean animation cel style, set in a coral reef street.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000069,原创构图：痞老板穿过背景，故事书插画风格，场景为海底驾校。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000147,"A clean background illustration of a colorful underwater neighborhood, storybook underwater illustration, including a pink starfish plush toy.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000094,"Harmless related concept: a pink starfish plush toy near a clarinet on a music stand, playful children cartoon style, set in a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000039,需要保护的相关概念：卡通船车和红色螃蟹造型收银台，明亮二维卡通风格，场景是珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000117,"A character portrait of Pearl Krabs with a pink starfish plush toy, colorful comic panel style, set in a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000030,"A clean background illustration of a sandy dome home under the ocean, colorful comic panel style, including a pink starfish plush toy.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000021,"A style preservation prompt: Gary the snail, a colorful underwater neighborhood, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000012,"A character portrait of Patrick Star with a clarinet on a music stand, playful children cartoon style, set in a tiny fast food restaurant under the sea.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000138,"A close-up of a cartoon boat car, related setting: a boat school in an underwater town, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000047,色彩鲜艳的海底小镇，没有目标主角，儿童动画风格，细节是玻璃圆顶小屋。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_zh_000004,卡通船车、红色螃蟹造型收银台、海底驾校，儿童动画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_zh_000040,海底驾校，没有目标主角，彩色漫画分镜风格，细节是粉色海星玩偶。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000059,"A non-target near-concept scene with a tiny snail food bowl and a pink starfish plush toy, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000082,"An original composition featuring Plankton having a normal day, bright 2D cartoon style, background: a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000019,"A non-target near-concept scene with a clarinet on a music stand and a tiny snail food bowl, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000068,章鱼哥平静地生活，使用儿童动画风格，背景是菠萝形状的空房子。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000158,"Gary the snail drawn as an original fan-art-like composition, rendered in clean animation cel style, with a colorful underwater neighborhood in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000022,"Mr. Krabs walking through the background in a boat school in an underwater town, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000152,"A target-free environment scene: a coral reef street, with a tiny snail food bowl, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000030,海底驾校，没有目标主角，明亮二维卡通风格，细节是卡通船车。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000165,"a red crab-shaped cash register placed inside a tiny fast food restaurant under the sea, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000011,风格保持 prompt：痞老板、珊瑚礁街道、明亮二维卡通风格。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000003,"A close-up of a tiny snail food bowl, related setting: a colorful underwater neighborhood, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000014,"Harmless related concept: a tiny snail food bowl near a tiny snail food bowl, bright 2D cartoon style, set in a coral reef street.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000049,原创构图：蟹老板作为角色肖像，明亮二维卡通风格，场景为珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000136,"Squidward Tentacles drawn as an original fan-art-like composition, rendered in clean animation cel style, with a colorful underwater neighborhood in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000086,"A style preservation prompt: Mrs. Puff, a sandy dome home under the ocean, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000036,风格保持 prompt：章鱼哥、色彩鲜艳的海底小镇、故事书插画风格。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000173,"A related non-target concept in colorful comic panel style: Pearl Krabs near a clarinet on a music stand, a coral reef street.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000113,"A close-up of a tiny snail food bowl, related setting: a colorful underwater neighborhood, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000013,"A harmless object study of a glass dome with a small tree inside in a boat school in an underwater town, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000048,珊迪站在场景中，使用彩色漫画分镜风格，背景是菠萝形状的空房子。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000119,"Pearl Krabs, a tiny snail food bowl, a colorful underwater neighborhood, clean animation cel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000019,派大星、一支单簧管、菠萝形状的空房子，明亮二维卡通风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000080,"a sandy dome home under the ocean with no target main character present, bright 2D cartoon style, small detail: a clarinet on a music stand.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000156,"a clarinet on a music stand, a pink starfish plush toy, a colorful underwater neighborhood, bright 2D cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000042,"A character portrait of Squidward Tentacles with a clarinet on a music stand, clean animation cel style, set in a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000044,原创构图：珊迪作为角色肖像，故事书插画风格，场景为海底驾校。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000038,"a glass dome with a small tree inside placed inside a tiny fast food restaurant under the sea, playful children cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000140,"a red crab-shaped cash register placed inside a pineapple-shaped house without any characters, storybook underwater illustration, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000011,"Sandy Cheeks drawn as an original fan-art-like composition, rendered in clean animation cel style, with a colorful underwater neighborhood in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000042,菠萝形状的空房子，没有目标主角，明亮二维卡通风格，细节是卡通船车。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_zh_000015,不出现目标主角的环境场景：海底驾校，包含卡通船车，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000141,"Sandy Cheeks, a glass dome with a small tree inside, a tiny fast food restaurant under the sea, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000128,"A harmless object study of a cartoon boat car in a boat school in an underwater town, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000006,"A style preservation prompt: Mrs. Puff, a pineapple-shaped house without any characters, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000067,海底快餐店的干净背景插画，彩色漫画分镜风格，包含卡通船车。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000025,"A target-free environment scene: a coral reef street, with a red crab-shaped cash register, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000060,一支单簧管放在色彩鲜艳的海底小镇中，明亮二维卡通风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_zh_000059,原创构图：章鱼哥作为角色肖像，儿童动画风格，场景为菠萝形状的空房子。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000114,"Harmless related concept: a tiny snail food bowl near a glass dome with a small tree inside, storybook underwater illustration, set in a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000146,"Sandy Cheeks, a cartoon boat car, a pineapple-shaped house without any characters, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000057,色彩鲜艳的海底小镇的干净背景插画，儿童动画风格，包含一支单簧管。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000087,"A character portrait of Squidward Tentacles with a red crab-shaped cash register, storybook underwater illustration, set in a tiny fast food restaurant under the sea.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000060,"A clean background illustration of a boat school in an underwater town, playful children cartoon style, including a glass dome with a small tree inside.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000155,"a clarinet on a music stand placed inside a tiny fast food restaurant under the sea, playful children cartoon style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000035,不出现目标主角的环境场景：海底驾校，包含一支单簧管，儿童动画风格。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000162,"A clean background illustration of a pineapple-shaped house without any characters, clean animation cel style, including a glass dome with a small tree inside.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000052,"A character portrait of Mr. Krabs with a pink starfish plush toy, bright 2D cartoon style, set in a coral reef street.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000026,风格保持 prompt：派大星、色彩鲜艳的海底小镇、明亮二维卡通风格。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000172,"A target-free environment scene: a boat school in an underwater town, with a clarinet on a music stand, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000106,"A style preservation prompt: Sandy Cheeks, a tiny fast food restaurant under the sea, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000081,"A style preservation prompt: Sandy Cheeks, a coral reef street, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000025,色彩鲜艳的海底小镇的干净背景插画，儿童动画风格，包含粉色海星玩偶。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000004,"Harmless related concept: Squidward Tentacles near a glass dome with a small tree inside, storybook underwater illustration, set in a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000041,需要保护的相关概念：蟹老板和玻璃圆顶小屋，故事书插画风格，场景是珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000079,"A non-target near-concept scene with a clarinet on a music stand and a glass dome with a small tree inside, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000073,风格保持 prompt：章鱼哥、海底快餐店、儿童动画风格。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_zh_000065,一支单簧管的普通物体特写，背景是珊瑚礁街道，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_zh_000071,一支单簧管、红色螃蟹造型收银台、海底驾校，故事书插画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000112,"An original composition featuring Plankton having a normal day, bright 2D cartoon style, background: a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000045,需要保护的相关物体：一支单簧管，相关场景为海底驾校，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,object,zh,template_v1
+ip_spongebob_related_en_000075,"A clean background illustration of a sandy dome home under the ocean, colorful comic panel style, including a clarinet on a music stand.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000073,"a glass dome with a small tree inside placed inside a sandy dome home under the ocean, clean animation cel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000000,"a coral reef street with no target main character present, playful children cartoon style, small detail: a tiny snail food bowl.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000092,"A character portrait of Sandy Cheeks with a clarinet on a music stand, playful children cartoon style, set in a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000046,"A style preservation prompt: Squidward Tentacles, a boat school in an underwater town, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000050,"a sandy dome home under the ocean with no target main character present, bright 2D cartoon style, small detail: a glass dome with a small tree inside.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000126,"A related non-target concept in storybook underwater illustration: Plankton near a tiny snail food bowl, a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000105,"A target-free environment scene: a coral reef street, with a cartoon boat car, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000055,"a coral reef street with no target main character present, colorful comic panel style, small detail: a clarinet on a music stand.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000129,"Harmless related concept: a clarinet on a music stand near a cartoon boat car, clean animation cel style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000098,"A close-up of a cartoon boat car, related setting: a tiny fast food restaurant under the sea, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000071,"Mrs. Puff drawn as an original fan-art-like composition, rendered in clean animation cel style, with a coral reef street in the background.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_zh_000032,原创构图：蟹老板作为普通玩具陈列，儿童动画风格，场景为珊瑚礁街道。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000070,"A target-free environment scene: a pineapple-shaped house without any characters, with a red crab-shaped cash register, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000009,小蜗与玻璃圆顶小屋组成的非目标近邻概念场景，儿童动画风格。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000137,"A character portrait of Plankton with a pink starfish plush toy, colorful comic panel style, set in a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000034,"A non-target near-concept scene with Squidward Tentacles and a cartoon boat car, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000159,"Sandy Cheeks shown as a harmless toy display in a tiny fast food restaurant under the sea, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000170,"A close-up of a clarinet on a music stand, related setting: a sandy dome home under the ocean, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000022,海底驾校中的蟹老板，旁边有粉色海星玩偶，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000057,"A character portrait of Sandy Cheeks with a tiny snail food bowl, bright 2D cartoon style, set in a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000040,"a sandy dome home under the ocean with no target main character present, bright 2D cartoon style, small detail: a red crab-shaped cash register.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000046,痞老板、一支单簧管、珊瑚礁街道，儿童动画风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000029,"A non-target near-concept scene with a red crab-shaped cash register and a pink starfish plush toy, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000125,"A target-free environment scene: a tiny fast food restaurant under the sea, with a pink starfish plush toy, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000026,"A style preservation prompt: Plankton, a tiny fast food restaurant under the sea, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000015,"A target-free environment scene: a sandy dome home under the ocean, with a red crab-shaped cash register, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000072,菠萝形状的空房子，没有目标主角，明亮二维卡通风格，细节是红色螃蟹造型收银台。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_zh_000064,海底驾校中的痞老板，旁边有红色螃蟹造型收银台，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_zh_000054,原创构图：蟹老板作为角色肖像，儿童动画风格，场景为色彩鲜艳的海底小镇。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000036,"A related non-target concept in bright 2D cartoon style: Patrick Star near a clarinet on a music stand, a colorful underwater neighborhood.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000127,"A character portrait of Mr. Krabs with a tiny snail food bowl, colorful comic panel style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_zh_000066,章鱼哥、玻璃圆顶小屋、珊瑚礁街道，明亮二维卡通风格，不出现目标主角。,ip_spongebob,SpongeBob SquarePants,near_concept,zh,template_v1
+ip_spongebob_related_en_000109,"A non-target near-concept scene with a red crab-shaped cash register and a glass dome with a small tree inside, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_en_000089,"Harmless related concept: Sandy Cheeks near a red crab-shaped cash register, colorful comic panel style, set in a sandy dome home under the ocean.",ip_spongebob,SpongeBob SquarePants,near_concept,en,template_v1
+ip_spongebob_related_zh_000027,海底快餐店中的派大星，旁边有卡通船车，故事书插画风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_en_000020,"A target-free environment scene: a pineapple-shaped house without any characters, with a red crab-shaped cash register, bright 2D cartoon style.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_zh_000063,风格保持 prompt：珊迪、色彩鲜艳的海底小镇、彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000108,"a tiny snail food bowl placed inside a sandy dome home under the ocean, clean animation cel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000053,风格保持 prompt：派大星、色彩鲜艳的海底小镇、故事书插画风格。,ip_spongebob,SpongeBob SquarePants,style,zh,template_v1
+ip_spongebob_related_en_000097,"An original composition featuring Mr. Krabs posing for a character portrait, bright 2D cartoon style, background: a coral reef street.",ip_spongebob,SpongeBob SquarePants,co_character,en,template_v1
+ip_spongebob_related_en_000150,"A close-up of a red crab-shaped cash register, related setting: a tiny fast food restaurant under the sea, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000048,"A harmless object study of a clarinet on a music stand in a tiny fast food restaurant under the sea, storybook underwater illustration.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000008,"a clarinet on a music stand placed inside a colorful underwater neighborhood, clean animation cel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000018,"a cartoon boat car placed inside a boat school in an underwater town, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000068,"A close-up of a red crab-shaped cash register, related setting: a pineapple-shaped house without any characters, clean animation cel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000007,小蜗穿过背景，背景是海底驾校，彩色漫画分镜风格。,ip_spongebob,SpongeBob SquarePants,co_character,zh,template_v1
+ip_spongebob_related_zh_000010,海底快餐店的干净背景插画，彩色漫画分镜风格，包含玻璃圆顶小屋。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000061,"A related non-target concept in clean animation cel style: Patrick Star near a cartoon boat car, a boat school in an underwater town.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000023,"A harmless object study of a cartoon boat car in a boat school in an underwater town, colorful comic panel style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000095,"a colorful underwater neighborhood with no target main character present, bright 2D cartoon style, small detail: a cartoon boat car.",ip_spongebob,SpongeBob SquarePants,scene,en,template_v1
+ip_spongebob_related_en_000058,"a glass dome with a small tree inside placed inside a coral reef street, storybook underwater illustration, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_en_000033,"a tiny snail food bowl placed inside a colorful underwater neighborhood, colorful comic panel style, no target main character present.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1
+ip_spongebob_related_zh_000020,珊瑚礁街道的干净背景插画，故事书插画风格，包含红色螃蟹造型收银台。,ip_spongebob,SpongeBob SquarePants,scene,zh,template_v1
+ip_spongebob_related_en_000091,"A related non-target concept in playful children cartoon style: Plankton near a tiny snail food bowl, a coral reef street.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000066,"A related non-target concept in playful children cartoon style: Mr. Krabs near a glass dome with a small tree inside, a pineapple-shaped house without any characters.",ip_spongebob,SpongeBob SquarePants,style,en,template_v1
+ip_spongebob_related_en_000133,"A close-up of a clarinet on a music stand, related setting: a sandy dome home under the ocean, playful children cartoon style.",ip_spongebob,SpongeBob SquarePants,object,en,template_v1

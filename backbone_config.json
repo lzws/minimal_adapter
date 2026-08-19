@@ -1,0 +1,54 @@
+{
+  "backbone": "convnext_base",
+  "latent_in_chans": 16,
+  "latent_stem_type": "single",
+  "latent_stem_init": "trunc_normal",
+  "latent_stretch_target_hw": [
+    224,
+    224
+  ],
+  "model_name": "z-image-turbo",
+  "training_method": "Latent + distill pretrain (stage-wise, full scope, no finetune)",
+  "distill_stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "distill_loss": "cosine",
+  "distill_scope": "full",
+  "teacher": "convnext_base (IN1K pretrained, frozen)",
+  "alignment_points": [
+    {
+      "name": "stage1",
+      "module": "features[1]",
+      "channels": 128,
+      "resolution": "H/4"
+    },
+    {
+      "name": "stage2",
+      "module": "features[3]",
+      "channels": 256,
+      "resolution": "H/8"
+    },
+    {
+      "name": "stage3",
+      "module": "features[5]",
+      "channels": 512,
+      "resolution": "H/16"
+    },
+    {
+      "name": "stage4",
+      "module": "features[7]",
+      "channels": 1024,
+      "resolution": "H/32"
+    },
+    {
+      "name": "gap",
+      "module": "avgpool+LN+Flatten",
+      "channels": 1024,
+      "resolution": "1"
+    }
+  ],
+  "source_run_dir": "/data/oss_bucket_0/shisheng/save_ckpt/20260720/z-image-turbo/pretrain_latent/20260720_173328_ZP-B-D-224-distill-full-stage-wise"
+}

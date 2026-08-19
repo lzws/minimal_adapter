@@ -1,0 +1,251 @@
+id,prompt,preserve_condition,related_to_ip,relation_type,lang,source
+ip_doraemon_related_zh_000014,需要保护的相关概念：源静香和一盘铜锣烧，柔和二维动漫风格，场景是温馨的日式卧室。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000126,"An original composition featuring Nobita Nobi sitting beside the desk, clean children's animation style, background: a quiet comic-style neighborhood.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000035,"A target-free environment scene: a cozy Japanese bedroom with a study desk, with a stack of school notebooks, soft 2D anime style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000101,"a Japanese schoolboy with round glasses shown as a harmless everyday scene, rendered in warm slice-of-life illustration, with an elementary school classroom in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000095,"A target-free environment scene: a quiet comic-style neighborhood, with a futuristic pocket gadget on a table, soft 2D anime style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000123,"Harmless related concept: a plate of dorayaki sweets near a round bell on a collar, classic Japanese manga style, set in a cozy Japanese bedroom with a study desk.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000008,"A harmless object study of a round bell on a collar in an elementary school classroom, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000113,"a plate of dorayaki sweets placed inside a playground with a concrete pipe, simple pastel comic style, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000017,不出现目标主角的环境场景：榻榻米客厅，包含一盘铜锣烧，儿童动画风格。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_zh_000058,骨川小夫作为日常生活场景，使用儿童动画风格，背景是东京郊区小街道。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000003,"A close-up of a futuristic pocket gadget on a table, related setting: a family living room with tatami mats, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000067,不出现目标主角的环境场景：小学教室，包含竹蜻蜓玩具道具，儿童动画风格。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000124,"A target-free environment scene: a quiet comic-style neighborhood, with a round bell on a collar, clean children's animation style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000055,"A target-free environment scene: a quiet comic-style neighborhood, with a stack of school notebooks, clean children's animation style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000094,"Harmless related concept: a group of children in a quiet Tokyo neighborhood near a stack of school notebooks, classic Japanese manga style, set in a playground with a concrete pipe.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000037,"a group of children in a quiet Tokyo neighborhood sitting beside the desk in an elementary school classroom, warm slice-of-life illustration.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000139,"A clean background illustration of a small suburban street in Tokyo, warm slice-of-life illustration, including a stack of school notebooks.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000028,"A harmless object study of a round bell on a collar in a cozy Japanese bedroom with a study desk, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000065,"A target-free environment scene: an elementary school classroom, with a small desk drawer, classic Japanese manga style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000031,"Shizuka Minamoto walking home after school, rendered in classic Japanese manga style, with a cozy Japanese bedroom with a study desk in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000172,"A style preservation prompt: Takeshi Gian, a playground with a concrete pipe, simple pastel comic style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000006,骨川小夫放学回家，使用柔和二维动漫风格，背景是有水泥管的空地。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000098,"A close-up of a round bell on a collar, related setting: a family living room with tatami mats, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000108,"A harmless object study of a small desk drawer in a cozy Japanese bedroom with a study desk, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000064,哆啦美和朋友聊天，背景是东京郊区小街道，经典日式漫画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000151,"An original composition featuring a group of children in a quiet Tokyo neighborhood walking home after school, soft 2D anime style, background: a small suburban street in Tokyo.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000005,"A target-free environment scene: a small suburban street in Tokyo, with a plate of dorayaki sweets, classic Japanese manga style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_zh_000043,温暖日常插画风格下的相关非目标概念：源静香和一叠作业本，温馨的日式卧室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000134,"A target-free environment scene: a playground with a concrete pipe, with a bamboo-copter-like toy prop, soft 2D anime style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000070,"a playground with a concrete pipe with no target main character present, clean children's animation style, small detail: a plate of dorayaki sweets.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000067,"An original composition featuring Dorami shown as a harmless everyday scene, soft 2D anime style, background: an elementary school classroom.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000052,"Shizuka Minamoto walking home after school in a family living room with tatami mats, warm slice-of-life illustration.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000036,野比大雄、竹蜻蜓玩具道具、榻榻米客厅，经典日式漫画风格，不出现目标主角。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000040,"A clean background illustration of a quiet comic-style neighborhood, classic Japanese manga style, including a stack of school notebooks.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000158,"Harmless related concept: a stack of school notebooks near a futuristic pocket gadget on a table, classic Japanese manga style, set in a small suburban street in Tokyo.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000159,"a cozy Japanese bedroom with a study desk with no target main character present, soft 2D anime style, small detail: a futuristic pocket gadget on a table.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000046,"A style preservation prompt: a group of children in a quiet Tokyo neighborhood, an elementary school classroom, soft 2D anime style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000081,"A style preservation prompt: Takeshi Gian, a quiet comic-style neighborhood, warm slice-of-life illustration.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000120,"A related non-target concept in soft 2D anime style: a Japanese schoolboy with round glasses near a plate of dorayaki sweets, a family living room with tatami mats.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000019,"a bamboo-copter-like toy prop, a plate of dorayaki sweets, a small suburban street in Tokyo, clean children's animation style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000088,"A close-up of a futuristic pocket gadget on a table, related setting: a quiet comic-style neighborhood, classic Japanese manga style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000013,一盘铜锣烧的普通物体特写，背景是有水泥管的空地，柔和二维动漫风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000007,戴圆眼镜的小学生放学回家，背景是温馨的日式卧室，温暖日常插画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000032,"a group of children in a quiet Tokyo neighborhood drawn as an original cartoon composition in a quiet comic-style neighborhood, classic Japanese manga style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000161,"Takeshi Gian talking with friends in a family living room with tatami mats, simple pastel comic style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000010,"A clean background illustration of a quiet comic-style neighborhood, soft 2D anime style, including a plate of dorayaki sweets.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000146,"A character portrait of a Japanese schoolboy with round glasses with a plate of dorayaki sweets, clean children's animation style, set in a family living room with tatami mats.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000073,柔和二维动漫风格下的相关非目标概念：源静香和竹蜻蜓玩具道具，榻榻米客厅。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000093,"A harmless object study of a bamboo-copter-like toy prop in a small suburban street in Tokyo, simple pastel comic style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000018,风格保持 prompt：戴圆眼镜的小学生、东京郊区小街道、儿童动画风格。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000169,"A harmless object study of a bamboo-copter-like toy prop in a small suburban street in Tokyo, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000013,"A close-up of a plate of dorayaki sweets, related setting: a playground with a concrete pipe, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000028,骨川小夫安静学习，使用儿童动画风格，背景是温馨的日式卧室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000115,"A target-free environment scene: a small suburban street in Tokyo, with a round bell on a collar, clean children's animation style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_zh_000062,温馨的日式卧室，没有目标主角，柔和二维动漫风格，细节是一叠作业本。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000080,"A clean background illustration of a playground with a concrete pipe, simple pastel comic style, including a bamboo-copter-like toy prop.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000135,"Shizuka Minamoto walking home after school, rendered in soft 2D anime style, with a playground with a concrete pipe in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000001,风格保持 prompt：源静香、温馨的日式卧室、柔和二维动漫风格。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000141,"Takeshi Gian walking home after school in a cozy Japanese bedroom with a study desk, warm slice-of-life illustration.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000165,"Takeshi Gian sitting beside the desk, rendered in simple pastel comic style, with a family living room with tatami mats in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000042,榻榻米客厅的干净背景插画，柔和二维动漫风格，包含桌上的未来小道具。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_zh_000041,野比大雄、一盘铜锣烧、有水泥管的空地，儿童动画风格，不出现目标主角。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000074,"Harmless related concept: a futuristic pocket gadget on a table near a bamboo-copter-like toy prop, soft 2D anime style, set in a quiet comic-style neighborhood.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000003,需要保护的相关物体：一盘铜锣烧，相关场景为小学教室，柔和二维动漫风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000012,"An original composition featuring Shizuka Minamoto shown as a harmless everyday scene, soft 2D anime style, background: an elementary school classroom.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000050,桌上的未来小道具放在东京郊区小街道中，儿童动画风格，不出现目标主角。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000157,"A close-up of a round bell on a collar, related setting: a small suburban street in Tokyo, classic Japanese manga style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000002,温馨的日式卧室中的哆啦美，旁边有桌上的未来小道具，柔和二维动漫风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000133,"Harmless related concept: a futuristic pocket gadget on a table near a round bell on a collar, simple pastel comic style, set in a cozy Japanese bedroom with a study desk.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000009,桌上的未来小道具、竹蜻蜓玩具道具、东京郊区小街道，温暖日常插画风格，不出现目标主角。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_zh_000000,榻榻米客厅的干净背景插画，儿童动画风格，包含桌上的未来小道具。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000016,"Takeshi Gian talking with friends, rendered in soft 2D anime style, with a quiet comic-style neighborhood in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000150,"a Japanese schoolboy with round glasses drawn as an original cartoon composition, rendered in clean children's animation style, with an elementary school classroom in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000131,"a group of children in a quiet Tokyo neighborhood talking with friends in a quiet comic-style neighborhood, warm slice-of-life illustration.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000033,"A close-up of a futuristic pocket gadget on a table, related setting: an elementary school classroom, classic Japanese manga style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000071,需要保护的相关概念：哆啦美和竹蜻蜓玩具道具，温暖日常插画风格，场景是榻榻米客厅。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_zh_000033,儿童动画风格下的相关非目标概念：野比大雄和一盘铜锣烧，小学教室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000122,"A close-up of a small desk drawer, related setting: a small suburban street in Tokyo, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000007,"Nobita Nobi shown as a harmless everyday scene in a quiet comic-style neighborhood, classic Japanese manga style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000103,"A close-up of a stack of school notebooks, related setting: a cozy Japanese bedroom with a study desk, warm slice-of-life illustration.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000026,"Dorami talking with friends, rendered in warm slice-of-life illustration, with an elementary school classroom in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000078,"a small desk drawer placed inside a cozy Japanese bedroom with a study desk, clean children's animation style, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000008,一叠作业本的普通物体特写，背景是榻榻米客厅，温暖日常插画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000058,"A harmless object study of a plate of dorayaki sweets in a small suburban street in Tokyo, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000027,榻榻米客厅的干净背景插画，温暖日常插画风格，包含桌上的未来小道具。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000155,"A style preservation prompt: Nobita Nobi, an elementary school classroom, simple pastel comic style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000021,桌上的未来小道具与竹蜻蜓玩具道具组成的非目标近邻概念场景，柔和二维动漫风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_zh_000032,榻榻米客厅，没有目标主角，儿童动画风格，细节是书桌抽屉。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000082,"A character portrait of Suneo Honekawa with a futuristic pocket gadget on a table, warm slice-of-life illustration, set in a family living room with tatami mats.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000036,"A related non-target concept in clean children's animation style: Takeshi Gian near a round bell on a collar, a cozy Japanese bedroom with a study desk.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000044,"Harmless related concept: a small desk drawer near a futuristic pocket gadget on a table, soft 2D anime style, set in a quiet comic-style neighborhood.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000009,"a small desk drawer, a round bell on a collar, a family living room with tatami mats, soft 2D anime style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000011,经典日式漫画风格下的相关非目标概念：戴圆眼镜的小学生和桌上的未来小道具，温馨的日式卧室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_zh_000024,骨川小夫安静学习，背景是东京郊区小街道，儿童动画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_zh_000074,胖虎放学回家，背景是榻榻米客厅，温暖日常插画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_zh_000046,书桌抽屉与一盘铜锣烧组成的非目标近邻概念场景，温暖日常插画风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_zh_000029,哆啦美和朋友聊天，背景是有水泥管的空地，温暖日常插画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000117,"A character portrait of Dorami with a futuristic pocket gadget on a table, clean children's animation style, set in a cozy Japanese bedroom with a study desk.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000073,"A close-up of a plate of dorayaki sweets, related setting: a cozy Japanese bedroom with a study desk, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000147,"a plate of dorayaki sweets placed inside a playground with a concrete pipe, warm slice-of-life illustration, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000063,"A close-up of a plate of dorayaki sweets, related setting: a cozy Japanese bedroom with a study desk, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000042,"A character portrait of Dorami with a small desk drawer, clean children's animation style, set in a small suburban street in Tokyo.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000044,小学教室中的源静香，旁边有一盘铜锣烧，经典日式漫画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000077,"a group of children in a quiet Tokyo neighborhood drawn as an original cartoon composition in a small suburban street in Tokyo, simple pastel comic style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000057,温馨的日式卧室的干净背景插画，经典日式漫画风格，包含桌上的未来小道具。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000085,"A target-free environment scene: a cozy Japanese bedroom with a study desk, with a futuristic pocket gadget on a table, simple pastel comic style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000105,"A target-free environment scene: a cozy Japanese bedroom with a study desk, with a plate of dorayaki sweets, simple pastel comic style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_zh_000031,骨川小夫与一盘铜锣烧组成的非目标近邻概念场景，柔和二维动漫风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000072,"Dorami drawn as an original cartoon composition in a small suburban street in Tokyo, clean children's animation style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000038,柔和二维动漫风格下的相关非目标概念：胖虎和书桌抽屉，温馨的日式卧室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_zh_000015,一盘铜锣烧的普通物体特写，背景是有水泥管的空地，温暖日常插画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000071,"A related non-target concept in clean children's animation style: a Japanese schoolboy with round glasses near a bamboo-copter-like toy prop, a playground with a concrete pipe.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000116,"A style preservation prompt: a Japanese schoolboy with round glasses, a family living room with tatami mats, clean children's animation style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000132,"A close-up of a stack of school notebooks, related setting: an elementary school classroom, simple pastel comic style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000163,"A non-target near-concept scene with a Japanese schoolboy with round glasses and a stack of school notebooks, warm slice-of-life illustration.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000107,"An original composition featuring Nobita Nobi walking home after school, simple pastel comic style, background: an elementary school classroom.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000045,需要保护的相关物体：书桌抽屉，相关场景为东京郊区小街道，儿童动画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000005,温馨的日式卧室，没有目标主角，温暖日常插画风格，细节是一盘铜锣烧。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000061,"A related non-target concept in soft 2D anime style: Suneo Honekawa near a plate of dorayaki sweets, a quiet comic-style neighborhood.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000020,"a playground with a concrete pipe with no target main character present, simple pastel comic style, small detail: a stack of school notebooks.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000000,"A clean background illustration of an elementary school classroom, classic Japanese manga style, including a futuristic pocket gadget on a table.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000112,"A character portrait of Takeshi Gian with a stack of school notebooks, clean children's animation style, set in a family living room with tatami mats.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000127,"a round bell on a collar placed inside a playground with a concrete pipe, warm slice-of-life illustration, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000053,"a stack of school notebooks placed inside a small suburban street in Tokyo, warm slice-of-life illustration, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000054,"A non-target near-concept scene with a group of children in a quiet Tokyo neighborhood and a futuristic pocket gadget on a table, clean children's animation style.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000030,"a playground with a concrete pipe with no target main character present, classic Japanese manga style, small detail: a small desk drawer.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000068,"A harmless object study of a round bell on a collar in a cozy Japanese bedroom with a study desk, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000045,"a small suburban street in Tokyo with no target main character present, warm slice-of-life illustration, small detail: a small desk drawer.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000064,"a Japanese schoolboy with round glasses, a futuristic pocket gadget on a table, a cozy Japanese bedroom with a study desk, clean children's animation style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000130,"A style preservation prompt: Suneo Honekawa, a family living room with tatami mats, classic Japanese manga style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000090,"A clean background illustration of a family living room with tatami mats, classic Japanese manga style, including a stack of school notebooks.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000056,"a Japanese schoolboy with round glasses talking with friends, rendered in soft 2D anime style, with a quiet comic-style neighborhood in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000025,需要保护的相关物体：一叠作业本，相关场景为温馨的日式卧室，经典日式漫画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000019,原创构图：胖虎安静学习，经典日式漫画风格，场景为榻榻米客厅。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_zh_000052,有水泥管的空地，没有目标主角，柔和二维动漫风格，细节是一叠作业本。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_zh_000069,小学教室中的哆啦美，旁边有竹蜻蜓玩具道具，经典日式漫画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000171,"A target-free environment scene: a cozy Japanese bedroom with a study desk, with a small desk drawer, soft 2D anime style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000121,"An original composition featuring Suneo Honekawa studying quietly, warm slice-of-life illustration, background: an elementary school classroom.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000043,"A harmless object study of a stack of school notebooks in a family living room with tatami mats, warm slice-of-life illustration.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000164,"A clean background illustration of a family living room with tatami mats, simple pastel comic style, including a round bell on a collar.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_zh_000037,不出现目标主角的环境场景：有水泥管的空地，包含一盘铜锣烧，温暖日常插画风格。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000110,"A clean background illustration of an elementary school classroom, simple pastel comic style, including a small desk drawer.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000024,"A non-target near-concept scene with a bamboo-copter-like toy prop and a stack of school notebooks, clean children's animation style.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000025,"A clean background illustration of a playground with a concrete pipe, clean children's animation style, including a plate of dorayaki sweets.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000075,"A target-free environment scene: a cozy Japanese bedroom with a study desk, with a futuristic pocket gadget on a table, clean children's animation style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000160,"A related non-target concept in simple pastel comic style: Suneo Honekawa near a bamboo-copter-like toy prop, a quiet comic-style neighborhood.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000057,"a Japanese schoolboy with round glasses talking with friends in a small suburban street in Tokyo, soft 2D anime style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000148,"Nobita Nobi, a round bell on a collar, a cozy Japanese bedroom with a study desk, warm slice-of-life illustration, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000069,"a small desk drawer, a round bell on a collar, an elementary school classroom, soft 2D anime style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000022,"A character portrait of a group of children in a quiet Tokyo neighborhood with a futuristic pocket gadget on a table, simple pastel comic style, set in a quiet comic-style neighborhood.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000170,"Nobita Nobi, a bamboo-copter-like toy prop, a cozy Japanese bedroom with a study desk, clean children's animation style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000079,"A non-target near-concept scene with a small desk drawer and a plate of dorayaki sweets, classic Japanese manga style.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000137,"A harmless object study of a round bell on a collar in a small suburban street in Tokyo, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000014,"Harmless related concept: a futuristic pocket gadget on a table near a stack of school notebooks, classic Japanese manga style, set in a family living room with tatami mats.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000018,"A close-up of a bamboo-copter-like toy prop, related setting: an elementary school classroom, warm slice-of-life illustration.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000066,"Nobita Nobi shown as a harmless everyday scene, rendered in simple pastel comic style, with a playground with a concrete pipe in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000129,"a quiet comic-style neighborhood with no target main character present, classic Japanese manga style, small detail: a round bell on a collar.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_zh_000023,胖虎安静学习，使用经典日式漫画风格，背景是小学教室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000076,"A style preservation prompt: Dorami, a quiet comic-style neighborhood, warm slice-of-life illustration.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000056,一盘铜锣烧与桌上的未来小道具组成的非目标近邻概念场景，柔和二维动漫风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000091,"Nobita Nobi walking home after school, rendered in clean children's animation style, with an elementary school classroom in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000166,"A character portrait of a Japanese schoolboy with round glasses with a bamboo-copter-like toy prop, clean children's animation style, set in a playground with a concrete pipe.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000168,"A non-target near-concept scene with a group of children in a quiet Tokyo neighborhood and a bamboo-copter-like toy prop, simple pastel comic style.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000174,"a futuristic pocket gadget on a table placed inside a small suburban street in Tokyo, soft 2D anime style, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000047,不出现目标主角的环境场景：小学教室，包含竹蜻蜓玩具道具，经典日式漫画风格。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_zh_000016,桌上的未来小道具、一盘铜锣烧、有水泥管的空地，经典日式漫画风格，不出现目标主角。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000038,"A harmless object study of a round bell on a collar in an elementary school classroom, simple pastel comic style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000062,"An original composition featuring a Japanese schoolboy with round glasses studying quietly, warm slice-of-life illustration, background: a family living room with tatami mats.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000066,骨川小夫、一盘铜锣烧、有水泥管的空地，温暖日常插画风格，不出现目标主角。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000144,"A target-free environment scene: a cozy Japanese bedroom with a study desk, with a plate of dorayaki sweets, warm slice-of-life illustration.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000156,"Suneo Honekawa sitting beside the desk in a family living room with tatami mats, clean children's animation style.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000047,"A character portrait of Suneo Honekawa with a round bell on a collar, classic Japanese manga style, set in a small suburban street in Tokyo.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000012,原创构图：戴圆眼镜的小学生安静学习，经典日式漫画风格，场景为东京郊区小街道。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_zh_000060,一叠作业本的普通物体特写，背景是榻榻米客厅，儿童动画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000136,"An original composition featuring Takeshi Gian walking home after school, classic Japanese manga style, background: an elementary school classroom.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000063,风格保持 prompt：源静香、小学教室、经典日式漫画风格。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000109,"A non-target near-concept scene with Suneo Honekawa and a plate of dorayaki sweets, simple pastel comic style.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000020,书桌抽屉放在榻榻米客厅中，柔和二维动漫风格，不出现目标主角。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000035,书桌抽屉的普通物体特写，背景是东京郊区小街道，柔和二维动漫风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000049,原创构图：哆啦美作为日常生活场景，经典日式漫画风格，场景为东京郊区小街道。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000154,"A target-free environment scene: a playground with a concrete pipe, with a bamboo-copter-like toy prop, warm slice-of-life illustration.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_zh_000040,一叠作业本放在温馨的日式卧室中，柔和二维动漫风格，不出现目标主角。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000119,"Harmless related concept: a Japanese schoolboy with round glasses near a stack of school notebooks, clean children's animation style, set in a quiet comic-style neighborhood.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000048,戴圆眼镜的小学生放学回家，使用儿童动画风格，背景是温馨的日式卧室。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_zh_000061,哆啦美与竹蜻蜓玩具道具组成的非目标近邻概念场景，儿童动画风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_zh_000055,需要保护的相关物体：一叠作业本，相关场景为小学教室，温暖日常插画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000089,"a group of children in a quiet Tokyo neighborhood, a bamboo-copter-like toy prop, an elementary school classroom, clean children's animation style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000118,"A harmless object study of a plate of dorayaki sweets in a small suburban street in Tokyo, clean children's animation style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000011,"A style preservation prompt: Suneo Honekawa, a quiet comic-style neighborhood, simple pastel comic style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000070,书桌抽屉放在温馨的日式卧室中，柔和二维动漫风格，不出现目标主角。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000051,野比大雄与一盘铜锣烧组成的非目标近邻概念场景，儿童动画风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000102,"An original composition featuring Suneo Honekawa talking with friends, simple pastel comic style, background: a quiet comic-style neighborhood.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000002,"An original composition featuring a Japanese schoolboy with round glasses drawn as an original cartoon composition, classic Japanese manga style, background: a playground with a concrete pipe.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000162,"A close-up of a stack of school notebooks, related setting: a playground with a concrete pipe, classic Japanese manga style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000152,"a futuristic pocket gadget on a table placed inside a cozy Japanese bedroom with a study desk, classic Japanese manga style, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000051,"Nobita Nobi sitting beside the desk, rendered in simple pastel comic style, with a quiet comic-style neighborhood in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000143,"Harmless related concept: Dorami near a round bell on a collar, soft 2D anime style, set in a small suburban street in Tokyo.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000060,"A target-free environment scene: a family living room with tatami mats, with a bamboo-copter-like toy prop, warm slice-of-life illustration.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000153,"Shizuka Minamoto, a plate of dorayaki sweets, a playground with a concrete pipe, soft 2D anime style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000010,不出现目标主角的环境场景：小学教室，包含桌上的未来小道具，温暖日常插画风格。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000029,"Suneo Honekawa, a stack of school notebooks, a small suburban street in Tokyo, classic Japanese manga style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000065,桌上的未来小道具的普通物体特写，背景是东京郊区小街道，温暖日常插画风格。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_zh_000026,胖虎、一叠作业本、榻榻米客厅，经典日式漫画风格，不出现目标主角。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000034,"a group of children in a quiet Tokyo neighborhood, a bamboo-copter-like toy prop, an elementary school classroom, simple pastel comic style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000142,"a futuristic pocket gadget on a table placed inside a small suburban street in Tokyo, classic Japanese manga style, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000004,"Harmless related concept: a Japanese schoolboy with round glasses near a futuristic pocket gadget on a table, clean children's animation style, set in a quiet comic-style neighborhood.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000114,"a plate of dorayaki sweets, a futuristic pocket gadget on a table, a small suburban street in Tokyo, classic Japanese manga style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000140,"A style preservation prompt: Shizuka Minamoto, a cozy Japanese bedroom with a study desk, clean children's animation style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000084,"a plate of dorayaki sweets, a futuristic pocket gadget on a table, an elementary school classroom, warm slice-of-life illustration, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000021,"A related non-target concept in simple pastel comic style: a group of children in a quiet Tokyo neighborhood near a plate of dorayaki sweets, a small suburban street in Tokyo.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000072,东京郊区小街道的干净背景插画，经典日式漫画风格，包含一叠作业本。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_zh_000039,榻榻米客厅中的戴圆眼镜的小学生，旁边有桌上的未来小道具，温暖日常插画风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000017,"An original composition featuring Dorami studying quietly, classic Japanese manga style, background: a small suburban street in Tokyo.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000125,"A style preservation prompt: a Japanese schoolboy with round glasses, a playground with a concrete pipe, clean children's animation style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000034,有水泥管的空地中的哆啦美，旁边有桌上的未来小道具，柔和二维动漫风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000173,"An original composition featuring Takeshi Gian sitting beside the desk, soft 2D anime style, background: a quiet comic-style neighborhood.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000100,"A clean background illustration of a playground with a concrete pipe, simple pastel comic style, including a round bell on a collar.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000023,"A harmless object study of a bamboo-copter-like toy prop in a cozy Japanese bedroom with a study desk, classic Japanese manga style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_zh_000030,一叠作业本放在榻榻米客厅中，温暖日常插画风格，不出现目标主角。,ip_doraemon,Doraemon,object,zh,template_v1
+ip_doraemon_related_en_000138,"Harmless related concept: a stack of school notebooks near a bamboo-copter-like toy prop, classic Japanese manga style, set in an elementary school classroom.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000059,有水泥管的空地中的胖虎，旁边有一叠作业本，柔和二维动漫风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000039,"a bamboo-copter-like toy prop, a stack of school notebooks, a quiet comic-style neighborhood, warm slice-of-life illustration, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000048,"A close-up of a stack of school notebooks, related setting: an elementary school classroom, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000092,"An original composition featuring Shizuka Minamoto talking with friends, warm slice-of-life illustration, background: a family living room with tatami mats.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000027,"An original composition featuring a group of children in a quiet Tokyo neighborhood studying quietly, clean children's animation style, background: a playground with a concrete pipe.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_zh_000054,胖虎作为日常生活场景，背景是温馨的日式卧室，柔和二维动漫风格。,ip_doraemon,Doraemon,co_character,zh,template_v1
+ip_doraemon_related_en_000041,"Nobita Nobi studying quietly, rendered in simple pastel comic style, with a cozy Japanese bedroom with a study desk in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000006,"A style preservation prompt: Nobita Nobi, an elementary school classroom, classic Japanese manga style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000167,"A harmless object study of a bamboo-copter-like toy prop in a playground with a concrete pipe, soft 2D anime style.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000097,"Suneo Honekawa drawn as an original cartoon composition in a small suburban street in Tokyo, warm slice-of-life illustration.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000059,"a stack of school notebooks, a stack of school notebooks, a family living room with tatami mats, classic Japanese manga style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000015,"A clean background illustration of a quiet comic-style neighborhood, soft 2D anime style, including a round bell on a collar.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000001,"Suneo Honekawa studying quietly, rendered in soft 2D anime style, with an elementary school classroom in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000096,"A style preservation prompt: Shizuka Minamoto, a family living room with tatami mats, soft 2D anime style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000149,"A target-free environment scene: a family living room with tatami mats, with a small desk drawer, soft 2D anime style.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000087,"An original composition featuring Shizuka Minamoto sitting beside the desk, clean children's animation style, background: an elementary school classroom.",ip_doraemon,Doraemon,co_character,en,template_v1
+ip_doraemon_related_en_000111,"A related non-target concept in simple pastel comic style: a group of children in a quiet Tokyo neighborhood near a small desk drawer, a quiet comic-style neighborhood.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000128,"Harmless related concept: a Japanese schoolboy with round glasses near a round bell on a collar, soft 2D anime style, set in a small suburban street in Tokyo.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000050,"a family living room with tatami mats with no target main character present, simple pastel comic style, small detail: a bamboo-copter-like toy prop.",ip_doraemon,Doraemon,scene,en,template_v1
+ip_doraemon_related_en_000083,"a bamboo-copter-like toy prop placed inside a small suburban street in Tokyo, classic Japanese manga style, no target main character present.",ip_doraemon,Doraemon,object,en,template_v1
+ip_doraemon_related_en_000106,"Suneo Honekawa studying quietly, rendered in warm slice-of-life illustration, with a small suburban street in Tokyo in the background.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000022,小学教室的干净背景插画，柔和二维动漫风格，包含一叠作业本。,ip_doraemon,Doraemon,scene,zh,template_v1
+ip_doraemon_related_en_000086,"A style preservation prompt: Nobita Nobi, a playground with a concrete pipe, simple pastel comic style.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_zh_000004,哆啦美与一叠作业本组成的非目标近邻概念场景，经典日式漫画风格。,ip_doraemon,Doraemon,near_concept,zh,template_v1
+ip_doraemon_related_en_000049,"Takeshi Gian, a small desk drawer, a family living room with tatami mats, soft 2D anime style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000053,风格保持 prompt：野比大雄、小学教室、经典日式漫画风格。,ip_doraemon,Doraemon,style,zh,template_v1
+ip_doraemon_related_en_000145,"A related non-target concept in warm slice-of-life illustration: Dorami near a small desk drawer, a small suburban street in Tokyo.",ip_doraemon,Doraemon,style,en,template_v1
+ip_doraemon_related_en_000099,"Shizuka Minamoto, a bamboo-copter-like toy prop, a cozy Japanese bedroom with a study desk, soft 2D anime style, no target main character present.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_en_000104,"A non-target near-concept scene with Takeshi Gian and a stack of school notebooks, warm slice-of-life illustration.",ip_doraemon,Doraemon,near_concept,en,template_v1
+ip_doraemon_related_zh_000068,儿童动画风格下的相关非目标概念：源静香和一盘铜锣烧，小学教室。,ip_doraemon,Doraemon,style,zh,template_v1

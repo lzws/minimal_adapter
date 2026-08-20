@@ -10,6 +10,9 @@
 
 不包含 Z-Image 权重、latent backbone checkpoint 和 reference bank。
 
+`minimal_adapter/train_adapter.py` 同时支持 latent-backbone 和 z03 分类头反馈。
+如果要跑 porn / gore，推荐直接用这里的 z03 入口。
+
 ## 支持的 Adapter
 
 `train_adapter.py --adapter_type` 支持：
@@ -47,6 +50,8 @@ project_root/
 ```text
 minimal_adapter/data/
 ├── train/
+│   ├── porn_5000.csv
+│   ├── gore_5000.csv
 │   ├── ip_5_z03_filtered_23760.csv
 │   ├── benign_all.csv
 │   └── single_ip/
@@ -56,6 +61,12 @@ minimal_adapter/data/
 │       ├── ip_snow_white_z03_filtered_4530.csv
 │       └── ip_spongebob_z03_filtered_5000.csv
 ├── test/
+│   ├── porn_level_4.csv
+│   ├── porn_level_4_5.csv
+│   ├── porn_level_5.csv
+│   ├── gore_level_4.csv
+│   ├── gore_level_4_5.csv
+│   ├── gore_level_5.csv
 │   ├── ip_5.csv
 │   ├── benign_200.csv
 │   ├── benign_200_train_disjoint.csv
@@ -208,6 +219,94 @@ similarity，而不是直接把绝对 similarity 往低处推。它通常应配�
 --restrict_adapter_to_user_content_tokens
 ```
 
+### Z-03 Porn
+
+```bash
+CUDA_VISIBLE_DEVICES=0 \
+conda run -n loraretrieval python -u minimal_adapter/train_adapter.py \
+  --model_path Z-Image-Turbo \
+  --feedback_model z03 \
+  --z03_ckpt "latent_vit/latent_detector_export/z-image-turbo/best_test_avg_f1_model (1).pth" \
+  --z03_model_type export \
+  --z03_model_file minimal_adapter/latent_detector_model.py \
+  --target_risk porn \
+  --unsafe_csv minimal_adapter/data/train/porn_5000.csv \
+  --benign_csv minimal_adapter/data/train/benign_all.csv \
+  --adapter_type mlp \
+  --adapter_depth 2 \
+  --gate_type none \
+  --risk_loss_type ce \
+  --risk_loss_on all \
+  --t_min 4 --t_max 4 \
+  --max_train_steps 20000 \
+  --output_dir outputs/minimal_z03_porn_mlp_depth2_ce
+```
+
+### Z-03 Gore
+
+```bash
+CUDA_VISIBLE_DEVICES=0 \
+conda run -n loraretrieval python -u minimal_adapter/train_adapter.py \
+  --model_path Z-Image-Turbo \
+  --feedback_model z03 \
+  --z03_ckpt "latent_vit/latent_detector_export/z-image-turbo/best_test_avg_f1_model (1).pth" \
+  --z03_model_type export \
+  --z03_model_file minimal_adapter/latent_detector_model.py \
+  --target_risk gore \
+  --unsafe_csv minimal_adapter/data/train/gore_5000.csv \
+  --benign_csv minimal_adapter/data/train/benign_all.csv \
+  --adapter_type mlp \
+  --adapter_depth 2 \
+  --gate_type none \
+  --risk_loss_type ce \
+  --risk_loss_on all \
+  --t_min 4 --t_max 4 \
+  --max_train_steps 20000 \
+  --output_dir outputs/minimal_z03_gore_mlp_depth2_ce
+```
+
+### Z-03 IP（5 个 IP 分类头）
+
+当 `--target_risk ip` 时，训练代码会根据 unsafe CSV 的
+`sub_category`、`original_category` 或 `id` 推断当前样本的 IP condition。
+z03 IP head 的类别定义为：
+
+```text
+0 = Snow White
+1 = Doraemon
+2 = Minions
+3 = Elsa
+4 = SpongeBob
+5 = other / safe
+```
+
+5-IP z03 分类头训练命令：
+
+```bash
+CUDA_VISIBLE_DEVICES=0 \
+conda run -n loraretrieval python -u minimal_adapter/train_adapter.py \
+  --model_path Z-Image-Turbo \
+  --feedback_model z03 \
+  --z03_ckpt "latent_vit/latent_detector_export/z-image-turbo/best_test_avg_f1_model (1).pth" \
+  --z03_model_type export \
+  --z03_model_file minimal_adapter/latent_detector_model.py \
+  --target_risk ip \
+  --unsafe_csv minimal_adapter/data/train/ip_5_z03_filtered_23760.csv \
+  --benign_csv minimal_adapter/data/train/benign_all.csv \
+  --adapter_type mlp \
+  --adapter_depth 2 \
+  --gate_type none \
+  --risk_loss_type ce \
+  --risk_loss_on all \
+  --t_min 4 --t_max 4 \
+  --max_train_steps 20000 \
+  --output_dir outputs/minimal_z03_ip5_mlp_depth2_ce
+```
+
+IP 训练会压低每条 unsafe 样本对应的 IP 类，并推动输出靠近
+`other / safe` 类。训练 CSV 必须保留 IP 元数据，推荐使用上面的
+`ip_5_z03_filtered_23760.csv`。
+
 ## 测试
 
 测试脚本从 checkpoint 的 `adapter_config` 自动恢复 adapter 类型，不需要重新指定
@@ -231,6 +330,77 @@ conda run -n loraretrieval python -u minimal_adapter/test_adapter.py \
 ```bash
 --skip_base_generation
 ```
+
+### Z-03 Porn / Gore 测试
+
+```bash
+CUDA_VISIBLE_DEVICES=0 \
+conda run -n loraretrieval python -u minimal_adapter/test_adapter.py \
+  --adapter_ckpt outputs/minimal_z03_porn_mlp_depth2_ce/checkpoints/latest.pt \
+  --model_path Z-Image-Turbo \
+  --unsafe_csv minimal_adapter/data/test/porn_level_5.csv \
+  --benign_csv minimal_adapter/data/test/benign_200_train_disjoint.csv \
+  --target_risk porn \
+  --prompt_set unsafe \
+  --use_all_data \
+  --num_prompts 20 \
+  --skip_base_generation \
+  --z03_ckpt "latent_vit/latent_detector_export/z-image-turbo/best_test_avg_f1_model (1).pth" \
+  --z03_model_type export \
+  --z03_model_file minimal_adapter/latent_detector_model.py \
+  --output_dir outputs/minimal_z03_porn_test
+```
+
+Gore 测试命令：
+
+```bash
+CUDA_VISIBLE_DEVICES=0 \
+conda run -n loraretrieval python -u minimal_adapter/test_adapter.py \
+  --adapter_ckpt outputs/minimal_z03_gore_mlp_depth2_ce/checkpoints/latest.pt \
+  --model_path Z-Image-Turbo \
+  --unsafe_csv minimal_adapter/data/test/gore_level_5.csv \
+  --benign_csv minimal_adapter/data/test/benign_200_train_disjoint.csv \
+  --target_risk gore \
+  --prompt_set unsafe \
+  --use_all_data \
+  --num_prompts 20 \
+  --skip_base_generation \
+  --z03_ckpt "latent_vit/latent_detector_export/z-image-turbo/best_test_avg_f1_model (1).pth" \
+  --z03_model_type export \
+  --z03_model_file minimal_adapter/latent_detector_model.py \
+  --output_dir outputs/minimal_z03_gore_test
+```
+
+### Z-03 IP（5 个 IP）测试
+
+下面的命令按 5 个 IP 分组，每个 IP 测试 20 条 prompt，共 100 条：
+
+```bash
+CUDA_VISIBLE_DEVICES=0 \
+conda run -n loraretrieval python -u minimal_adapter/test_adapter.py \
+  --adapter_ckpt outputs/minimal_z03_ip5_mlp_depth2_ce/checkpoints/latest.pt \
+  --model_path Z-Image-Turbo \
+  --unsafe_csv minimal_adapter/data/test/ip_5.csv \
+  --benign_csv minimal_adapter/data/test/benign_200_train_disjoint.csv \
+  --target_risk ip \
+  --prompt_set unsafe \
+  --use_all_data \
+  --num_prompts 100 \
+  --group_by_metadata_key original_category \
+  --group_metadata_values "Snow White,Doraemon,Minions,Elsa,SpongeBob Squarepants" \
+  --samples_per_group 20 \
+  --skip_base_generation \
+  --z03_ckpt "latent_vit/latent_detector_export/z-image-turbo/best_test_avg_f1_model (1).pth" \
+  --z03_model_type export \
+  --z03_model_file minimal_adapter/latent_detector_model.py \
+  --output_dir outputs/minimal_z03_ip5_test
+```
+
+测试输出中的 `z03_scores.jsonl` 会记录每条样本的
+`adapter_risk_prob` 和 `adapter_safe_margin`。如果需要同时生成 base、
+adapter 和 compare 图片，去掉 `--skip_base_generation`。
+
+如果你还想同时输出 base / adapter / compare 图，去掉 `--skip_base_generation`。
 
 输出目录包含：
 

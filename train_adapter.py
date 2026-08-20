@@ -28,7 +28,6 @@ from safe_embedding_adapter.latent_backbone_feedback import (
     DEFAULT_LATENT_BACKBONE_MODEL_FILE,
     LatentBackboneCosineScorer,
     LatentBackboneFeatureEncoder,
-    build_reference_prototype_from_prompts,
     load_latent_reference_payload,
     load_latent_reference_prototypes,
 )
@@ -36,6 +35,11 @@ from safe_embedding_adapter.model import (
     IP_CONDITION_NAMES,
     freeze_module,
     ip_condition_from_metadata,
+)
+from safe_embedding_adapter.z03 import (
+    IP_CONDITION_TO_CLASS_ID,
+    Z03Scorer,
+    safe_classification_loss,
 )
 from safe_embedding_adapter.zimage_proxy import ZImageProxyLatentRunner
 from safe_embedding_adapter.zimage_train_pipeline import ZImageTrainPipeline
@@ -46,8 +50,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model_path", required=True, help="Local Z-Image-Turbo directory.")
     parser.add_argument("--unsafe_csv", required=True)
     parser.add_argument("--benign_csv", required=True)
-    parser.add_argument("--latent_reference_features", required=True)
-    parser.add_argument("--latent_backbone_checkpoint", required=True)
+    parser.add_argument("--feedback_model", choices=["latent_backbone", "z03"], default="latent_backbone")
+    parser.add_argument("--target_risk", choices=["porn", "gore", "ip"], default="ip")
+    parser.add_argument("--z03_ckpt", default=None, help="Z-03 classifier checkpoint; required when --feedback_model z03.")
+    parser.add_argument("--z03_model_type", choices=["auto", "legacy", "export"], default="auto")
+    parser.add_argument("--z03_model_file", default=None, help="Optional export model.py for Z-03.")
+    parser.add_argument("--risk_loss_type", choices=["ce", "softplus_margin", "hinge"], default="ce")
+    parser.add_argument("--risk_loss_on", choices=["unsafe_only", "all"], default="all")
+    parser.add_argument("--margin", type=float, default=0.5)
+    parser.add_argument("--latent_reference_features", default=None)
+    parser.add_argument("--latent_backbone_checkpoint", default=None)
     parser.add_argument("--latent_backbone_config", default=None)
     parser.add_argument("--latent_backbone_model_file", default=str(DEFAULT_LATENT_BACKBONE_MODEL_FILE))
     parser.add_argument("--latent_backbone_torch_dtype", choices=["float32", "float16", "bfloat16"], default="float32")
@@ -143,6 +155,11 @@ def validate_args(args: argparse.Namespace) -> None:
     if args.adapter_type == "zimage_adaln_classifier_condition":
         if args.adapter_attention_dim and args.adapter_attention_dim % args.adapter_attention_heads != 0:
             raise ValueError("--adapter_attention_dim must be divisible by --adapter_attention_heads")
+        if args.target_risk != "ip":
+            raise ValueError(
+                "zimage_adaln_classifier_condition 只支持 target_risk=ip；"
+                "porn/gore 请使用 mlp 或其它 risk condition adapter。"
+            )
     if not 0.0 < args.gate_init < 1.0:
         raise ValueError("--gate_init must be in (0, 1)")
     if args.residual_scale <= 0:
@@ -151,8 +168,20 @@ def validate_args(args: argparse.Namespace) -> None:
         raise ValueError("--token_gate cannot be used together with --gate_type global")
     if args.ranking_margin < 0:
         raise ValueError("--ranking_margin must be non-negative")
+    if args.margin < 0:
+        raise ValueError("--margin must be non-negative")
+    if args.feedback_model == "z03":
+        if not args.z03_ckpt:
+            raise ValueError("--feedback_model z03 requires --z03_ckpt")
+    else:
+        if not args.latent_reference_features:
+            raise ValueError("--feedback_model latent_backbone requires --latent_reference_features")
+        if not args.latent_backbone_checkpoint:
+            raise ValueError("--feedback_model latent_backbone requires --latent_backbone_checkpoint")
     if args.resume_from_checkpoint and not Path(args.resume_from_checkpoint).is_file():
         raise FileNotFoundError(args.resume_from_checkpoint)
+    if args.latent_reference_multi_ip and args.feedback_model != "latent_backbone":
+        raise ValueError("--latent_reference_multi_ip only applies to --feedback_model latent_backbone")
     if args.latent_reference_multi_ip and not args.latent_reference_features:
         raise ValueError("--latent_reference_multi_ip requires --latent_reference_features")
 
@@ -161,13 +190,20 @@ def resolve_risk_ids(
     samples: Sequence[PromptSample],
     rng: random.Random,
     *,
+    target_risk: str,
     multi_ip: bool,
     single_ip_condition: str,
 ) -> list[str]:
     risk_ids: list[str] = []
     for sample in samples:
         if sample.is_benign:
-            risk_ids.append(rng.choice(IP_CONDITION_NAMES))
+            if target_risk == "ip":
+                risk_ids.append(rng.choice(IP_CONDITION_NAMES))
+            else:
+                risk_ids.append(target_risk)
+            continue
+        if target_risk != "ip":
+            risk_ids.append(target_risk)
             continue
         if not multi_ip:
             risk_ids.append(single_ip_condition)
@@ -253,7 +289,7 @@ def save_checkpoint(
         "adapter_state_dict": accelerator.unwrap_model(adapter).state_dict(),
         "optimizer_state_dict": optimizer.state_dict(),
         "embedding_dim": int(embedding_dim),
-        "train_type": "latent_backbone_prompt_embedding_adapter",
+        "train_type": f"{args.feedback_model}_prompt_embedding_adapter",
         "adapter_config": dict(adapter_config),
         "proxy_config": {
             "height": args.height,
@@ -265,10 +301,16 @@ def save_checkpoint(
             "max_sequence_length": args.max_sequence_length,
         },
         "train_config": {
-            "feedback_model": "latent_backbone",
+            "feedback_model": args.feedback_model,
+            "target_risk": args.target_risk,
+            "z03_ckpt": args.z03_ckpt,
+            "z03_model_type": args.z03_model_type,
+            "z03_model_file": args.z03_model_file,
+            "risk_loss_type": args.risk_loss_type,
+            "risk_loss_on": args.risk_loss_on,
+            "margin": float(args.margin),
             "feedback_loss_type": args.feedback_loss_type,
             "ranking_margin": float(args.ranking_margin),
-            "target_risk": "ip",
             "latent_reference_features": args.latent_reference_features,
             "latent_reference_key": args.latent_reference_key,
             "latent_reference_multi_ip": bool(args.latent_reference_multi_ip),
@@ -365,38 +407,53 @@ def main() -> None:
     )
     adapter, optimizer = accelerator.prepare(adapter, optimizer)
 
-    latent_encoder = LatentBackboneFeatureEncoder(
-        args.latent_backbone_checkpoint,
-        config_path=args.latent_backbone_config,
-        model_file=args.latent_backbone_model_file,
-        device=device,
-        torch_dtype=torch_dtype_from_name(args.latent_backbone_torch_dtype),
-        input_size=args.latent_backbone_input_size,
-    )
-    if args.latent_reference_multi_ip:
-        prototypes, reference_metadata = load_latent_reference_prototypes(
-            args.latent_reference_features,
-        )
-        scorer = LatentBackboneCosineScorer(
-            encoder=latent_encoder,
-            target_prototypes=prototypes,
-            default_target_key=args.latent_reference_key,
-            reference_metadata=reference_metadata,
+    scorer = None
+    latent_reference_metadata = None
+    if args.feedback_model == "z03":
+        scorer = Z03Scorer(
+            args.z03_ckpt,
+            device=device,
+            model_type=args.z03_model_type,
+            model_file=args.z03_model_file,
         ).to(device)
+        scorer.eval()
         accelerator.print(
-            f"[minimal-train] multi-IP keys={reference_metadata['reference_keys']}"
+            f"[minimal-train] feedback=z03 target_risk={args.target_risk} "
+            f"checkpoint={args.z03_ckpt}"
         )
     else:
-        prototype, reference_metadata = load_latent_reference_payload(
-            args.latent_reference_features,
-            target_key=args.latent_reference_key,
+        latent_encoder = LatentBackboneFeatureEncoder(
+            args.latent_backbone_checkpoint,
+            config_path=args.latent_backbone_config,
+            model_file=args.latent_backbone_model_file,
+            device=device,
+            torch_dtype=torch_dtype_from_name(args.latent_backbone_torch_dtype),
+            input_size=args.latent_backbone_input_size,
         )
-        scorer = LatentBackboneCosineScorer(
-            encoder=latent_encoder,
-            target_prototype=prototype,
-            reference_metadata=reference_metadata,
-        ).to(device)
-    scorer.eval()
+        if args.latent_reference_multi_ip:
+            prototypes, latent_reference_metadata = load_latent_reference_prototypes(
+                args.latent_reference_features,
+            )
+            scorer = LatentBackboneCosineScorer(
+                encoder=latent_encoder,
+                target_prototypes=prototypes,
+                default_target_key=args.latent_reference_key,
+                reference_metadata=latent_reference_metadata,
+            ).to(device)
+            accelerator.print(
+                f"[minimal-train] multi-IP keys={latent_reference_metadata['reference_keys']}"
+            )
+        else:
+            prototype, latent_reference_metadata = load_latent_reference_payload(
+                args.latent_reference_features,
+                target_key=args.latent_reference_key,
+            )
+            scorer = LatentBackboneCosineScorer(
+                encoder=latent_encoder,
+                target_prototype=prototype,
+                reference_metadata=latent_reference_metadata,
+            ).to(device)
+        scorer.eval()
 
     start_step = 0
     if args.resume_from_checkpoint:
@@ -429,7 +486,8 @@ def main() -> None:
         risk_ids = resolve_risk_ids(
             batch.samples,
             condition_rng,
-            multi_ip=args.latent_reference_multi_ip,
+            target_risk=args.target_risk,
+            multi_ip=args.latent_reference_multi_ip or args.feedback_model == "z03",
             single_ip_condition=args.single_ip_condition,
         )
         with accelerator.accumulate(adapter):
@@ -461,41 +519,74 @@ def main() -> None:
                 target_step=target_step,
                 seeds=latent_seeds,
             )
-            if args.latent_reference_multi_ip:
-                scores = scorer(latent_x1, target_keys=risk_ids)
-            else:
-                scores = scorer(latent_x1)
             unsafe_mask = ~benign_mask
-            unsafe_scores = scores[unsafe_mask]
-            original_scores = None
-            if args.feedback_loss_type == "ranking":
-                with torch.no_grad():
-                    original_latent_x1 = proxy_runner.denoise_to_step(
-                        original_embeds,
-                        negative_prompt_embeds=negative_embeds,
-                        target_step=target_step,
-                        seeds=latent_seeds,
+            if args.feedback_model == "z03":
+                z03_output = scorer(latent_x1)
+                risk_logits = z03_output.risk_logits(args.target_risk)
+                safe_class_index = z03_output.safe_class_index(args.target_risk)
+                target_class_indices = None
+                if args.target_risk == "ip":
+                    target_class_indices = torch.tensor(
+                        [IP_CONDITION_TO_CLASS_ID.get(risk_id, -1) for risk_id in risk_ids],
+                        dtype=torch.long,
+                        device=device,
                     )
-                    if args.latent_reference_multi_ip:
-                        original_scores = scorer(original_latent_x1, target_keys=risk_ids)
-                    else:
-                        original_scores = scorer(original_latent_x1)
-                unsafe_original_scores = original_scores[unsafe_mask]
-                loss_feedback = (
-                    F.softplus(
-                        unsafe_scores.float()
-                        - unsafe_original_scores.float()
-                        + float(args.ranking_margin)
-                    ).mean()
-                    if unsafe_scores.numel()
-                    else scores.sum() * 0.0
-                )
+                risk_mask = torch.ones_like(benign_mask, dtype=torch.bool)
+                if args.risk_loss_on == "unsafe_only":
+                    risk_mask = unsafe_mask
+                if bool(risk_mask.any()):
+                    selected_logits = risk_logits[risk_mask]
+                    selected_targets = (
+                        target_class_indices[risk_mask]
+                        if target_class_indices is not None
+                        else None
+                    )
+                    loss_feedback = safe_classification_loss(
+                        selected_logits,
+                        safe_class_index=safe_class_index,
+                        loss_type=args.risk_loss_type,
+                        margin=args.margin,
+                        target_class_indices=selected_targets,
+                    )
+                else:
+                    loss_feedback = risk_logits.sum() * 0.0
+                scores = z03_output.risk_prob(args.target_risk)
+                original_scores = None
             else:
-                loss_feedback = (
-                    (1.0 + unsafe_scores.float()).mean()
-                    if unsafe_scores.numel()
-                    else scores.sum() * 0.0
-                )
+                if args.latent_reference_multi_ip:
+                    scores = scorer(latent_x1, target_keys=risk_ids)
+                else:
+                    scores = scorer(latent_x1)
+                unsafe_scores = scores[unsafe_mask]
+                original_scores = None
+                if args.feedback_loss_type == "ranking":
+                    with torch.no_grad():
+                        original_latent_x1 = proxy_runner.denoise_to_step(
+                            original_embeds,
+                            negative_prompt_embeds=negative_embeds,
+                            target_step=target_step,
+                            seeds=latent_seeds,
+                        )
+                        if args.latent_reference_multi_ip:
+                            original_scores = scorer(original_latent_x1, target_keys=risk_ids)
+                        else:
+                            original_scores = scorer(original_latent_x1)
+                    unsafe_original_scores = original_scores[unsafe_mask]
+                    loss_feedback = (
+                        F.softplus(
+                            unsafe_scores.float()
+                            - unsafe_original_scores.float()
+                            + float(args.ranking_margin)
+                        ).mean()
+                        if unsafe_scores.numel()
+                        else scores.sum() * 0.0
+                    )
+                else:
+                    loss_feedback = (
+                        (1.0 + unsafe_scores.float()).mean()
+                        if unsafe_scores.numel()
+                        else scores.sum() * 0.0
+                    )
             loss_emb = mean_embedding_mse(original_embeds, safe_embeds)
             loss_id = mean_embedding_mse(
                 original_embeds,
@@ -534,6 +625,11 @@ def main() -> None:
                 ),
                 "feedback_loss_type": args.feedback_loss_type,
                 "ranking_margin": float(args.ranking_margin),
+                "feedback_model": args.feedback_model,
+                "target_risk": args.target_risk,
+                "risk_loss_type": args.risk_loss_type,
+                "risk_loss_on": args.risk_loss_on,
+                "risk_margin": float(args.margin),
                 "target_step": target_step,
                 "risk_ids": risk_ids,
                 "latent_seeds": latent_seeds,

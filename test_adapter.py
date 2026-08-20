@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import random
 import re
 from pathlib import Path
@@ -27,6 +28,7 @@ from safe_embedding_adapter.model import (
     freeze_module,
     ip_condition_from_metadata,
 )
+from safe_embedding_adapter.z03 import Z03Scorer
 from safe_embedding_adapter.zimage_proxy import (
     calculate_shift,
     get_default_z_image_sigmas,
@@ -69,6 +71,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--torch_dtype", choices=["float32", "float16", "bfloat16"], default="bfloat16")
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--attention_backend", default=None)
+    parser.add_argument(
+        "--z03_ckpt",
+        default=None,
+        help="可选 Z-03 分类头 checkpoint；提供后会额外保存每张图的风险概率和 safe margin。",
+    )
+    parser.add_argument("--z03_model_type", choices=["auto", "legacy", "export"], default="auto")
+    parser.add_argument("--z03_model_file", default=None)
     return parser.parse_args()
 
 
@@ -227,7 +236,8 @@ def generate_image(
     cfg_normalization: float,
     cfg_truncation: float,
     generator: torch.Generator,
-) -> Image.Image:
+    return_latent: bool = False,
+) -> Image.Image | tuple[Image.Image, torch.Tensor]:
     device = torch.device(pipe._execution_device)
     latents = pipe.prepare_latents(
         1,
@@ -297,10 +307,16 @@ def generate_image(
             return_dict=False,
         )[0].to(torch.float32)
 
-    latents = latents.to(pipe.vae.dtype)
-    latents = latents / pipe.vae.config.scaling_factor + pipe.vae.config.shift_factor
-    decoded = pipe.vae.decode(latents, return_dict=False)[0]
-    return pipe.image_processor.postprocess(decoded, output_type="pil")[0]
+    # Z-03 expects the raw denoising output latent_x1. Decode a separate
+    # VAE-scaled copy so scoring and visualization use the correct tensors.
+    raw_latents = latents.float().detach() if return_latent else None
+    vae_latents = latents.to(pipe.vae.dtype)
+    vae_latents = vae_latents / pipe.vae.config.scaling_factor + pipe.vae.config.shift_factor
+    decoded = pipe.vae.decode(vae_latents, return_dict=False)[0]
+    image = pipe.image_processor.postprocess(decoded, output_type="pil")[0]
+    if return_latent:
+        return image, raw_latents
+    return image
 
 
 def save_comparison(base: Image.Image, adapted: Image.Image, path: Path) -> None:
@@ -324,6 +340,17 @@ def main() -> None:
     target_risk = args.target_risk or str(
         (checkpoint.get("train_config") or {}).get("target_risk", "ip")
     )
+    train_config = checkpoint.get("train_config") or {}
+    z03_ckpt = args.z03_ckpt or train_config.get("z03_ckpt")
+    z03_scorer = None
+    if z03_ckpt:
+        z03_scorer = Z03Scorer(
+            z03_ckpt,
+            device=device,
+            model_type=args.z03_model_type,
+            model_file=args.z03_model_file or train_config.get("z03_model_file"),
+        ).to(device)
+        z03_scorer.eval()
     pipe = ZImageTrainPipeline.from_pretrained(args.model_path, torch_dtype=dtype)
     pipe.to(device)
     freeze_module(pipe.text_encoder)
@@ -338,55 +365,45 @@ def main() -> None:
     compare_dir = output_root / "compare"
     for directory in (base_dir, adapter_dir, compare_dir):
         directory.mkdir(parents=True, exist_ok=True)
+    score_handle = None
+    if z03_scorer is not None:
+        score_path = output_root / "z03_scores.jsonl"
+        score_handle = score_path.open("w", encoding="utf-8")
 
-    for index, sample in enumerate(samples):
-        condition = risk_condition_for_sample(adapter, sample, target_risk)
-        if args.restrict_adapter_to_user_content_tokens:
-            prompt_embeds, negative_embeds, token_masks = (
-                pipe.encode_prompt_with_content_token_masks(
+    try:
+        for index, sample in enumerate(samples):
+            condition = risk_condition_for_sample(adapter, sample, target_risk)
+            if args.restrict_adapter_to_user_content_tokens:
+                prompt_embeds, negative_embeds, token_masks = (
+                    pipe.encode_prompt_with_content_token_masks(
+                        [sample.prompt],
+                        device=device,
+                        do_classifier_free_guidance=args.guidance_scale > 0,
+                        max_sequence_length=args.max_sequence_length,
+                    )
+                )
+                token_masks = [mask.to(device) for mask in token_masks]
+            else:
+                prompt_embeds, negative_embeds = pipe.encode_prompt(
                     [sample.prompt],
                     device=device,
                     do_classifier_free_guidance=args.guidance_scale > 0,
                     max_sequence_length=args.max_sequence_length,
                 )
-            )
-            token_masks = [mask.to(device) for mask in token_masks]
-        else:
-            prompt_embeds, negative_embeds = pipe.encode_prompt(
-                [sample.prompt],
-                device=device,
-                do_classifier_free_guidance=args.guidance_scale > 0,
-                max_sequence_length=args.max_sequence_length,
-            )
-            token_masks = None
-        prompt_embeds = [embed.to(device) for embed in prompt_embeds]
-        negative_embeds = [embed.to(device) for embed in negative_embeds]
-        with torch.no_grad():
-            adapted_embeds = adapter(
-                prompt_embeds,
-                risk_ids=[condition],
-                token_masks=token_masks,
-            )
+                token_masks = None
+            prompt_embeds = [embed.to(device) for embed in prompt_embeds]
+            negative_embeds = [embed.to(device) for embed in negative_embeds]
+            with torch.no_grad():
+                adapted_embeds = adapter(
+                    prompt_embeds,
+                    risk_ids=[condition],
+                    token_masks=token_masks,
+                )
 
-        seed = args.generation_seed + index
-        adapted_image = generate_image(
-            pipe,
-            adapted_embeds,
-            negative_embeds,
-            height=args.height,
-            width=args.width,
-            steps=args.num_inference_steps,
-            guidance_scale=args.guidance_scale,
-            cfg_normalization=args.cfg_normalization,
-            cfg_truncation=args.cfg_truncation,
-            generator=make_generator(device, seed),
-        )
-        name = f"{index:04d}_{safe_filename(sample.sample_id)}"
-        adapted_image.save(adapter_dir / f"{name}_adapter.png")
-        if not args.skip_base_generation:
-            base_image = generate_image(
+            seed = args.generation_seed + index
+            adapted_result = generate_image(
                 pipe,
-                prompt_embeds,
+                adapted_embeds,
                 negative_embeds,
                 height=args.height,
                 width=args.width,
@@ -395,10 +412,61 @@ def main() -> None:
                 cfg_normalization=args.cfg_normalization,
                 cfg_truncation=args.cfg_truncation,
                 generator=make_generator(device, seed),
+                return_latent=z03_scorer is not None,
             )
-            base_image.save(base_dir / f"{name}_base.png")
-            save_comparison(base_image, adapted_image, compare_dir / f"{name}_compare.png")
-        print(f"[minimal-test] {index + 1}/{len(samples)} condition={condition} seed={seed}")
+            if z03_scorer is not None:
+                adapted_image, adapted_latent = adapted_result
+            else:
+                adapted_image = adapted_result
+                adapted_latent = None
+            name = f"{index:04d}_{safe_filename(sample.sample_id)}"
+            adapted_image.save(adapter_dir / f"{name}_adapter.png")
+            base_image = None
+            base_latent = None
+            if not args.skip_base_generation:
+                base_result = generate_image(
+                    pipe,
+                    prompt_embeds,
+                    negative_embeds,
+                    height=args.height,
+                    width=args.width,
+                    steps=args.num_inference_steps,
+                    guidance_scale=args.guidance_scale,
+                    cfg_normalization=args.cfg_normalization,
+                    cfg_truncation=args.cfg_truncation,
+                    generator=make_generator(device, seed),
+                    return_latent=z03_scorer is not None,
+                )
+                if z03_scorer is not None:
+                    base_image, base_latent = base_result
+                else:
+                    base_image = base_result
+                base_image.save(base_dir / f"{name}_base.png")
+                save_comparison(base_image, adapted_image, compare_dir / f"{name}_compare.png")
+            if z03_scorer is not None:
+                with torch.no_grad():
+                    adapted_output = z03_scorer(adapted_latent)
+                    adapted_prob = float(adapted_output.risk_prob(target_risk)[0].cpu())
+                    adapted_margin = float(adapted_output.risk_safe_margin(target_risk)[0].cpu())
+                    score_record = {
+                        "index": index,
+                        "sample_id": sample.sample_id,
+                        "prompt": sample.prompt,
+                        "target_risk": target_risk,
+                        "seed": seed,
+                        "adapter_risk_prob": adapted_prob,
+                        "adapter_safe_margin": adapted_margin,
+                    }
+                    if base_latent is not None:
+                        base_output = z03_scorer(base_latent)
+                        score_record["base_risk_prob"] = float(base_output.risk_prob(target_risk)[0].cpu())
+                        score_record["base_safe_margin"] = float(base_output.risk_safe_margin(target_risk)[0].cpu())
+                score_handle.write(json.dumps(score_record, ensure_ascii=False) + "\n")
+                score_handle.flush()
+            print(f"[minimal-test] {index + 1}/{len(samples)} condition={condition} seed={seed}")
+    finally:
+        if score_handle is not None:
+            score_handle.close()
 
     print(f"[minimal-test] saved outputs to {output_root}")
 

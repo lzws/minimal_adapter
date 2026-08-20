@@ -381,7 +381,7 @@ def main() -> None:
             cfg_truncation=args.cfg_truncation,
             generator=make_generator(device, seed),
         )
-        name = safe_filename(sample.sample_id)
+        name = f"{index:04d}_{safe_filename(sample.sample_id)}"
         adapted_image.save(adapter_dir / f"{name}_adapter.png")
         if not args.skip_base_generation:
             base_image = generate_image(

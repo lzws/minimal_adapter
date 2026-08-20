@@ -125,6 +125,12 @@ conda run -n loraretrieval python -u minimal_adapter/train_adapter.py \
 --adapter_type mlp --adapter_depth 2 --gate_type token --gate_init 0.5
 ```
 
+也可以直接用更短的别名：
+
+```bash
+--token_gate
+```
+
 ### Risk Query Attention Gate
 
 ```bash

@@ -63,6 +63,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--adapter_attention_heads", type=int, default=4)
     parser.add_argument("--adapter_attention_ffn_multiplier", type=int, default=4)
     parser.add_argument("--gate_type", choices=["none", "global", "token"], default="none")
+    parser.add_argument(
+        "--token_gate",
+        action="store_true",
+        help="--gate_type token 的快捷别名；和 --gate_type global 不能同时使用。",
+    )
     parser.add_argument("--gate_init", type=float, default=0.5)
     parser.add_argument("--adapter_dropout", type=float, default=0.0)
     parser.add_argument("--residual_scale", type=float, default=0.5)
@@ -142,6 +147,8 @@ def validate_args(args: argparse.Namespace) -> None:
         raise ValueError("--gate_init must be in (0, 1)")
     if args.residual_scale <= 0:
         raise ValueError("--residual_scale must be positive")
+    if args.token_gate and args.gate_type == "global":
+        raise ValueError("--token_gate cannot be used together with --gate_type global")
     if args.ranking_margin < 0:
         raise ValueError("--ranking_margin must be non-negative")
     if args.resume_from_checkpoint and not Path(args.resume_from_checkpoint).is_file():
@@ -280,6 +287,8 @@ def save_checkpoint(
 def main() -> None:
     args = parse_args()
     validate_args(args)
+    if args.token_gate:
+        args.gate_type = "token"
     accelerator = Accelerator(
         gradient_accumulation_steps=args.gradient_accumulation_steps,
         mixed_precision=args.mixed_precision,

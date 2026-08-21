@@ -428,6 +428,9 @@ class SafeEmbeddingAdapter(nn.Module):
             self.register_parameter("gate_logits", None)
         self.delta_activation = nn.Tanh()
         self._last_gate_values: list[float] = []
+        # 仅用于推理诊断，不进入 checkpoint。每次 forward 后按
+        # [sample][block][token] 保存 token gate。
+        self._last_token_gate_tensors: list[list[torch.Tensor]] = []
         if self.zero_init_depth2 and self.adapter_depth == 2:
             self._zero_init_residual_outputs()
 
@@ -629,6 +632,7 @@ class SafeEmbeddingAdapter(nn.Module):
 
         safe_embeds: list[torch.Tensor] = []
         gate_values_by_block: list[list[torch.Tensor]] = [[] for _ in range(self.adapter_depth)]
+        token_gate_tensors_by_sample: list[list[torch.Tensor]] = []
         for index, embed in enumerate(prompt_embeds):
             if embed.ndim != 2:
                 raise ValueError(f"每个 prompt embedding 必须是 [seq_len, dim]，当前 shape={tuple(embed.shape)}")
@@ -651,6 +655,7 @@ class SafeEmbeddingAdapter(nn.Module):
             # hidden: [T_i, D] 或 [T_content_i, D]。多个 block 时，每个 block
             # 都在当前 hidden 上预测一个逐 token delta，再做 residual 更新。
             hidden = x
+            sample_token_gates: list[torch.Tensor] = []
             residual_multiplier = self.runtime_risk_residual_scale(
                 risk_tensor[index],
                 dtype=hidden.dtype,
@@ -664,6 +669,9 @@ class SafeEmbeddingAdapter(nn.Module):
                 )
                 if gate is not None:
                     gate_values_by_block[block_index].append(gate.detach().float().mean())
+                    if self.gate_type == "token":
+                        sample_token_gates.append(gate.detach().float().view(-1).cpu())
+            token_gate_tensors_by_sample.append(sample_token_gates)
 
             # 如果启用了 token_mask，这里把 [T_content_i, D] scatter 回完整
             # [T_i, D]；非 user content token 保持原 embedding。
@@ -677,6 +685,7 @@ class SafeEmbeddingAdapter(nn.Module):
             for block_values in gate_values_by_block
             if block_values
         ]
+        self._last_token_gate_tensors = token_gate_tensors_by_sample
         return safe_embeds
 
 

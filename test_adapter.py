@@ -176,6 +176,163 @@ def load_adapter(checkpoint_path: str | Path, device: torch.device) -> tuple[tor
     return adapter, checkpoint
 
 
+def get_prompt_tokens(
+    pipe: ZImageTrainPipeline,
+    prompt: str,
+    *,
+    max_sequence_length: int,
+) -> tuple[list[int], list[str]]:
+    """Return the exact valid token sequence used by the Z-Image text encoder."""
+
+    formatted_prompt = pipe._format_user_prompt(prompt)
+    text_inputs = pipe.tokenizer(
+        [formatted_prompt],
+        padding="max_length",
+        max_length=max_sequence_length,
+        truncation=True,
+        return_tensors="pt",
+    )
+    valid_mask = text_inputs.attention_mask[0].bool()
+    token_ids = text_inputs.input_ids[0][valid_mask].tolist()
+    tokens = pipe.tokenizer.convert_ids_to_tokens(token_ids)
+    return [int(token_id) for token_id in token_ids], [str(token) for token in tokens]
+
+
+def get_last_token_gate_values(adapter: torch.nn.Module) -> list[list[float]] | None:
+    """Read per-block token gates from the most recent single-sample forward."""
+
+    structured = getattr(adapter, "_last_token_gate_tensors", None)
+    if getattr(adapter, "gate_type", None) == "token" and structured:
+        sample_gates = structured[0]
+        if sample_gates:
+            return [
+                [float(value) for value in tensor.detach().cpu().flatten().tolist()]
+                for tensor in sample_gates
+            ]
+
+    # Attention-based adapters keep a flat list. The test script forwards one
+    # sample at a time, so each item corresponds to one adapter block.
+    flat = getattr(adapter, "_last_gate_tensors", None)
+    if flat:
+        return [
+            [float(value) for value in tensor.detach().cpu().flatten().tolist()]
+            for tensor in flat
+        ]
+    return None
+
+
+def build_token_gate_record(
+    *,
+    adapter: torch.nn.Module,
+    pipe: ZImageTrainPipeline,
+    sample: PromptSample,
+    condition: str,
+    token_masks: Sequence[torch.Tensor] | None,
+    max_sequence_length: int,
+    index: int,
+) -> dict | None:
+    gate_values_by_block = get_last_token_gate_values(adapter)
+    if not gate_values_by_block:
+        return None
+
+    token_ids, tokens = get_prompt_tokens(
+        pipe,
+        sample.prompt,
+        max_sequence_length=max_sequence_length,
+    )
+    token_count = len(tokens)
+    content_mask = None
+    if token_masks is not None:
+        content_mask = [bool(value) for value in token_masks[0].detach().cpu().tolist()]
+        if len(content_mask) != token_count:
+            raise ValueError(
+                "token mask 长度和 tokenizer 有效 token 数不一致："
+                f"mask={len(content_mask)}, tokens={token_count}"
+            )
+
+    gate_length = len(gate_values_by_block[0])
+    if any(len(values) != gate_length for values in gate_values_by_block):
+        raise ValueError("不同 token-gate block 的 token 数量不一致")
+
+    if content_mask is None:
+        editable_indices = list(range(token_count))
+    else:
+        editable_indices = [idx for idx, editable in enumerate(content_mask) if editable]
+
+    if gate_length == token_count:
+        gate_token_indices = list(range(token_count))
+    elif gate_length == len(editable_indices):
+        gate_token_indices = editable_indices
+    else:
+        raise ValueError(
+            "token gate 数量和 prompt token 数不匹配："
+            f"gate={gate_length}, tokens={token_count}, editable={len(editable_indices)}"
+        )
+
+    token_to_gate_position = {
+        token_index: gate_index
+        for gate_index, token_index in enumerate(gate_token_indices)
+    }
+    token_records = []
+    for token_index, (token_id, token) in enumerate(zip(token_ids, tokens)):
+        gate_position = token_to_gate_position.get(token_index)
+        if gate_position is None:
+            gates = [None for _ in gate_values_by_block]
+            gate_mean = None
+            editable = False
+        else:
+            gates = [
+                round(values[gate_position], 8)
+                for values in gate_values_by_block
+            ]
+            gate_mean = round(sum(gates) / len(gates), 8)
+            editable = True
+        token_records.append(
+            {
+                "index": token_index,
+                "token_id": int(token_id),
+                "token": token,
+                "editable": editable,
+                "gates": gates,
+                "gate_mean": gate_mean,
+            }
+        )
+
+    return {
+        "index": index,
+        "sample_id": sample.sample_id,
+        "prompt": sample.prompt,
+        "condition": condition,
+        "adapter_type": getattr(adapter, "adapter_type", adapter.__class__.__name__),
+        "gate_type": getattr(adapter, "gate_type", "token"),
+        "num_blocks": len(gate_values_by_block),
+        "block_gate_means": [
+            round(sum(values) / len(values), 8)
+            for values in gate_values_by_block
+        ],
+        "tokens": token_records,
+    }
+
+
+def print_token_gate_record(record: dict) -> None:
+    print(
+        f"[minimal-test][token-gate] sample={record['sample_id']} "
+        f"condition={record['condition']} blocks={record['num_blocks']}"
+    )
+    for token_record in record["tokens"]:
+        gates = token_record["gates"]
+        gate_text = (
+            "[" + ", ".join("None" if value is None else f"{value:.6f}" for value in gates) + "]"
+        )
+        print(
+            f"  token[{token_record['index']:03d}] "
+            f"id={token_record['token_id']} "
+            f"text={token_record['token']!r} "
+            f"editable={token_record['editable']} "
+            f"gate={gate_text}"
+        )
+
+
 def risk_condition_for_sample(
     adapter: torch.nn.Module,
     sample: PromptSample,
@@ -366,6 +523,7 @@ def main() -> None:
     for directory in (base_dir, adapter_dir, compare_dir):
         directory.mkdir(parents=True, exist_ok=True)
     score_handle = None
+    token_gate_handle = None
     if z03_scorer is not None:
         score_path = output_root / "z03_scores.jsonl"
         score_handle = score_path.open("w", encoding="utf-8")
@@ -399,6 +557,25 @@ def main() -> None:
                     risk_ids=[condition],
                     token_masks=token_masks,
                 )
+            token_gate_record = build_token_gate_record(
+                adapter=adapter,
+                pipe=pipe,
+                sample=sample,
+                condition=condition,
+                token_masks=token_masks,
+                max_sequence_length=args.max_sequence_length,
+                index=index,
+            )
+            if token_gate_record is not None:
+                if token_gate_handle is None:
+                    token_gate_handle = (
+                        output_root / "token_gates.jsonl"
+                    ).open("w", encoding="utf-8")
+                print_token_gate_record(token_gate_record)
+                token_gate_handle.write(
+                    json.dumps(token_gate_record, ensure_ascii=False) + "\n"
+                )
+                token_gate_handle.flush()
 
             seed = args.generation_seed + index
             adapted_result = generate_image(
@@ -467,6 +644,8 @@ def main() -> None:
     finally:
         if score_handle is not None:
             score_handle.close()
+        if token_gate_handle is not None:
+            token_gate_handle.close()
 
     print(f"[minimal-test] saved outputs to {output_root}")
 

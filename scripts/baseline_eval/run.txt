@@ -1,0 +1,24 @@
+DEVICE_IDS=0 nohup bash scripts/baseline_eval/run_zimage_base_eval.sh \
+    > outputs/logs/baseline_eval/run_zimage_base_eval.master.log 2>&1 &
+
+ DEVICE_IDS=1 nohup bash scripts/baseline_eval/run_zimage_safree_eval.sh \
+    > outputs/logs/baseline_eval/run_zimage_safree_eval.master.log 2>&1 &
+
+ DEVICE_IDS=2 nohup bash scripts/baseline_eval/run_zimage_stg_clip_eval.sh \
+    > outputs/logs/baseline_eval/run_zimage_stg_clip_eval.master.log 2>&1 &
+
+
+GPU_IDS=7 nohup bash scripts/baseline_eval/run_prompt_adapter_eval.sh \
+    > outputs/logs/baseline_eval/run_prompt_adapter_eval.master.log 2>&1 &
+
+如果先 smoke test，每个数据集只跑 20 条：
+
+  NUM_PROMPTS=20 bash scripts/baseline_eval/run_zimage_safree_eval.sh
+
+  如果要覆盖已有结果：
+
+  OVERWRITE=1 bash scripts/baseline_eval/run_zimage_safree_eval.sh
+
+  如果换 GPU，比如用 0,1：
+
+  CUDA_VISIBLE_DEVICES=0,1 DEVICE_IDS=0,1 bash scripts/baseline_eval/run_zimage_stg_clip_eval.sh

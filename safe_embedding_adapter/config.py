@@ -63,6 +63,7 @@ class AdapterConfig:
     attention_heads: int = 4
     attention_ffn_multiplier: int = 4
     adapter_depth: int = 1
+    residual_mode: str = "stacked"
     gate_type: str = "none"
     learnable_gate: bool = False
     gate_init: float = 0.5

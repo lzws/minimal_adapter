@@ -194,4 +194,5 @@ def build_adapter_from_config(
         learnable_gate=str(gate_type) != "none",
         gate_init=float(data.get("gate_init", 0.5)),
         zero_init_depth2=bool(data.get("zero_init_depth2", True)),
+        residual_mode=str(data.get("residual_mode", "stacked")),
     )

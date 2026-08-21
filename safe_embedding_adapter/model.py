@@ -318,6 +318,10 @@ class SafeEmbeddingAdapter(nn.Module):
         gate_i:    [T_i, 1] token gate，或 scalar global gate
         E_safe_i:  [T_i, D] = E_orig_i + residual_scale * gate_i * delta_i
 
+    residual_mode:
+        stacked:  旧版行为，每个 block 都先预测 residual 再立刻加回 hidden。
+        single:   多个 block 只作为 hidden trunk，最后只注入一次 residual。
+
     其中：
         B: batch size，即 list 长度；
         T_i: 第 i 条 prompt 的有效 token 数；
@@ -341,6 +345,7 @@ class SafeEmbeddingAdapter(nn.Module):
         num_risk_types: int = len(RISK_NAME_TO_ID),
         clamp_delta: bool = True,
         zero_init_depth2: bool = True,
+        residual_mode: str = "stacked",
     ):
         super().__init__()
         if embedding_dim <= 0:
@@ -351,6 +356,8 @@ class SafeEmbeddingAdapter(nn.Module):
             raise ValueError("adapter_depth 必须大于 0")
         if not 0.0 < gate_init < 1.0:
             raise ValueError("gate_init 必须在 (0, 1) 之间")
+        if residual_mode not in {"stacked", "single"}:
+            raise ValueError(f"未知 residual_mode: {residual_mode}")
         if gate_type is None:
             gate_type = "global" if learnable_gate else "none"
         if learnable_gate and gate_type == "none":
@@ -369,6 +376,7 @@ class SafeEmbeddingAdapter(nn.Module):
         self.use_risk_condition = bool(use_risk_condition)
         self.clamp_delta = bool(clamp_delta)
         self.zero_init_depth2 = bool(zero_init_depth2)
+        self.residual_mode = str(residual_mode)
         # 运行时推理控制量，默认完全等价于原始 MLP：
         #   condition_scale = 1.0 表示 E + c_ip；
         #   risk_residual_scales 全 1.0 表示不改变最终 residual 幅度。
@@ -410,9 +418,13 @@ class SafeEmbeddingAdapter(nn.Module):
             # gate_init=0.5 时初始有效 scale 为 residual_scale 的一半，
             # 比固定 residual_scale 更保守，降低语义漂移风险。
             gate_logit = math.log(self.gate_init / (1.0 - self.gate_init))
-            self.gate_logits = nn.Parameter(torch.full((self.adapter_depth,), float(gate_logit)))
+            if self.residual_mode == "single":
+                self.gate_logits = nn.Parameter(torch.tensor(float(gate_logit)))
+            else:
+                self.gate_logits = nn.Parameter(torch.full((self.adapter_depth,), float(gate_logit)))
         elif self.gate_type == "token":
             self.register_parameter("gate_logits", None)
+            token_gate_block_count = 1 if self.residual_mode == "single" else self.adapter_depth
             self.token_gate_blocks = nn.ModuleList(
                 [
                     TokenScalarGateBlock(
@@ -421,7 +433,7 @@ class SafeEmbeddingAdapter(nn.Module):
                         dropout,
                         self.gate_init,
                     )
-                    for _ in range(self.adapter_depth)
+                    for _ in range(token_gate_block_count)
                 ]
             )
         else:
@@ -452,6 +464,12 @@ class SafeEmbeddingAdapter(nn.Module):
     def gate_values(self) -> list[float]:
         """返回当前每个 block 的 gate 值，仅用于日志。"""
 
+        if self.residual_mode == "single":
+            if self.gate_type == "global" and self.gate_logits is not None:
+                return [float(torch.sigmoid(self.gate_logits).detach().cpu())]
+            if self.gate_type == "token":
+                return list(self._last_gate_values)
+            return []
         if self.gate_type == "global" and self.gate_logits is not None:
             return [float(value.detach().cpu()) for value in torch.sigmoid(self.gate_logits)]
         if self.gate_type == "token":
@@ -528,6 +546,19 @@ class SafeEmbeddingAdapter(nn.Module):
                 dtype=dtype,
             )
         gate_logits = self.token_gate_blocks[block_index](block_input)
+        return torch.sigmoid(gate_logits).to(dtype=dtype)
+
+    def _gate_for_output(self, block_input: torch.Tensor, *, dtype: torch.dtype) -> torch.Tensor | None:
+        """single residual 模式下，返回最终 residual 的 gate。"""
+
+        if self.gate_type == "none":
+            return None
+        if self.gate_type == "global":
+            return torch.sigmoid(self.gate_logits).to(
+                device=block_input.device,
+                dtype=dtype,
+            )
+        gate_logits = self.token_gate_blocks[0](block_input)
         return torch.sigmoid(gate_logits).to(dtype=dtype)
 
     def _apply_delta_block(
@@ -631,7 +662,8 @@ class SafeEmbeddingAdapter(nn.Module):
         token_mask_list = normalize_token_masks(token_masks, len(prompt_embeds))
 
         safe_embeds: list[torch.Tensor] = []
-        gate_values_by_block: list[list[torch.Tensor]] = [[] for _ in range(self.adapter_depth)]
+        gate_value_blocks = self.adapter_depth if self.residual_mode == "stacked" else 1
+        gate_values_by_block: list[list[torch.Tensor]] = [[] for _ in range(gate_value_blocks)]
         token_gate_tensors_by_sample: list[list[torch.Tensor]] = []
         for index, embed in enumerate(prompt_embeds):
             if embed.ndim != 2:
@@ -652,33 +684,63 @@ class SafeEmbeddingAdapter(nn.Module):
                 condition = self.risk_embedding(risk_tensor[index]).view(1, -1).float()
                 condition = condition * float(self.runtime_condition_scale)
 
-            # hidden: [T_i, D] 或 [T_content_i, D]。多个 block 时，每个 block
-            # 都在当前 hidden 上预测一个逐 token delta，再做 residual 更新。
-            hidden = x
             sample_token_gates: list[torch.Tensor] = []
+            if self.residual_mode == "stacked":
+                residual_multiplier = self.runtime_risk_residual_scale(
+                    risk_tensor[index],
+                    dtype=x.dtype,
+                )
+                # hidden: [T_i, D] 或 [T_content_i, D]。多个 block 时，每个 block
+                # 都在当前 hidden 上预测一个逐 token delta，再做 residual 更新。
+                hidden = x
+                for block_index in range(self.adapter_depth):
+                    hidden, gate = self._apply_delta_block(
+                        hidden,
+                        condition,
+                        block_index=block_index,
+                        residual_multiplier=residual_multiplier,
+                    )
+                    if gate is not None:
+                        gate_values_by_block[block_index].append(gate.detach().float().mean())
+                        if self.gate_type == "token":
+                            sample_token_gates.append(gate.detach().float().view(-1).cpu())
+                token_gate_tensors_by_sample.append(sample_token_gates)
+
+                # 如果启用了 token_mask，这里把 [T_content_i, D] scatter 回完整
+                # [T_i, D]；非 user content token 保持原 embedding。
+                # 最后 cast 回原 dtype，兼容 bf16 Z-Image transformer；cast 操作本身
+                # 仍保留梯度路径。
+                hidden = apply_token_mask_to_safe_embed(embed.float(), hidden, token_mask_list[index])
+                safe_embeds.append(hidden.to(dtype=original_dtype))
+                continue
+
             residual_multiplier = self.runtime_risk_residual_scale(
                 risk_tensor[index],
-                dtype=hidden.dtype,
+                dtype=x.dtype,
             )
+            hidden = x
             for block_index in range(self.adapter_depth):
-                hidden, gate = self._apply_delta_block(
-                    hidden,
-                    condition,
-                    block_index=block_index,
-                    residual_multiplier=residual_multiplier,
-                )
-                if gate is not None:
-                    gate_values_by_block[block_index].append(gate.detach().float().mean())
-                    if self.gate_type == "token":
-                        sample_token_gates.append(gate.detach().float().view(-1).cpu())
+                block_input = hidden + condition if condition is not None else hidden
+                if block_index == 0:
+                    hidden = self.net(self.input_norm(block_input))
+                else:
+                    hidden = self.extra_blocks[block_index - 1](block_input)
+                if self.clamp_delta:
+                    hidden = self.delta_activation(hidden)
+
+            gate = self._gate_for_output(hidden, dtype=hidden.dtype)
+            if gate is not None:
+                gate_values_by_block[0].append(gate.detach().float().mean())
+                if self.gate_type == "token":
+                    sample_token_gates.append(gate.detach().float().view(-1).cpu())
             token_gate_tensors_by_sample.append(sample_token_gates)
 
-            # 如果启用了 token_mask，这里把 [T_content_i, D] scatter 回完整
-            # [T_i, D]；非 user content token 保持原 embedding。
-            # 最后 cast 回原 dtype，兼容 bf16 Z-Image transformer；cast 操作本身
-            # 仍保留梯度路径。
-            hidden = apply_token_mask_to_safe_embed(embed.float(), hidden, token_mask_list[index])
-            safe_embeds.append(hidden.to(dtype=original_dtype))
+            scale = self.residual_scale * residual_multiplier
+            if gate is not None:
+                scale = scale * gate
+            content_safe = x + hidden * scale
+            content_safe = apply_token_mask_to_safe_embed(embed.float(), content_safe, token_mask_list[index])
+            safe_embeds.append(content_safe.to(dtype=original_dtype))
 
         self._last_gate_values = [
             float(torch.stack(block_values).mean().cpu())

@@ -70,6 +70,12 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument("--adapter_type", choices=sorted(ADAPTER_TYPES), default="mlp")
     parser.add_argument("--adapter_depth", type=int, default=1)
+    parser.add_argument(
+        "--residual_mode",
+        choices=["stacked", "single"],
+        default="stacked",
+        help="stacked=每个 block 立刻加回 residual；single=多个 block 只做 hidden trunk，最后只注入一次 residual。",
+    )
     parser.add_argument("--bottleneck_dim", type=int, default=None)
     parser.add_argument("--adapter_attention_dim", type=int, default=None)
     parser.add_argument("--adapter_attention_heads", type=int, default=4)
@@ -256,6 +262,7 @@ def build_adapter_config(args: argparse.Namespace, embedding_dim: int) -> dict:
         "attention_heads": args.adapter_attention_heads,
         "attention_ffn_multiplier": args.adapter_attention_ffn_multiplier,
         "adapter_depth": args.adapter_depth,
+        "residual_mode": args.residual_mode,
         "gate_type": args.gate_type,
         "learnable_gate": args.gate_type != "none",
         "gate_init": args.gate_init,
@@ -386,6 +393,37 @@ def main() -> None:
     proxy_runner = ZImageProxyLatentRunner(pipe, proxy_config)
     first_embeds, _ = proxy_runner.encode_prompts([train_samples[0].prompt])
     embedding_dim = int(first_embeds[0].shape[-1])
+
+    resume_payload = None
+    if args.resume_from_checkpoint:
+        resume_payload = torch.load(args.resume_from_checkpoint, map_location="cpu", weights_only=True)
+        resume_adapter_config = dict(resume_payload.get("adapter_config") or {})
+        if resume_adapter_config:
+            if "adapter_type" in resume_adapter_config:
+                args.adapter_type = str(resume_adapter_config["adapter_type"])
+            if "bottleneck_dim" in resume_adapter_config:
+                args.bottleneck_dim = resume_adapter_config["bottleneck_dim"]
+            if "attention_dim" in resume_adapter_config:
+                args.adapter_attention_dim = resume_adapter_config["attention_dim"]
+            if "attention_heads" in resume_adapter_config:
+                args.adapter_attention_heads = int(resume_adapter_config["attention_heads"])
+            if "attention_ffn_multiplier" in resume_adapter_config:
+                args.adapter_attention_ffn_multiplier = int(resume_adapter_config["attention_ffn_multiplier"])
+            if "adapter_depth" in resume_adapter_config:
+                args.adapter_depth = int(resume_adapter_config["adapter_depth"])
+            if "residual_mode" in resume_adapter_config:
+                args.residual_mode = str(resume_adapter_config["residual_mode"])
+            if "gate_type" in resume_adapter_config:
+                args.gate_type = str(resume_adapter_config["gate_type"])
+            if "gate_init" in resume_adapter_config:
+                args.gate_init = float(resume_adapter_config["gate_init"])
+            if "residual_scale" in resume_adapter_config:
+                args.residual_scale = float(resume_adapter_config["residual_scale"])
+            if "dropout" in resume_adapter_config:
+                args.adapter_dropout = float(resume_adapter_config["dropout"])
+            if "use_risk_condition" in resume_adapter_config:
+                args.disable_risk_condition = not bool(resume_adapter_config["use_risk_condition"])
+
     adapter_config = build_adapter_config(args, embedding_dim)
 
     condition_embeddings = None
@@ -406,6 +444,12 @@ def main() -> None:
         weight_decay=args.weight_decay,
     )
     adapter, optimizer = accelerator.prepare(adapter, optimizer)
+    accelerator.print(
+        "[minimal-train] adapter "
+        f"depth={args.adapter_depth} residual_mode={args.residual_mode} "
+        f"bottleneck={args.bottleneck_dim} gate_type={args.gate_type} "
+        f"risk_condition={not args.disable_risk_condition}"
+    )
 
     scorer = None
     latent_reference_metadata = None
@@ -457,7 +501,11 @@ def main() -> None:
 
     start_step = 0
     if args.resume_from_checkpoint:
-        payload = torch.load(args.resume_from_checkpoint, map_location="cpu", weights_only=True)
+        payload = resume_payload if resume_payload is not None else torch.load(
+            args.resume_from_checkpoint,
+            map_location="cpu",
+            weights_only=True,
+        )
         accelerator.unwrap_model(adapter).load_state_dict(
             payload["adapter_state_dict"],
             strict=True,

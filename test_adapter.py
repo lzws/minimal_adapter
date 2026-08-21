@@ -315,10 +315,14 @@ def build_token_gate_record(
 
 
 def print_token_gate_record(record: dict) -> None:
+    print("[minimal-test][token-gate] prompt:")
+    print(record["prompt"])
     print(
         f"[minimal-test][token-gate] sample={record['sample_id']} "
         f"condition={record['condition']} blocks={record['num_blocks']}"
     )
+    block_labels = ", ".join(f"block_{index}" for index in range(record["num_blocks"]))
+    print(f"[minimal-test][token-gate] gate_columns=[{block_labels}]")
     for token_record in record["tokens"]:
         gates = token_record["gates"]
         gate_text = (
